@@ -1,0 +1,35 @@
+<!doctype html>
+<!-- The macOS folder dialog Claude opens, titled with the app's own words "Choose a folder for the project".
+     Example folders only. The click target is "Open". -->
+<html lang="en"><head><meta charset="utf-8">
+<style>
+  * { box-sizing: border-box; }
+  html, body { margin: 0; width: 100vw; height: 100vh; overflow: hidden; }
+  body { font-family: -apple-system, "SF Pro Text", system-ui, sans-serif; background: #1f1e1c; display: grid; place-items: center; color: #e5e5e5; font-size: 13px; }
+  .dlg { width: 820px; height: 500px; background: #2c2c2e; border-radius: 14px; box-shadow: 0 0 0 .5px rgba(255,255,255,.12), 0 24px 70px rgba(0,0,0,.6); display: grid; grid-template-rows: 44px 1fr 56px; overflow: hidden; }
+  .bar { display: flex; align-items: center; justify-content: center; font-weight: 600; border-bottom: 1px solid #3a3a3c; }
+  .mid { display: grid; grid-template-columns: 180px 1fr; min-height: 0; }
+  nav { background: #252527; padding: 12px 8px; display: grid; align-content: start; gap: 2px; }
+  nav .h { color: #8e8e93; font-size: 11px; font-weight: 600; padding: 6px 8px; }
+  nav span { padding: 5px 8px; border-radius: 6px; }
+  nav span.on { background: #3a3a3c; }
+  .list { padding: 8px 0; }
+  .crumb { padding: 4px 16px 10px; color: #8e8e93; }
+  .row { display: flex; align-items: center; gap: 10px; padding: 6px 16px; }
+  .row.sel { background: #0a64d8; color: #fff; }
+  .ico { width: 18px; height: 14px; border-radius: 3px; background: #5aa8f5; }
+  .foot { display: flex; align-items: center; justify-content: flex-end; gap: 10px; padding: 0 16px; border-top: 1px solid #3a3a3c; }
+  .foot span { padding: 5px 16px; border-radius: 7px; background: #48484a; }
+  .foot .open { background: #0a84ff; color: #fff; font-weight: 500; }
+</style></head>
+<body>
+  <div class="dlg">
+    <div class="bar">Choose a folder for the project</div>
+    <div class="mid">
+      <nav><span class="h">Favourites</span><span>Desktop</span><span class="on">Documents</span><span>Downloads</span><span>Applications</span></nav>
+      <div class="list"><div class="crumb">Documents</div><div class="row sel"><span class="ico"></span><span id="p"></span></div></div>
+    </div>
+    <div class="foot"><span>Cancel</span><span class="open" data-target>Open</span></div>
+  </div>
+<script>document.getElementById('p').textContent = new URLSearchParams(location.search).get('project') || '2026-10-29 Iklan Umrah'; document.body.dataset.ready = '1'</script>
+</body></html>

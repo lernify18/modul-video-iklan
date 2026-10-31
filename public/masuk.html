@@ -1,0 +1,72 @@
+<!doctype html>
+<!-- Sign-in page: the only page served without a session (worker/akses.ts). It holds nothing of the book. -->
+<html lang="ms">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Masuk · 10 Video Iklan Dengan Claude</title>
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fredoka:wght@600;700&family=Nunito:wght@400;600;700;800&display=swap" />
+  <style>
+    :root { --paper: #fffaf3; --ink: #1e2240; --muted: #6b7090; --line: #ece4d8; --lav: #e9e1ff; --lav-2: #b9a3ff; --lav-3: #6e4cf0;
+      --peach: #ffe5d4; --peach-3: #c24a14; --mint: #d3f6e6; --butter: #fff2bf; --pink: #ffd9e6; --desk: #efe8f7; }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; min-height: 100%; }
+    body { font-family: Nunito, system-ui, -apple-system, "Segoe UI", sans-serif; color: var(--ink); background: var(--desk);
+      background-image: radial-gradient(circle at 12% 18%, var(--pink) 0 120px, transparent 121px), radial-gradient(circle at 88% 82%, var(--mint) 0 160px, transparent 161px), radial-gradient(circle at 90% 10%, var(--butter) 0 90px, transparent 91px);
+      display: grid; place-items: center; min-height: 100vh; padding: 24px 16px; font-size: 18px; }
+    main { width: 100%; max-width: 480px; background: var(--paper); border-radius: 28px; padding: 36px 32px 30px; box-shadow: 0 18px 50px rgba(64, 40, 140, .14), 0 2px 0 rgba(255,255,255,.8) inset; }
+    .logo { width: 64px; height: 64px; display: block; filter: drop-shadow(0 6px 10px rgba(110, 76, 240, .35)); }
+    h1 { font-family: Fredoka, Nunito, sans-serif; font-weight: 700; font-size: 32px; line-height: 1.12; margin: 18px 0 8px; letter-spacing: -.01em; }
+    p.sub { margin: 0 0 24px; color: var(--muted); line-height: 1.5; }
+    label { display: block; font-weight: 800; margin: 0 0 8px; }
+    input { width: 100%; font: inherit; font-size: 20px; padding: 14px 16px; border-radius: 14px; border: 2px solid var(--line); background: #fff; color: var(--ink); margin-bottom: 18px; }
+    input:focus { outline: none; border-color: var(--lav-2); box-shadow: 0 0 0 4px var(--lav); }
+    #kod { letter-spacing: .08em; text-transform: uppercase; }
+    button { width: 100%; font: inherit; font-family: Fredoka, Nunito, sans-serif; font-weight: 600; font-size: 22px; padding: 15px; border: 0; border-radius: 16px; color: #fff; cursor: pointer;
+      background: linear-gradient(180deg, #8a6cff, var(--lav-3)); box-shadow: 0 8px 18px rgba(110, 76, 240, .35), 0 2px 0 rgba(255,255,255,.35) inset; }
+    button[disabled] { opacity: .6; cursor: wait; }
+    .msg { display: none; margin: 0 0 18px; padding: 12px 14px; border-radius: 14px; background: var(--peach); color: var(--peach-3); font-weight: 700; line-height: 1.45; }
+    .msg.on { display: block; }
+    .help { margin: 20px 0 0; font-size: 15.5px; color: var(--muted); line-height: 1.5; }
+    @media (max-width: 420px) { main { padding: 28px 20px 24px; } h1 { font-size: 27px; } }
+  </style>
+</head>
+<body>
+  <main>
+    <svg class="logo" viewBox="0 0 64 64" aria-hidden="true"><defs><linearGradient id="mk-b" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#c9b8ff"/><stop offset=".55" stop-color="#6e4cf0"/><stop offset="1" stop-color="#3f25a8"/></linearGradient><linearGradient id="mk-p" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#ffe9a3"/></linearGradient></defs><rect x="6" y="6" width="52" height="52" rx="14" fill="url(#mk-b)"/><rect x="9" y="8" width="46" height="12" rx="6" fill="#fff" opacity=".22"/><path d="M26 20v24l20-12z" fill="url(#mk-p)"/></svg>
+    <h1>10 Video Iklan Dengan Claude</h1>
+    <p class="sub">Tulis nama awak dan kod akses dari halaman pembelian. Sekali sahaja untuk setiap peranti.</p>
+    <form id="f" novalidate>
+      <label for="nama">Nama awak</label>
+      <input id="nama" name="nama" autocomplete="name" maxlength="60" required />
+      <label for="kod">Kod akses</label>
+      <input id="kod" name="kod" autocomplete="off" autocapitalize="characters" spellcheck="false" maxlength="64" required />
+      <p class="msg" id="msg" role="alert"></p>
+      <button id="go" type="submit">Masuk</button>
+    </form>
+    <p class="help">Kod akses ada dalam halaman pembelian dan e-mel resit Sellhiz awak.</p>
+  </main>
+<script>
+  const f = document.getElementById('f'), msg = document.getElementById('msg'), go = document.getElementById('go')
+  const say = (t) => { msg.textContent = t; msg.classList.toggle('on', !!t) }
+  f.addEventListener('submit', async (e) => {
+    e.preventDefault()
+    const nama = f.nama.value.trim(), kod = f.kod.value.trim()
+    if (!nama) { say('Tulis nama awak.'); f.nama.focus(); return }
+    if (!kod) { say('Tulis kod akses.'); f.kod.focus(); return }
+    say(''); go.disabled = true; go.textContent = 'Sebentar…'
+    try {
+      const r = await fetch('/api/masuk', { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ nama, kod }) })
+      const body = await r.json().catch(() => ({}))
+      if (r.ok) { location.replace('/'); return }
+      say(body.ralat || 'Tak berjaya. Cuba sekali lagi.')
+    } catch { say('Tiada sambungan internet. Cuba sekali lagi.') }
+    go.disabled = false; go.textContent = 'Masuk'
+  })
+  f.nama.focus()
+</script>
+</body>
+</html>

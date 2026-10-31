@@ -1,0 +1,43 @@
+<!doctype html>
+<!-- Paying for Claude Pro, rebuilt: the plan and price from claude.com/pricing (USD20 a month, billed monthly); card
+     details are shown as dots because the book never shows a real card. The click target is "Subscribe". -->
+<html lang="en"><head><meta charset="utf-8"><link rel="stylesheet" href="claude.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,500&display=swap">
+<style>
+  .top { height: 64px; display: flex; align-items: center; padding: 0 36px; }
+  .top .logo { font-size: 22px; } .top .logo svg { width: 22px; height: 22px; }
+  .wrap { display: grid; grid-template-columns: 1fr 1fr; gap: 64px; width: 1040px; margin: 34px auto 0; }
+  h1 { font-size: 40px; margin: 0 0 22px; }
+  .plan { background: #fff; border: 1.5px solid #141413; border-radius: 16px; padding: 18px 20px; display: grid; gap: 6px; }
+  .plan .row { display: flex; justify-content: space-between; align-items: baseline; }
+  .plan b { font-size: 18px; } .plan .p { font-size: 26px; font-weight: 600; }
+  .plan small { color: #73726c; font-size: 13.5px; }
+  .yearly { margin-top: 12px; background: #f0eee6; border-radius: 16px; padding: 14px 20px; display: flex; justify-content: space-between; color: #73726c; }
+  .sum { margin-top: 26px; display: grid; gap: 10px; font-size: 15px; }
+  .sum div { display: flex; justify-content: space-between; } .sum .tot { border-top: 1px solid #e5e2d8; padding-top: 12px; font-weight: 600; font-size: 17px; }
+  .lbl { font-size: 13.5px; font-weight: 500; margin: 14px 0 6px; color: #3d3d3a; }
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+  .field.dot { color: #141413; letter-spacing: .12em; }
+  .btn.dark { margin-top: 22px; }
+  .fine { font-size: 12.5px; color: #73726c; margin-top: 10px; text-align: center; }
+</style></head>
+<body>
+  <div class="top"><span class="logo"><svg viewBox="0 0 32 32"><g stroke="#d97757" stroke-width="2.6" stroke-linecap="round"><path d="M16 3v26M3 16h26M6.8 6.8l18.4 18.4M25.2 6.8L6.8 25.2M10 4.5l12 23M22 4.5l-12 23M4.5 10l23 12M27.5 10l-23 12"/></g></svg> Claude</span></div>
+  <div class="wrap">
+    <section>
+      <h1 class="serif">Upgrade to Pro</h1>
+      <div class="plan"><div class="row"><b>Pro · Monthly</b><span class="p">$20</span></div><small>USD per month, billed monthly</small></div>
+      <div class="yearly"><span>Pro · Yearly</span><span>$17 / month</span></div>
+      <div class="sum"><div><span>Claude Pro, monthly</span><span>$20.00</span></div><div><span>Tax</span><span>Calculated at checkout</span></div><div class="tot"><span>Due today</span><span>$20.00 USD</span></div></div>
+    </section>
+    <section>
+      <h1 class="serif">Payment details</h1>
+      <p class="lbl">Email</p><div class="field" style="color:#141413">pelajar.demo@gmail.com</div>
+      <p class="lbl">Card number</p><div class="field dot">•••• •••• •••• ••••</div>
+      <div class="grid2"><div><p class="lbl">Expiry</p><div class="field dot">•• / ••</div></div><div><p class="lbl">CVC</p><div class="field dot">•••</div></div></div>
+      <p class="lbl">Country</p><div class="field" style="color:#141413">Malaysia</div>
+      <div class="btn dark" data-target>Subscribe</div>
+      <p class="fine">Cancel anytime. Your bank converts USD to ringgit.</p>
+    </section>
+  </div>
+<script>document.fonts.ready.then(() => { document.body.dataset.ready = '1' })</script></body></html>

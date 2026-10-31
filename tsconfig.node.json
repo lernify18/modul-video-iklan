@@ -1,0 +1,13 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "lib": ["ES2022", "DOM"],
+    "types": ["node"],
+    // tools/ runs straight under Node's type stripping, which needs the .ts extension in relative imports.
+    "allowImportingTsExtensions": true,
+    "erasableSyntaxOnly": true,
+    // The Pro skill's engine is plain .mjs for any computer with Node; its tests import it as it ships.
+    "allowJs": true
+  },
+  "include": ["vite.config.ts", "vitest.config.ts", "playwright.config.ts", "playwright.smoke.config.ts", "tests", "tools", "worker"]
+}

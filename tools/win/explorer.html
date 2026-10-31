@@ -1,0 +1,94 @@
+<!doctype html>
+<!-- File Explorer on Windows 11 showing one folder.
+     ?folder= folder name in the address bar (?parent= the folder above it), ?files=name|type|size;name|type|size,
+     ?pick= file name that is the click target, ?sel= a file shown selected (not the target), ?target=new|copy|paste
+     makes that command-bar button the target, ?menu=new opens the New menu with Folder as the target, ?rename= a file
+     shown with its name being typed, ?dialog=select turns the window into a folder picker titled ?title= with
+     Select Folder as the target. -->
+<html lang="en"><head><meta charset="utf-8"><link rel="stylesheet" href="win11.css">
+<style>
+  .win { left: 120px; top: 60px; width: 1200px; height: 720px; }
+  .cmd { height: 46px; display: flex; align-items: center; gap: 18px; padding: 0 14px; border-bottom: 1px solid #e5e5e5; background: #f9f9f9; }
+  .cmd .new { display: flex; align-items: center; gap: 6px; padding: 6px 10px; border-radius: 4px; }
+  .addr { height: 40px; display: flex; align-items: center; gap: 10px; padding: 0 12px; border-bottom: 1px solid #e5e5e5; }
+  .addr .box { flex: 1; height: 28px; border: 1px solid #d1d1d1; border-radius: 4px; display: flex; align-items: center; gap: 6px; padding: 0 10px; }
+  .addr .search { width: 260px; flex: none; color: #767676; }
+  .main { flex: 1; display: grid; grid-template-columns: 210px 1fr; min-height: 0; }
+  nav { border-right: 1px solid #e5e5e5; padding: 10px 6px; display: grid; gap: 2px; align-content: start; }
+  nav span { display: flex; align-items: center; gap: 8px; padding: 6px 10px; border-radius: 4px; }
+  nav span.on { background: #e5f1fb; }
+  table { border-collapse: collapse; width: 100%; }
+  th { text-align: left; font-weight: 400; color: #5f5f5f; padding: 8px 12px; border-bottom: 1px solid #ececec; }
+  td { padding: 7px 12px; }
+  tr.pick td { background: #cce8ff; }
+  .name { display: flex; align-items: center; gap: 8px; }
+  .ico { width: 18px; height: 18px; flex: none; }
+  .empty { color: #6b6b6b; text-align: center; padding: 60px 0; }
+  .menu { position: absolute; left: 0; top: 40px; width: 230px; background: #f9f9f9; border: 1px solid #d6d6d6; border-radius: 8px; box-shadow: 0 8px 24px rgba(0,0,0,.18); padding: 4px; z-index: 2; }
+  .menu span { display: flex; align-items: center; gap: 10px; padding: 8px 10px; border-radius: 4px; }
+  .menu span[data-target] { background: #e5f1fb; }
+  .cmd .new { position: relative; }
+  .ren { border: 1px solid #0067c0; background: #fff; padding: 1px 4px; box-shadow: 0 0 0 1px #0067c0; }
+  .ren em { font-style: normal; background: #0067c0; color: #fff; }
+  .pick-bar { display: flex; align-items: center; gap: 10px; padding: 12px 14px; border-top: 1px solid #e5e5e5; background: #f9f9f9; }
+  .pick-bar .f { flex: 1; height: 28px; border: 1px solid #d1d1d1; border-radius: 4px; display: flex; align-items: center; padding: 0 10px; background: #fff; }
+  .pick-bar span.b { padding: 6px 16px; border-radius: 4px; border: 1px solid #d1d1d1; background: #fff; }
+  .pick-bar span.b.pri { background: #0067c0; color: #fff; border-color: #0067c0; }
+</style></head>
+<body>
+  <div class="win">
+    <div class="titlebar"><svg class="ico" viewBox="0 0 20 20" style="stroke:none"><path d="M2 5h6l2 2h8v9H2z" fill="#f8c94a"/></svg><span class="t" id="title"></span>
+      <span class="ctl"><span><svg viewBox="0 0 10 10"><path d="M0 5h10"/></svg></span><span><svg viewBox="0 0 10 10"><rect x=".5" y=".5" width="9" height="9"/></svg></span><span><svg viewBox="0 0 10 10"><path d="M0 0l10 10M10 0L0 10"/></svg></span></span></div>
+    <div class="cmd"><span class="new" id="new"><svg class="ico" viewBox="0 0 20 20"><circle cx="10" cy="10" r="8" fill="#0067c0"/><path d="M10 6v8M6 10h8" stroke="#fff" stroke-width="1.8"/></svg>New</span><span>Cut</span><span id="cmd-copy">Copy</span><span id="cmd-paste">Paste</span><span>Rename</span><span>Share</span><span>Delete</span><span>Sort</span><span>View</span></div>
+    <div class="addr"><span>&#8592;</span><span>&#8594;</span><span>&#8593;</span><div class="box"><span>This PC</span><span>&#8250;</span><span id="crumb"></span></div><div class="box search">Search <span id="crumb2"></span></div></div>
+    <div class="main">
+      <nav><span>Home</span><span>Gallery</span><span>Desktop</span><span id="nav-dl">Downloads</span><span id="nav-doc">Documents</span><span>Pictures</span><span>Music</span><span>Videos</span><span>This PC</span></nav>
+      <div><table><thead><tr><th>Name</th><th>Date modified</th><th>Type</th><th>Size</th></tr></thead><tbody id="rows"></tbody></table><p class="empty" id="empty" hidden>This folder is empty.</p></div>
+    </div>
+  </div>
+  <div class="taskbar"><i class="on"><svg viewBox="0 0 20 20" width="20"><path fill="#0067c0" d="M1 1h8.5v8.5H1zM10.5 1H19v8.5h-8.5zM1 10.5h8.5V19H1zM10.5 10.5H19V19h-8.5z"/></svg></i>
+    <i class="on"><svg viewBox="0 0 20 20" width="22"><path d="M2 5h6l2 2h8v9H2z" fill="#f8c94a"/></svg></i>
+    <span class="clock">11:52 AM<br>29/10/2026</span></div>
+<script>
+  const q = new URLSearchParams(location.search)
+  const folder = q.get('folder') || 'Downloads'
+  const parent = q.get('parent')
+  document.getElementById('title').textContent = folder
+  document.getElementById('crumb').textContent = parent ? `${parent} › ${folder}` : folder
+  document.getElementById('crumb2').textContent = folder
+  ;(document.getElementById(folder === 'Documents' || parent === 'Documents' ? 'nav-doc' : 'nav-dl')).classList.add('on')
+  const newBtn = document.getElementById('new')
+  if (q.get('target') === 'new') newBtn.dataset.target = ''
+  for (const k of ['copy', 'paste']) if (q.get('target') === k) { const b = document.getElementById('cmd-' + k); b.dataset.target = ''; b.style.cssText = 'padding:6px 10px;border-radius:4px;background:#e5f1fb' }
+  if (q.get('menu') === 'new') {
+    const m = document.createElement('div')
+    m.className = 'menu'
+    m.innerHTML = '<span data-target><svg class="ico" viewBox="0 0 20 20"><path d="M2 5h6l2 2h8v9H2z" fill="#f8c94a"/></svg>Folder</span><span>Shortcut</span><span>Bitmap image</span><span>Rich Text Document</span><span>Text Document</span><span>Compressed (zipped) Folder</span>'
+    newBtn.appendChild(m)
+  }
+  const icon = (type) => type === 'File folder'
+    ? '<svg class="ico" viewBox="0 0 20 20"><path d="M2 5h6l2 2h8v9H2z" fill="#f8c94a"/></svg>'
+    : '<svg class="ico" viewBox="0 0 20 20"><path d="M4 2h8l4 4v12H4z" fill="#fff" stroke="#8a8a8a"/><path d="M12 2v4h4" fill="none" stroke="#8a8a8a"/></svg>'
+  const rows = (q.get('files') || '').split(';').filter(Boolean).map((r) => r.split('|'))
+  const tbody = document.getElementById('rows')
+  if (!rows.length) document.getElementById('empty').hidden = false
+  for (const [name, type = 'File', size = ''] of rows) {
+    const tr = document.createElement('tr')
+    if (name === q.get('pick')) { tr.className = 'pick'; tr.dataset.target = '' }
+    if (name === q.get('sel')) tr.className = 'pick'
+    tr.innerHTML = `<td><span class="name">${icon(type)}<span></span></span></td><td>29/10/2026 11:4${tbody.children.length} AM</td><td>${type}</td><td>${size}</td>`
+    const label = tr.querySelector('.name span:last-child')
+    label.textContent = name
+    if (name === q.get('rename')) { label.className = 'ren'; label.innerHTML = '<em></em>'; label.firstChild.textContent = name; tr.dataset.target = '' }
+    tbody.appendChild(tr)
+  }
+  if (q.get('dialog') === 'select') {
+    document.getElementById('title').textContent = q.get('title') || 'Select Folder'
+    const bar = document.createElement('div'); bar.className = 'pick-bar'
+    bar.innerHTML = '<span>Folder:</span><span class="f"></span><span class="b pri" data-target>Select Folder</span><span class="b">Cancel</span>'
+    bar.querySelector('.f').textContent = q.get('sel') || ''
+    document.querySelector('.win').appendChild(bar)
+  }
+  document.body.dataset.ready = '1'
+</script>
+</body></html>

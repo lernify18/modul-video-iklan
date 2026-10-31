@@ -1,0 +1,34 @@
+{
+  "name": "modul-video-iklan",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite dev",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc -b",
+    "lint": "tsc -b --noEmit",
+    "test": "vitest run",
+    "test:smoke": "playwright test -c playwright.smoke.config.ts",
+    "test:e2e": "playwright test",
+    "herd:setup": "bash scripts/herd-setup.sh",
+    "cf:lokal": "bash scripts/cf-lokal.sh",
+    "test:akses": "playwright test -c playwright.akses.config.ts"
+  },
+  "dependencies": {
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "zod": "4.6.7"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.62.0",
+    "@types/node": "22.20.2",
+    "@types/react": "18.3.31",
+    "@types/react-dom": "18.3.7",
+    "@vitejs/plugin-react": "6.1.1",
+    "typescript": "7.0.2",
+    "vite": "8.3.0",
+    "vitest": "5.0.3",
+    "wrangler": "4.151.0"
+  }
+}

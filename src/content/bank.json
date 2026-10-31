@@ -1,0 +1,640 @@
+[
+ {
+  "id": "mula-iklan-guna-bahan-sedia-ada",
+  "kategori": "Mula projek baru / master prompt",
+  "tajuk": "Mula projek iklan video guna bahan sedia ada",
+  "projek": "UMRAH APP OCT26 (iklan app iZubeer)",
+  "tarikh": "2026-10-20",
+  "asal": "sy nak buat video POV ads guna memory & skill latest kat dir Video Ubai OCT26 Kelas.\nBahan video sy rasa semua ada dalam dir sekarang ni.\n\nSy nak run ads by today. \nCadangkan",
+  "ringkas": "Saya nak buat video iklan untuk [nama produk]. Semua bahan (gambar, rakaman, screenshot) ada dalam folder [nama folder]. Saya nak iklan ini siap untuk dijalankan [bila, contoh: hari ini]. Jangan buat dulu. Senaraikan bahan yang anda jumpa, bahan yang belum cukup, dan cadangkan pelan video. Tunggu saya setuju.",
+  "kenapa": "Claude tahu di mana bahan, bila tarikh akhir, dan bahawa ia perlu mencadang dulu sebelum membina. Dari prompt ini Ubai terus dapat pelan v1 POV dan VO, dan iklannya siap dirender dalam sesi yang sama.",
+  "contoh": "Saya nak buat video iklan untuk ==Umrah Musim Sejuk ikhlas.com==. Semua bahan (gambar, rakaman, screenshot) ada dalam folder ==bahan-ikhlas==. Saya nak iklan ini siap untuk dijalankan ==hari ini==. Jangan buat dulu. Senaraikan bahan yang anda jumpa, bahan yang belum cukup, dan cadangkan pelan video. Tunggu saya setuju.",
+  "aliran": [
+   {
+    "icon": "chat",
+    "title": "Tampal prompt"
+   },
+   {
+    "icon": "folder",
+    "title": "Claude baca folder bahan"
+   },
+   {
+    "icon": "table",
+    "title": "Senarai bahan + pelan video"
+   },
+   {
+    "icon": "yes",
+    "title": "Awak setuju, baru bina"
+   }
+  ]
+ },
+ {
+  "id": "kumpul-usp-jadi-prompt",
+  "kategori": "Mula projek baru / master prompt",
+  "tajuk": "Kumpul info produk dan USP, jadikan master prompt",
+  "projek": "Claude Desktop / Cowork (Kids Game Pro)",
+  "tarikh": "2026-05-14",
+  "asal": "Browse sales page ni, sy dah buka kat chrome saya\n\nAmbil info pakej , bonus dan harga [link sales page Canva]\n\nScan balik kesemua features, senarai game, dan apa USP yang ada compare game kids diluar sana.\n\nBina prompt sales page yang high convert, seperti dibawah, untuk sy paste ke tab claude code \n\nBina satu sales page landing page yang high-converting untuk produk digital bernama “Kids Game Pro” bagi market Malaysia.\n\nGaya visual:\n- Tema pastel, ceria, moden, mesra kanak-kanak\n…",
+  "ringkas": "Saya dah buka halaman jualan [nama produk] dalam Chrome: [link halaman jualan]. Baca halaman itu dan kumpulkan pakej, harga, bonus, semua ciri, dan apa yang membezakan produk ini daripada pesaing (USP). Kemudian tulis satu master prompt untuk video iklan [nama produk], sasaran [siapa pembeli], yang saya boleh tampal ke chat baru. Dalam prompt itu, guna fakta yang anda jumpa sahaja. Jangan reka.",
+  "kenapa": "Claude mengambil fakta terus dari halaman jualan sendiri, jadi brief iklan berasaskan maklumat sebenar, bukan tekaan. Hasilnya satu prompt siap tampal untuk chat lain, cara yang Ubai guna untuk memindahkan kerja dari Claude Desktop ke sesi lain.",
+  "contoh": "Saya dah buka halaman jualan ==Umrah ikhlas.com== dalam Chrome: ==ikhlas.com==. Baca halaman itu dan kumpulkan pakej, harga, bonus, semua ciri, dan apa yang membezakan produk ini daripada pesaing (USP). Kemudian tulis satu master prompt untuk video iklan ==Umrah ikhlas.com==, sasaran ==bakal jemaah umrah dari Malaysia==, yang saya boleh tampal ke chat baru. Dalam prompt itu, guna fakta yang anda jumpa sahaja. Jangan reka.",
+  "aliran": [
+   {
+    "icon": "browser",
+    "title": "Buka halaman jualan"
+   },
+   {
+    "icon": "doc",
+    "title": "Claude kumpul pakej, harga, USP"
+   },
+   {
+    "icon": "chat",
+    "title": "Claude tulis master prompt"
+   },
+   {
+    "icon": "type",
+    "title": "Tampal di chat baru"
+   }
+  ]
+ },
+ {
+  "id": "sepuluh-hook-satu-angle",
+  "kategori": "Brief video iklan",
+  "tajuk": "Buat 10 video, satu angle, hook berlainan",
+  "projek": "UMRAH APP OCT26 (iklan app iZubeer)",
+  "tarikh": "2026-10-22",
+  "asal": "Buat angle itenari, ziarah, bacaan umrah pula ni USP Paling power apps ni. jgn sentuh pasal hilang.\n\nBuat 10 video berlainan hook. cadangkan dulu",
+  "ringkas": "Untuk iklan [nama produk], guna angle ini: [USP paling kuat, contoh: ciri A, ciri B, ciri C]. Jangan sentuh [topik yang anda tak mahu]. Buat 10 video, setiap satu dengan hook (ayat 3 saat pertama) yang berlainan. Jangan buat video dulu. Tunjuk 10 hook dalam jadual: nombor, ayat hook, fakta yang menyokongnya, dan babak pertama. Saya pilih dulu, baru buat.",
+  "kenapa": "Satu angle yang jelas dengan 10 hook berbeza membolehkan iklan diuji untuk mencari yang menang. Minta senarai dulu menjimatkan masa render; Ubai meluluskannya dengan «okay ngam.. buat POV 1 - 10 terus».",
+  "contoh": "Untuk iklan ==Bekam Fizudean==, guna angle ini: ==tak sakit, bekas tak bengkak, terapis terlatih & diiktiraf==. Jangan sentuh ==harga, nombor WhatsApp dan KKM==. Buat 10 video, setiap satu dengan hook (ayat 3 saat pertama) yang berlainan. Jangan buat video dulu. Tunjuk 10 hook dalam jadual: nombor, ayat hook, fakta yang menyokongnya, dan babak pertama. Saya pilih dulu, baru buat.",
+  "aliran": [
+   {
+    "icon": "chat",
+    "title": "Tampal prompt"
+   },
+   {
+    "icon": "table",
+    "title": "Claude tunjuk 10 hook"
+   },
+   {
+    "icon": "yes",
+    "title": "Awak pilih"
+   },
+   {
+    "icon": "video",
+    "title": "Claude buat video"
+   }
+  ]
+ },
+ {
+  "id": "format-pov-dan-vo",
+  "kategori": "Brief video iklan",
+  "tajuk": "Tetapkan format POV dan VO, serta bahan yang boleh diguna",
+  "projek": "UMRAH APP OCT26 (iklan app iZubeer)",
+  "tarikh": "2026-10-20",
+  "asal": "bahan slide jgn guna\ngambar mockup apps tu boleh\ndan buat juga video voiceover latest skill & memory kat dir Video Ubai OCT26 Kelas\n\ncadangkan\n\n[susulan, 5 minit kemudian]\nbuat v1 POV & VO dulu.\n2. ya, wajibkan simpan segala mockup dari sales page\n3. Jgn tanya lagi, dah cakap banyak kali kredit banyak\n4. Tu sy belum buat, nanti sy buat\n5. Bunyi POV lagu bg yg sy guna video bekam kat Dir sy mention",
+  "ringkas": "Buat dua jenis iklan untuk [nama produk]. (1) POV: rakaman muka saya tanpa suara, tulisan besar dalam kotak, dengan lagu latar [nama lagu / folder lagu]. (2) VO: suara latar membaca skrip, tulisan muncul ikut perkataan. Bahan yang BOLEH diguna: [contoh: gambar mockup app, screenshot jualan]. Bahan yang JANGAN diguna: [contoh: slide kelas]. Simpan semua mockup yang anda ambil ke folder [nama folder] supaya boleh diguna semula. Buat versi 1 setiap format dulu; saya tengok sebelum buat lagi.",
+  "kenapa": "Format, bahan dibenarkan dan bahan dilarang dinyatakan terang, jadi Claude tidak meneka. Mula dengan v1 setiap format sebelum buat banyak menjimatkan kredit dan masa.",
+  "contoh": "Buat dua jenis iklan untuk ==iZubeer==. (1) POV: rakaman muka saya tanpa suara, tulisan besar dalam kotak, dengan lagu latar ==bg music ncs==. (2) VO: suara latar membaca skrip, tulisan muncul ikut perkataan. Bahan yang BOLEH diguna: ==mockup dari izubeer.app/jual==. Bahan yang JANGAN diguna: ==slide kelas dan harga==. Simpan semua mockup yang anda ambil ke folder ==bahan-izubeer/mockup== supaya boleh diguna semula. Buat versi 1 setiap format dulu; saya tengok sebelum buat lagi.",
+  "aliran": [
+   {
+    "icon": "phone",
+    "title": "POV: muka + kotak tulisan"
+   },
+   {
+    "icon": "mic",
+    "title": "VO: suara + caption"
+   },
+   {
+    "icon": "folder",
+    "title": "Bahan boleh dan jangan"
+   },
+   {
+    "icon": "video",
+    "title": "v1 setiap format dulu"
+   }
+  ]
+ },
+ {
+  "id": "design-proven-convert",
+  "kategori": "Brief video iklan",
+  "tajuk": "Minta gaya iklan Facebook yang proven convert",
+  "projek": "Ads Generator AUG26",
+  "tarikh": "2026-08-16",
+  "asal": "tapi gambar yang dihasilkan nampak tak menarik, mcm flat. sy nak latest design optimize untuk Facebook Ads, yg proven convert. Cadangkan\n\n[susulan]\nkonsep warna masih nampak suram. tak ada ciri optimize facebook ads yang convert. tak perlu buat susunan senget2. sebab sy nak dia mcm poster infografik.",
+  "ringkas": "Kreatif iklan yang anda buat untuk [nama produk] nampak tak menarik, terlalu biasa. Saya nak gaya terkini untuk iklan Facebook dan Instagram yang terbukti dapat jualan (proven convert). Cadangkan 3 gaya dulu, terangkan kenapa setiap satu berkesan, dan tunjuk contoh kecil. Warna mesti terang dan jelas di skrin telefon. Jangan bina semua dulu.",
+  "kenapa": "'Proven convert' memaksa Claude merujuk corak iklan yang memang menjual, bukan citarasa rawak. Bila hasil pertama masih suram, Ubai memberi sebab yang konkrit (warna suram, tak mahu susunan senget) sehingga gaya muktamad dikunci pada pusingan ketiga.",
+  "contoh": "Kreatif iklan yang anda buat untuk ==Bekam Fizudean== nampak tak menarik, terlalu biasa. Saya nak gaya terkini untuk iklan Facebook dan Instagram yang terbukti dapat jualan (proven convert). Cadangkan 3 gaya dulu, terangkan kenapa setiap satu berkesan, dan tunjuk contoh kecil. Warna mesti terang dan jelas di skrin telefon. Jangan bina semua dulu.",
+  "aliran": [
+   {
+    "icon": "zoom",
+    "title": "Kreatif nampak biasa"
+   },
+   {
+    "icon": "table",
+    "title": "Claude cadang 3 gaya"
+   },
+   {
+    "icon": "yes",
+    "title": "Awak pilih satu"
+   },
+   {
+    "icon": "video",
+    "title": "Claude bina gaya itu"
+   }
+  ]
+ },
+ {
+  "id": "mockup-perlahan-dan-zoom",
+  "kategori": "Minta ubah / revisi pendek",
+  "tajuk": "Mockup terlalu laju, tambah zoom",
+  "projek": "UMRAH APP OCT26 (iklan app iZubeer)",
+  "tarikh": "2026-10-22",
+  "asal": "mockup jangan display tu terlalu laju. dan tak perlu tunjuk semua part dalam 1 modul. 1-3 saat modul 1, then sambung modul next 1-3 saat, then sambung module next ikut keperluan. jangan terlalu laju, laju okay, tapi jangan sampai tak sempat nak tengok langsung flow dia.\n\ntambah effect zoom in mockup lepas 1-3 saat untuk nampakkan mockup lebih menarik dan nampak dashboard dalam screen. macam sy pernah bagi arahan kat dir Video ubai oct26 kelas\n\nCadangkan the best video for ads 3000X pakar psikologi video..",
+  "ringkas": "Paparan skrin app dalam video [nombor video] terlalu laju; penonton tak sempat faham. Tunjuk satu bahagian sahaja pada satu masa, 2 hingga 3 saat setiap bahagian, kemudian baru pindah ke bahagian seterusnya. Selepas 1 saat, zoom masuk perlahan ke skrin supaya tulisan di dalamnya jelas. Kemudian cadangkan penambahbaikan lain sebagai pakar video iklan. Render semula dan tunjuk hasil; saya luluskan dulu.",
+  "kenapa": "Ubai memberi ukuran tepat (1–3 saat setiap modul, zoom selepas 1–3 saat), jadi Claude boleh membetulkan tanpa meneka. Rentak ini kemudian menjadi peraturan '1 modul satu beat, lebih kurang 3 saat' untuk iklan seterusnya.",
+  "contoh": "Paparan skrin app dalam video ==iZubeer V1== terlalu laju; penonton tak sempat faham. Tunjuk satu bahagian sahaja pada satu masa, 2 hingga 3 saat setiap bahagian, kemudian baru pindah ke bahagian seterusnya. Selepas 1 saat, zoom masuk perlahan ke skrin supaya tulisan di dalamnya jelas. Kemudian cadangkan penambahbaikan lain sebagai pakar video iklan. Render semula dan tunjuk hasil; saya luluskan dulu.",
+  "aliran": [
+   {
+    "icon": "video",
+    "title": "Tonton: terlalu laju"
+   },
+   {
+    "icon": "chat",
+    "title": "Ukuran: 2–3 saat satu bahagian"
+   },
+   {
+    "icon": "zoom",
+    "title": "Zum masuk selepas 1 saat"
+   },
+   {
+    "icon": "gear",
+    "title": "Render semula"
+   }
+  ]
+ },
+ {
+  "id": "elak-footage-nampak-lama",
+  "kategori": "Minta ubah / revisi pendek",
+  "tajuk": "Buang rakaman yang nampak lama",
+  "projek": "UMRAH APP OCT26 (iklan app iZubeer)",
+  "tarikh": "2026-10-22",
+  "asal": "video BTS elakkan nampak bangunan tengah buat, sebab tu video lama. cari yang tak nampak video lama.",
+  "ringkas": "Dalam rakaman belakang tabir (BTS), elakkan babak yang nampak lama atau tak sesuai, contoh [kren / bangunan separuh siap / tarikh lama]. Cari bahagian rakaman lain yang nampak baru. Kalau tiada yang sesuai, beritahu saya; jangan paksa guna.",
+  "kenapa": "Satu ayat dengan sebabnya («sebab tu video lama») cukup untuk Claude menapis semua klip, bukan satu sahaja. Rakaman yang nampak lama boleh membuat penonton rasa iklan tidak jujur.",
+  "contoh": "Dalam rakaman belakang tabir (BTS), elakkan babak yang nampak lama atau tak sesuai, contoh ==kren, bangunan separuh siap, mataf sementara 2017==. Cari bahagian rakaman lain yang nampak baru. Kalau tiada yang sesuai, beritahu saya; jangan paksa guna.",
+  "aliran": [
+   {
+    "icon": "film",
+    "title": "Semak rakaman BTS"
+   },
+   {
+    "icon": "no",
+    "title": "Buang yang nampak lama"
+   },
+   {
+    "icon": "zoom",
+    "title": "Cari klip yang nampak baru"
+   },
+   {
+    "icon": "chat",
+    "title": "Tiada? Claude beritahu"
+   }
+  ]
+ },
+ {
+  "id": "svg-besar-selang-seli",
+  "kategori": "Minta ubah / revisi pendek",
+  "tajuk": "Grafik terlalu kecil, susun atur selang-seli",
+  "projek": "Ubai Video Konten OCT26",
+  "tarikh": "2026-10-03",
+  "asal": "Image SVG simple sangat dan kecil. patutnya besar x5-10 dari saiz sekarang. Icon tu biasa top tengah.\n\nDan, video pula, rakaman malam kan ada banyak noise, sangat teruk tak lawa remove bg. kena buat frame bulat or kotak bucu curve pun okay.\n\nCuma dia tak boleh sentiasa backgroun hitam. Mesti selang seli full video tanpa background gelap. … selang seli dgn video jadi kecil dalam frame (jika background gelap) dan atas letak image SVG besar dan berfokus, image SVG wajib kompleks, … kena ada animasi.\n\nBackground tak perlu ada warna biru gradient, wajib flat hitam. …\n\nBuat semula Full slice",
+  "ringkas": "Grafik dalam video [nombor video] terlalu kecil dan terlalu ringkas. Besarkan 5 kali, letak di tengah atas, dan beri animasi. Jangan buang latar belakang rakaman saya; letak video saya dalam bingkai bulat atau kotak bucu bulat. Susun selang-seli: kadang video saya penuh skrin, kadang video kecil dalam bingkai atas latar hitam rata dengan grafik besar di atasnya. Latar mesti hitam rata, tiada warna biru. Buat semula keseluruhan video.",
+  "kenapa": "Setiap aduan disertai ukuran dan penggantinya (x5–10, tengah atas, bingkai bulat, hitam rata), jadi pembetulan tepat pada kali pertama. Susun atur ini kemudian dikunci sebagai gaya tetap video Ubai.",
+  "contoh": "Grafik dalam video ==2== terlalu kecil dan terlalu ringkas. Besarkan 5 kali, letak di tengah atas, dan beri animasi. Jangan buang latar belakang rakaman saya; letak video saya dalam bingkai bulat atau kotak bucu bulat. Susun selang-seli: kadang video saya penuh skrin, kadang video kecil dalam bingkai atas latar hitam rata dengan grafik besar di atasnya. Latar mesti hitam rata, tiada warna biru. Buat semula keseluruhan video.",
+  "aliran": [
+   {
+    "icon": "svg",
+    "title": "Grafik ×5, tengah atas"
+   },
+   {
+    "icon": "phone",
+    "title": "Video dalam bingkai bulat"
+   },
+   {
+    "icon": "layers",
+    "title": "Selang-seli penuh dan bingkai"
+   },
+   {
+    "icon": "gear",
+    "title": "Render semula"
+   }
+  ]
+ },
+ {
+  "id": "potong-filler-dan-senyap",
+  "kategori": "Minta ubah / revisi pendek",
+  "tajuk": "Potong 'aa', 'emm' dan senyap",
+  "projek": "Ubai Video Konten OCT26",
+  "tarikh": "2026-10-03",
+  "asal": "cut k, aa, assalamualaikum, so, pada malam ini\ncut juga silence, cuma pastikan lebihkan 0.5ms agar voice tak terpotong secara tak sengaja",
+  "ringkas": "Dalam rakaman saya bercakap, potong perkataan pengisi ini: [contoh: aa, emm, so, okay]. Potong juga senyap yang panjang. Tinggalkan sedikit ruang (lebih kurang suku saat) sebelum dan selepas setiap potongan supaya suara tak terpotong. Lepas siap, beritahu berapa saat yang dipotong.",
+  "kenapa": "Senarai perkataan yang tepat dan ruang selamat menghalang suara terpotong. Hasilnya video terus masuk ke isi tanpa salam panjang dan 'aa' yang membosankan.",
+  "contoh": "Dalam rakaman saya bercakap, potong perkataan pengisi ini: ==aa, emm, so, okay==. Potong juga senyap yang panjang. Tinggalkan sedikit ruang (lebih kurang suku saat) sebelum dan selepas setiap potongan supaya suara tak terpotong. Lepas siap, beritahu berapa saat yang dipotong.",
+  "aliran": [
+   {
+    "icon": "mic",
+    "title": "Rakaman bercakap"
+   },
+   {
+    "icon": "gear",
+    "title": "Potong aa, emm, senyap"
+   },
+   {
+    "icon": "yes",
+    "title": "Tinggal ruang ¼ saat"
+   },
+   {
+    "icon": "table",
+    "title": "Lapor saat yang dipotong"
+   }
+  ]
+ },
+ {
+  "id": "gaya-iman-gadzhi-cadang-dulu",
+  "kategori": "Rujukan gaya",
+  "tajuk": "Ikut gaya Iman Gadzhi, cadang dulu",
+  "projek": "Ubai Video Konten OCT26",
+  "tarikh": "2026-10-03",
+  "asal": "Berdasarkan video di directory\n\nJadikan video ni motion graphic gaya sebiji mcm Iman Ghazi + broll dgn tutorial step by step motion graphic sebiji mcm directory Saas Form JUN26. cuma kali ni video combine dgn video sy bercakap, Broll tunjuk tutorial based on apa sy sampaikan.\n\nJika tiada kena mengena dgn tutorial, boleh combine dgn gambar SVG complex beranimasi yg blend dgn broll related video bercakap.\n\n… Gunakan gaya motion graphics berinspirasikan Iman Gadzhi: premium, cinematic dan dinamik, dengan kinetic typography yang bold, highlight perkataan penting … \n\nCadangkan dahulu",
+  "ringkas": "Video saya bercakap ada dalam folder [nama folder]. Jadikan ia video motion graphic gaya Iman Gadzhi: tulisan besar bergerak, perkataan penting diserlahkan, grafik beranimasi yang sesuai dengan apa yang saya cakap, dan B-roll yang tunjuk langkah bila saya terangkan cara. Latar gelap yang ringkas, warna aksen ikut jenama [warna jenama]. Setiap animasi mesti menyokong mesej, bukan hiasan. Cadangkan pelan babak dahulu; jangan render lagi.",
+  "kenapa": "Nama rujukan beserta senarai ciri gaya memberi Claude sasaran yang jelas, dan «Cadangkan dahulu» menahan kerja berat sehingga pelan dipersetujui. Video ini akhirnya menjadi templat (v5_cut) untuk projek video Ubai yang lain.",
+  "contoh": "Video saya bercakap ada dalam folder ==RAW==. Jadikan ia video motion graphic gaya Iman Gadzhi: tulisan besar bergerak, perkataan penting diserlahkan, grafik beranimasi yang sesuai dengan apa yang saya cakap, dan B-roll yang tunjuk langkah bila saya terangkan cara. Latar gelap yang ringkas, warna aksen ikut jenama ==kuning==. Setiap animasi mesti menyokong mesej, bukan hiasan. Cadangkan pelan babak dahulu; jangan render lagi.",
+  "aliran": [
+   {
+    "icon": "folder",
+    "title": "Video dalam folder"
+   },
+   {
+    "icon": "caption",
+    "title": "Tulisan besar bergerak"
+   },
+   {
+    "icon": "svg",
+    "title": "Grafik ikut apa dicakap"
+   },
+   {
+    "icon": "table",
+    "title": "Claude cadang dulu"
+   }
+  ]
+ },
+ {
+  "id": "gaya-umum-bukan-salin",
+  "kategori": "Rujukan gaya",
+  "tajuk": "Namakan jenis video, jangan salin satu contoh",
+  "projek": "SAAS FORM JUN26",
+  "tarikh": "2026-10-03",
+  "asal": "boleh bagi prompt video ni kat saya? next sy nak buat video konten style mcm ni.. senang nak pakai prompt template. cuma jgn terlalu detail\n\n[susulan]\nsy taknak style mcm ni. sy nak tahu jenis video\n\n[susulan]\nstyle more kepada motion graphic, jelaskan melalui prompt yg lebih detail. bukan gaya yang ikut sebiji mcm video tu. tulis semula prompt",
+  "ringkas": "Saya suka video ini: [link atau nama fail video rujukan]. Jangan salin sebiji. Beritahu dulu ini JENIS video apa (contoh: motion graphic, talking-head dengan B-roll, faceless explainer). Kemudian tulis satu templat prompt untuk jenis itu, dengan gaya diterangkan secara umum tetapi terperinci: susunan babak, gaya tulisan, animasi, peralihan dan audio. Letak [tempat kosong] untuk topik, produk, penonton, durasi dan CTA supaya saya boleh guna semula.",
+  "kenapa": "Bila Claude menyalin satu video, hasilnya sempit dan tak boleh diguna semula. Menamakan jenis dan menerangkan gaya secara umum memberi templat untuk banyak iklan; perenggan gaya dari sesi ini yang Ubai tampal ke projek video seterusnya.",
+  "contoh": "Saya suka video ini: ==video Iman Gadzhi dalam folder Refer==. Jangan salin sebiji. Beritahu dulu ini JENIS video apa (contoh: motion graphic, talking-head dengan B-roll, faceless explainer). Kemudian tulis satu templat prompt untuk jenis itu, dengan gaya diterangkan secara umum tetapi terperinci: susunan babak, gaya tulisan, animasi, peralihan dan audio. Letak [tempat kosong] untuk topik, produk, penonton, durasi dan CTA supaya saya boleh guna semula.",
+  "aliran": [
+   {
+    "icon": "film",
+    "title": "Video rujukan"
+   },
+   {
+    "icon": "layers",
+    "title": "Claude namakan jenisnya"
+   },
+   {
+    "icon": "doc",
+    "title": "Templat prompt umum"
+   },
+   {
+    "icon": "chat",
+    "title": "Isi tempat kosong, guna semula"
+   }
+  ]
+ },
+ {
+  "id": "suara-iklan-radio",
+  "kategori": "Suara / voice-over",
+  "tajuk": "Suara krisp macam iklan radio",
+  "projek": "Ubai Video Konten OCT26",
+  "tarikh": "2026-10-04",
+  "asal": "boleh ke convert audio lebih krisp. mcm kat studio recording, or voice over iklan Radio. cadangkan\n\n[susulan]\nboleh ubah suara 30% pun boleh. buat mcm mana suara yg betul2 mcm iklan radi. audio dia sangat berbeza",
+  "ringkas": "Suara dalam rakaman saya [nama fail] kurang jelas. Boleh jadikan lebih krisp, macam rakaman studio atau suara iklan radio? Buang bunyi bising dulu. Buat 3 sampel 30 saat (A, B, C) supaya saya boleh dengar dan pilih. Suara boleh berubah sedikit, tapi mesti masih bunyi macam saya.",
+  "kenapa": "Beberapa sampel pendek lebih mudah dibandingkan daripada menilai satu hasil penuh. Ubai memilih «C better» dan versi itu menjadi suara lalai untuk semua videonya.",
+  "contoh": "Suara dalam rakaman saya ==IMG_4682.MOV== kurang jelas. Boleh jadikan lebih krisp, macam rakaman studio atau suara iklan radio? Buang bunyi bising dulu. Buat 3 sampel 30 saat (A, B, C) supaya saya boleh dengar dan pilih. Suara boleh berubah sedikit, tapi mesti masih bunyi macam saya.",
+  "aliran": [
+   {
+    "icon": "mic",
+    "title": "Suara kurang jelas"
+   },
+   {
+    "icon": "gear",
+    "title": "Buang bunyi bising"
+   },
+   {
+    "icon": "table",
+    "title": "Sampel A, B, C"
+   },
+   {
+    "icon": "yes",
+    "title": "Awak dengar, pilih"
+   }
+  ]
+ },
+ {
+  "id": "skrip-vo-satu-mood",
+  "kategori": "Suara / voice-over",
+  "tajuk": "Skrip VO dengan satu tag mood ElevenLabs",
+  "projek": "SAAS FORM JUN26 (video tutorial ebook)",
+  "tarikh": "2026-10-12",
+  "asal": "sy proceed audio ubai jaafar V1. cuma setiap skrip text, rewrite balik ada tag yang boleh difahami oleh eleven labs, dan improve intonasi mengajar mood tutorial\n\ncontoh sample\n\n[warmly] Dalam tutorial ini, saya akan tunjukkan cara membina sebuah website menggunakan Canva AI.\n\n[calmly] Kita akan lakukan semuanya secara praktikal, langkah demi langkah.\n…\n\n[susulan, 2026-10-13]\nsuara berbeza2.. sy proceed pakai 1 mood je untuk keseluruhan skrip. voice proceed yg sekarang",
+  "ringkas": "Tulis semula skrip voice-over iklan [nama produk] supaya sesuai untuk ElevenLabs. Letak satu tag mood di depan skrip, contoh [calmly] atau [warmly], dan guna mood yang sama untuk seluruh skrip supaya suara tak berubah-ubah. Ayat pendek, bahasa Melayu santai, satu idea satu ayat. Tunjuk skrip dulu untuk saya luluskan sebelum jana suara.",
+  "kenapa": "Tag mood membantu intonasi, tetapi Ubai mendapati mood berlainan pada setiap ayat membuat suara berubah-ubah, lalu memilih satu mood sahaja. Menyemak skrip sebelum menjana suara mengelak kredit terbuang.",
+  "contoh": "Tulis semula skrip voice-over iklan ==Umrah Musim Sejuk ikhlas.com== supaya sesuai untuk ElevenLabs. Letak satu tag mood di depan skrip, contoh [calmly] atau [warmly], dan guna mood yang sama untuk seluruh skrip supaya suara tak berubah-ubah. Ayat pendek, bahasa Melayu santai, satu idea satu ayat. Tunjuk skrip dulu untuk saya luluskan sebelum jana suara.",
+  "aliran": [
+   {
+    "icon": "doc",
+    "title": "Skrip voice-over"
+   },
+   {
+    "icon": "caption",
+    "title": "Satu tag mood sahaja"
+   },
+   {
+    "icon": "yes",
+    "title": "Awak lulus skrip"
+   },
+   {
+    "icon": "mic",
+    "title": "Baru jana suara"
+   }
+  ]
+ },
+ {
+  "id": "jana-semula-vo-simpan-backup",
+  "kategori": "Suara / voice-over",
+  "tajuk": "Jana semula suara, simpan versi lama dulu",
+  "projek": "Jawi Kids",
+  "tarikh": "2026-10-19",
+  "asal": "Buat balik Voice untuk kategori huruf. Update guna Voice V4, \nVoice ID - [ID suara]\n\nTermasuk cerita\nModul Islam\nDoa \nKamus\n\nSebab voice lama banyak salah.\nCuma yg lama dulu save dulu as beckup.\n\nAPI guna mcm biasa\n\nCek dan cadangkan",
+  "ringkas": "Buat semula voice-over untuk [senarai video iklan] guna suara [nama suara] dengan model [nama model]. Sebabnya, suara lama banyak salah sebut. Sebelum ganti apa-apa, simpan semua fail suara lama dalam folder backup. Guna API key yang sudah ada dalam fail .env; jangan minta saya taip. Cek dan cadangkan dulu, kemudian buat satu sampel untuk saya dengar.",
+  "kenapa": "Sebab yang jelas («banyak salah») dan arahan backup menjadikan kerja selamat: kalau suara baru tak elok, yang lama masih ada. Hasil akhirnya Ubai sahkan «ngam teruk».",
+  "contoh": "Buat semula voice-over untuk ==iklan umrah V01–V10== guna suara ==Ubai Jaafar - Webinar & Class== dengan model ==eleven_v4==. Sebabnya, suara lama banyak salah sebut. Sebelum ganti apa-apa, simpan semua fail suara lama dalam folder backup. Guna API key yang sudah ada dalam fail .env; jangan minta saya taip. Cek dan cadangkan dulu, kemudian buat satu sampel untuk saya dengar.",
+  "aliran": [
+   {
+    "icon": "folder",
+    "title": "Simpan suara lama"
+   },
+   {
+    "icon": "mic",
+    "title": "Jana dengan suara baru"
+   },
+   {
+    "icon": "video",
+    "title": "Satu sampel dulu"
+   },
+   {
+    "icon": "yes",
+    "title": "Awak dengar, lulus"
+   }
+  ]
+ },
+ {
+  "id": "tajuk-tak-formal",
+  "kategori": "Caption / copywriting",
+  "tajuk": "Tajuk iklan yang menarik, bukan formal",
+  "projek": "Ads Generator AUG26",
+  "tarikh": "2026-08-16",
+  "asal": "[12 gambar rujukan]\nsy lagi suka chibi rata. cuma dari segi text tajuk tu sy nak yang tertarik. bukan terlalu nampak text formal.",
+  "ringkas": "Ini contoh iklan yang saya suka: [lampirkan gambar atau screenshot]. Tulis 5 pilihan tajuk untuk iklan [nama produk]. Tajuk mesti menarik perhatian dan santai macam orang bercakap, bukan bahasa formal atau bahasa surat rasmi. Pendek dan boleh dibaca sekali imbas di skrin telefon.",
+  "kenapa": "Gambar rujukan menunjukkan gaya yang dimahukan, dan «bukan formal» membetulkan kecenderungan AI menulis ayat kaku. Pusingan ini menjadi gaya muktamad Ads Generator: tajuk berhuruf dekoratif yang santai.",
+  "contoh": "Ini contoh iklan yang saya suka: ==screenshot iklan Kidzy yang menang==. Tulis 5 pilihan tajuk untuk iklan ==Kidzy==. Tajuk mesti menarik perhatian dan santai macam orang bercakap, bukan bahasa formal atau bahasa surat rasmi. Pendek dan boleh dibaca sekali imbas di skrin telefon.",
+  "aliran": [
+   {
+    "icon": "film",
+    "title": "Contoh iklan yang disukai"
+   },
+   {
+    "icon": "caption",
+    "title": "5 tajuk santai"
+   },
+   {
+    "icon": "phone",
+    "title": "Dibaca sekali imbas"
+   },
+   {
+    "icon": "yes",
+    "title": "Awak pilih"
+   }
+  ]
+ },
+ {
+  "id": "variasi-headline-primary-text",
+  "kategori": "Caption / copywriting",
+  "tajuk": "Beberapa versi headline, description dan primary text",
+  "projek": "SAAS FORM JUN26",
+  "tarikh": "2026-10-18",
+  "asal": "Banyak CW sy cadang mcm Facebook. be default 1 column. tapi nak tambah cw lain kena klik butang plus baru ada field baru.\nSebab CW akan bertukar2 mcm ni\n\nHeadline + Option tambah headline + Max 5 - sample lable letakkan offer, masalah, solution, Freegitt of bonus\nDescription + Max 5 - samble lable sila letakkan testimoni anda disini\nCW di Field sekarang + Max 5 - \n\nCadangkan slice",
+  "ringkas": "Tulis copywriting iklan Meta untuk [nama produk], sasaran [siapa pembeli]. Beri: (1) 5 headline pendek, setiap satu dengan sudut berbeza: offer, masalah, solusi, bonus percuma, dan satu pilihan anda; (2) 5 description, setiap satu berdasarkan testimoni sebenar di bawah; (3) 5 primary text. Guna fakta dari [link halaman jualan / fail fakta] sahaja. Testimoni: [tampal testimoni].",
+  "kenapa": "Meta menukar-nukar headline, description dan primary text sendiri, jadi beberapa versi dengan sudut berbeza membolehkan iklan diuji. Sudut-sudut itu (offer, masalah, solusi, bonus, testimoni) datang terus dari cadangan Ubai, dan reka bentuknya diluluskan dengan «ngam teruk».",
+  "contoh": "Tulis copywriting iklan Meta untuk ==Bekam Fizudean==, sasaran ==lelaki di Pulau Pinang==. Beri: (1) 5 headline pendek, setiap satu dengan sudut berbeza: offer, masalah, solusi, bonus percuma, dan satu pilihan anda; (2) 5 description, setiap satu berdasarkan testimoni sebenar di bawah; (3) 5 primary text. Guna fakta dari ==fail fakta bekam== sahaja. Testimoni: ==ulasan 5 bintang pelanggan di Google==.",
+  "aliran": [
+   {
+    "icon": "doc",
+    "title": "Fakta + testimoni sebenar"
+   },
+   {
+    "icon": "caption",
+    "title": "5 headline, sudut berbeza"
+   },
+   {
+    "icon": "table",
+    "title": "5 description, 5 primary text"
+   },
+   {
+    "icon": "gear",
+    "title": "Meta uji sendiri"
+   }
+  ]
+ },
+ {
+  "id": "jangan-tokok-tambah",
+  "kategori": "Caption / copywriting",
+  "tajuk": "Jangan tokok tambah janji, ikut ayat sales page",
+  "projek": "Claude Desktop / Cowork (sales page kidzy.win)",
+  "tarikh": "2026-05-19",
+  "asal": "masukkan lagi gambar result sales dalam testimoni yang belum di masukkan. mockup utama juga ambil sekali. jangan tertinggal 1 gambar, kecuali mockup baru yang dah generate. jangan tokok tambah, ini kelas bukan dapat hak resell right dan tiada 7 day money bank guarante pun. apa2 refer ayat dan structure dalam sales page",
+  "ringkas": "Tulis caption dan skrip iklan [nama produk] guna ayat dan fakta dari halaman jualan [link atau fail] sahaja. Jangan tokok tambah. Jangan janji apa yang produk tak beri, contoh [hak jual semula / jaminan wang dikembalikan / pendapatan pasti]. Kalau guna gambar bukti jualan, guna gambar asal; jangan lukis semula. Selepas siap, senaraikan setiap dakwaan dan dari mana anda ambil.",
+  "kenapa": "AI suka menambah janji yang kedengaran hebat, dan itu boleh melanggar polisi iklan atau mengelirukan pembeli. Menyebut contoh janji yang tiada menutup jalan itu, dan senarai sumber memudahkan semakan.",
+  "contoh": "Tulis caption dan skrip iklan ==Kidzy== guna ayat dan fakta dari halaman jualan ==kidzy.win== sahaja. Jangan tokok tambah. Jangan janji apa yang produk tak beri, contoh ==pendapatan pasti==. Kalau guna gambar bukti jualan, guna gambar asal; jangan lukis semula. Selepas siap, senaraikan setiap dakwaan dan dari mana anda ambil.",
+  "aliran": [
+   {
+    "icon": "doc",
+    "title": "Ayat halaman jualan"
+   },
+   {
+    "icon": "no",
+    "title": "Tiada janji tambahan"
+   },
+   {
+    "icon": "caption",
+    "title": "Caption dan skrip"
+   },
+   {
+    "icon": "table",
+    "title": "Senarai dakwaan + sumber"
+   }
+  ]
+ },
+ {
+  "id": "semak-mata-orang-baru",
+  "kategori": "Semak & uji",
+  "tajuk": "Semak video macam orang baru menonton",
+  "projek": "SAAS FORM JUN26 (video tutorial ebook)",
+  "tarikh": "2026-10-11",
+  "asal": "sy rasa kena hold. video sy tengok langsung tak tunjuk step dari awal. tak tunjuk setting open supabase tu kat mana, tiiba2 suruh klik. ini orang baru first time nak buat boleh tak faham. cek dan sahkan\n\n[susulan]\nmula semula dari awal, buat 1 per 1 semula youtube, anggap sy newbie tak tahu nak pergi mana, nak klik mana, kena tunjuk betul dan video tu kadang2 ada glow kotak besar putih menghampiri saiz screen mungkin nak tunjuk screen, tapi tak ada tunjuk apa2 hanya blank, sila betulkan. cek dan sahkan",
+  "ringkas": "Tonton semula video [nama fail] seolah-olah anda orang baru yang tak tahu apa-apa. Senaraikan setiap tempat yang mengelirukan: langkah yang dilangkau, skrin yang muncul tiba-tiba, kotak atau penanda yang tak tunjuk apa-apa, tulisan yang terlalu cepat. Untuk setiap satu, beri masa (minit:saat) dan cadangan pembetulan. Cek dan sahkan dulu, kemudian betulkan satu video; saya tengok sebelum buat yang lain.",
+  "kenapa": "«Anggap sy newbie» memaksa Claude menilai dari mata penonton, bukan dari apa yang ia sendiri tahu. Hasilnya 'mod orang baru' yang menunjukkan ke mana hendak pergi sebelum setiap klik, dan video-video itu kemudian dimuat naik ke YouTube.",
+  "contoh": "Tonton semula video ==bekam_iman_T01.mp4== seolah-olah anda orang baru yang tak tahu apa-apa. Senaraikan setiap tempat yang mengelirukan: langkah yang dilangkau, skrin yang muncul tiba-tiba, kotak atau penanda yang tak tunjuk apa-apa, tulisan yang terlalu cepat. Untuk setiap satu, beri masa (minit:saat) dan cadangan pembetulan. Cek dan sahkan dulu, kemudian betulkan satu video; saya tengok sebelum buat yang lain.",
+  "aliran": [
+   {
+    "icon": "video",
+    "title": "Tonton macam orang baru"
+   },
+   {
+    "icon": "zoom",
+    "title": "Cari tempat mengelirukan"
+   },
+   {
+    "icon": "table",
+    "title": "Minit:saat + pembetulan"
+   },
+   {
+    "icon": "gear",
+    "title": "Betulkan satu video dulu"
+   }
+  ]
+ },
+ {
+  "id": "sampel-5-saat-dulu",
+  "kategori": "Semak & uji",
+  "tajuk": "Minta sampel 5 saat sebelum render penuh",
+  "projek": "Ubai Video Konten OCT26",
+  "tarikh": "2026-10-04",
+  "asal": "bg video sebenar 5 saat untuk sy menilai\n\n[susulan]\nsy cadang seragam hitam & line kelabu. dan kurangkan lagi pekatnya. bagi video 5 saat, 1 video je",
+  "ringkas": "Sebelum render video penuh, beri saya klip sebenar 5 saat dulu (bahagian [contoh: babak pembuka / satu peralihan]) untuk saya nilai. Satu klip sahaja. Lepas saya setuju, baru render keseluruhan.",
+  "kenapa": "Render penuh boleh makan berminit-minit; klip 5 saat cukup untuk menilai warna, rentak dan gaya. Ubai mengulang langkah ini beberapa kali sehingga «ngam», baru kerja itu digabungkan.",
+  "contoh": "Sebelum render video penuh, beri saya klip sebenar 5 saat dulu (bahagian ==babak pembuka==) untuk saya nilai. Satu klip sahaja. Lepas saya setuju, baru render keseluruhan.",
+  "aliran": [
+   {
+    "icon": "video",
+    "title": "Klip 5 saat dulu"
+   },
+   {
+    "icon": "zoom",
+    "title": "Awak nilai"
+   },
+   {
+    "icon": "yes",
+    "title": "Setuju"
+   },
+   {
+    "icon": "gear",
+    "title": "Render penuh"
+   }
+  ]
+ },
+ {
+  "id": "smoke-e2e-ada-error",
+  "kategori": "Semak & uji",
+  "tajuk": "Dah uji? Ada error tak?",
+  "projek": "HR SEPT 26",
+  "tarikh": "2026-09-14",
+  "asal": "Dah smoke & e2e ada error tak?\n\n[susulan]\nBuat & test kesemua, sebab sy dah cek banyak error",
+  "ringkas": "Sebelum anda kata siap: dah semak dan uji? Ada error tak? Untuk [senarai video iklan], semak setiap video: tulisan terbaca pada saat pertama, gambar sepadan dengan ayat, tiada harga atau maklumat peribadi yang tak patut nampak, dan suara tak senyap atau terpotong. Tunjuk hasil semakan sebenar untuk setiap video, bukan sekadar 'semua okay'.",
+  "kenapa": "Soalan pendek ini memaksa Claude membuktikan kerjanya dengan ujian sebenar, bukan dakwaan. 'Smoke' ialah uji cepat yang Claude jalankan sendiri dan 'e2e' ialah uji penuh dari awal hingga akhir; untuk video, maksudnya semak setiap babak.",
+  "contoh": "Sebelum anda kata siap: dah semak dan uji? Ada error tak? Untuk ==iklan umrah P01–P10 dan V01–V10==, semak setiap video: tulisan terbaca pada saat pertama, gambar sepadan dengan ayat, tiada harga atau maklumat peribadi yang tak patut nampak, dan suara tak senyap atau terpotong. Tunjuk hasil semakan sebenar untuk setiap video, bukan sekadar 'semua okay'.",
+  "aliran": [
+   {
+    "icon": "video",
+    "title": "Setiap video disemak"
+   },
+   {
+    "icon": "zoom",
+    "title": "Tulisan, gambar, suara"
+   },
+   {
+    "icon": "table",
+    "title": "Bukti semakan sebenar"
+   },
+   {
+    "icon": "yes",
+    "title": "Baru kata siap"
+   }
+  ]
+ },
+ {
+  "id": "simpan-jadi-skill-nama-khas",
+  "kategori": "Simpan jadi SOP / memory / skill",
+  "tajuk": "Simpan cara yang menjadi ke dalam skill",
+  "projek": "Jawi Kids",
+  "tarikh": "2026-10-19",
+  "asal": "ngam teruk. simpan skill & memori nama suaraubai.md agar untuk projek lain sy anytime boleh panggil balik",
+  "ringkas": "Hasil ini dah betul. Simpan cara kita buat tadi (langkah, tetapan, dan perkara yang perlu dielak) ke dalam skill [nama skill], bahagian Pelajaran, supaya saya boleh panggil balik untuk projek lain bila-bila masa. Lepas simpan, tunjuk apa yang berubah dan ayat yang saya perlu taip untuk guna semula.",
+  "kenapa": "Bila sesuatu sudah menjadi, Ubai terus menguncinya dengan nama yang mudah diingat supaya dia tak perlu mengajar perkara yang sama dua kali. Skill 'suaraubai' itu kini dipakai merentas projeknya. Untuk awak, tempatnya ialah skill sendiri yang awak buat di hujung Modul 5.",
+  "contoh": "Hasil ini dah betul. Simpan cara kita buat tadi (langkah, tetapan, dan perkara yang perlu dielak) ke dalam skill ==iklan-kedai-saya==, bahagian Pelajaran, supaya saya boleh panggil balik untuk projek lain bila-bila masa. Lepas simpan, tunjuk apa yang berubah dan ayat yang saya perlu taip untuk guna semula.",
+  "aliran": [
+   {
+    "icon": "yes",
+    "title": "Hasil dah betul"
+   },
+   {
+    "icon": "doc",
+    "title": "Tulis langkah + tetapan"
+   },
+   {
+    "icon": "folder",
+    "title": "Simpan dalam skill"
+   },
+   {
+    "icon": "chat",
+    "title": "Panggil balik bila-bila"
+   }
+  ]
+ },
+ {
+  "id": "prompt-penuh-untuk-projek-lain",
+  "kategori": "Simpan jadi SOP / memory / skill",
+  "tajuk": "Tukar video siap jadi prompt penuh untuk guna semula",
+  "projek": "Ubai Video Konten OCT26",
+  "tarikh": "2026-10-04",
+  "asal": "okay berdasarkan output video IMG_4355_motion_v5_cut, buatkan sy full prompt refer keseluruhan projek ni. sebab sy nak buat untuk projek lain.\n\nSo kalau boleh ikut apa prompt sy buat & dah siap finalize.",
+  "ringkas": "Berdasarkan video yang dah siap, [nama fail video akhir], tulis satu prompt penuh yang merangkum keseluruhan projek ini: gaya, susunan babak, audio, peraturan, dan semua pembetulan yang saya buat sepanjang jalan. Guna versi yang dah saya luluskan, bukan draf awal. Simpan sebagai fail [nama fail].md supaya saya boleh guna untuk iklan produk lain.",
+  "kenapa": "Prompt yang ditulis dari hasil akhir mengandungi semua pembetulan, jadi projek seterusnya bermula dari tahap yang sudah diluluskan, bukan dari kosong. Ubai menerimanya («boleh») sebagai fail PROMPT-TEKNIKAL-VIDEO-MOTION.md.",
+  "contoh": "Berdasarkan video yang dah siap, ==bekam_iman_T01.mp4==, tulis satu prompt penuh yang merangkum keseluruhan projek ini: gaya, susunan babak, audio, peraturan, dan semua pembetulan yang saya buat sepanjang jalan. Guna versi yang dah saya luluskan, bukan draf awal. Simpan sebagai fail ==prompt-iklan-bekam==.md supaya saya boleh guna untuk iklan produk lain.",
+  "aliran": [
+   {
+    "icon": "video",
+    "title": "Video akhir yang lulus"
+   },
+   {
+    "icon": "doc",
+    "title": "Prompt penuh + pembetulan"
+   },
+   {
+    "icon": "folder",
+    "title": "Simpan sebagai fail .md"
+   },
+   {
+    "icon": "chat",
+    "title": "Guna untuk produk lain"
+   }
+  ]
+ }
+]

@@ -1,0 +1,464 @@
+{
+ "m0-bekam": {
+  "text": "Kajian kes kedua. Ini kerja untuk klien. Bekam Fizudean, kedai bekam lelaki di Pulau Pinang. Dari gambar dan video kedai itu sendiri, Claude hasilkan lima puluh video iklan. Saya cuma bagi tiga benda: bahan kedai, lima masalah pelanggan, dan peraturan. Tiada harga, dan tiada nombor telefon dalam video."
+ },
+ "m0-bukti": {
+  "text": "Macam mana nak tahu hook mana yang menjual? Syarikat tak akan bayar iklan berbulan-bulan kalau iklan itu tak menjual. Di Meta Ad Library, iklan lembaran kerja anak ini sudah aktif lebih kurang seratus lapan puluh hari, dengan tiga hook berbeza. Semua hook itu terus sebut siapa pembelinya. Video ini guna pola yang sama: suri rumah, di saat pertama."
+ },
+ "m0-pembuka": {
+  "text": "Assalamualaikum. Sebelum kita belajar apa-apa butang, saya nak tunjuk dulu apa yang awak akan hasilkan, dan berapa yang ia jual. Pertama, {klik}iklan digital saya sendiri, video yang diedit dengan Claude. Kemudian {klik}bekam dan umrah, kerja untuk klien. Lepas itu kita tengok {klik}bukti angka, dan {klik}awak teka sendiri iklan mana yang menang."
+ },
+ "m0-teka": {
+  "text": "Sekarang cuba teka. Guna carta di muka sebelum ini. Ingat urutannya. {klik}Hook yang kuat, {klik}buat ramai orang terus menonton. {klik}Bila ramai menonton, lebih ramai yang beli. Tak perlu hafal, ini cuma supaya awak rasa sendiri bagaimana iklan bersaing."
+ },
+ "m0-umrah": {
+  "text": "Kajian kes ketiga, juga untuk klien: umrah. Bahannya cuma satu folder kit rasmi: video, poster dan brosur. Dari folder itu, Claude hasilkan sepuluh video POV dan sepuluh video bersuara. Tengok saat pertama video ini. Ia terus tanya soalan yang pembeli fikir: umrah lima ribu sembilan ratus sembilan puluh ringgit, dah termasuk apa?"
+ },
+ "m1-broll-svg": {
+  "text": "Ada benda yang boleh dirakam, ada yang tidak. Rakaman sebenar dipanggil B-roll. Untuk benda yang tiada gambar, contohnya peta bacaan jerebu, Claude lukis sendiri gambar bergerak yang dipanggil SVG. Dalam prompt, sebut terus: buat SVG beranimasi."
+ },
+ "m1-cta": {
+  "text": "Komponen terakhir, CTA. Di hujung video, beri satu arahan sahaja: klik butang di bawah. Jangan letak nombor WhatsApp dalam video. Butang iklan sudah ada nombornya."
+ },
+ "m1-glosari": {
+  "text": "Ini kamus kecil. Ada dua belas perkataan yang akan muncul berulang kali dalam buku ini: {klik}hook, {klik}caption, {klik}B-roll, {klik}SVG beranimasi, {klik}latar grid, {klik}overlay, {klik}light leak, {klik}VO, {klik}POV, {klik}CTA, {klik}render, dan {klik}prompt. Tak perlu hafal. Bila awak terlupa, buka semula muka ini dari isi kandungan."
+ },
+ "m1-iman": {
+  "text": "Dalam prompt Modul lima, awak minta Claude ikut lima perkara gaya Iman Gadzhi. Caption perkataan demi perkataan. Dua hingga empat perkataan sebaris. Latar gelap atau grid. Tukar babak setiap dua tiga saat. Dan gambar fakta yang sebenar, dizoom ke angka."
+ },
+ "m1-komponen-a": {
+  "text": "Ini saat pertama iklan bekam. Dalam setengah saat, ada tiga komponen. {klik}Pertama, hook. Soalan besar dua atau tiga baris. {klik}Kedua, B-roll. Gambar premis kedai yang sebenar. {klik}Ketiga, latar grid yang bergerak perlahan di belakang."
+ },
+ "m1-komponen-b": {
+  "text": "Dua frame dari iklan produk digital saya. {klik}Pertama, caption. Tulisan tebal yang muncul ikut suara. {klik}Kedua, angka. Angka yang penting ditulis paling besar dan berwarna, supaya mata terus nampak."
+ },
+ "m1-pembuka": {
+  "text": "Modul satu. Setiap iklan saya dibina dari enam bahan yang sama: {klik}hook, {klik}caption, {klik}B-roll, {klik}angka, {klik}latar grid, dan {klik}CTA. Bila awak kenal nama setiap bahan, awak boleh suruh Claude ubah satu bahagian sahaja, dengan satu ayat."
+ },
+ "m1-rumusan": {
+  "text": "Tahniah. Awak dah kenal enam bahan video iklan. {klik}Hook dan B-roll di saat pertama. {klik}Caption dan angka di tengah. {klik}CTA di hujung. Cuba jawab tiga soalan ini."
+ },
+ "m1-sumber": {
+  "text": "Empat bahan tambahan ini bukan rakaman awak sendiri. Latar grid, muzik latar, overlay dan light leak. Semua boleh dicari di YouTube. Muat turun sekali, simpan dalam folder Footage, dan guna berulang kali. Cara muat turun, saya tunjuk dalam Modul empat."
+ },
+ "m1-vo-pov": {
+  "text": "Ada dua jenis video. VO, ada suara saya bercerita, dan caption ikut suara. Sesuai bila banyak perkara perlu diterangkan. POV pula tiada suara. Hanya kotak tulisan dan lagu, seolah-olah pelanggan sendiri bercerita."
+ },
+ "m1-vo-pov-kuiz": {
+  "text": "Cuba pilih. Untuk setiap iklan, VO atau POV? {klik}Tanya dulu: pembeli perlu tahu banyak perkara? {klik}Kalau ya, pilih VO. Suara lebih membantu. {klik}Kalau tidak, pilih POV, macam pelanggan sendiri bercerita."
+ },
+ "m2-bank-1": {
+  "text": "Ini prompt sebenar saya untuk mula projek baru. Perhatikan dua perkara. Saya beritahu di mana bahan, dan saya minta Claude cadang pelan dulu sebelum buat. Salin kotak gelap, dan tukar tempat kosong."
+ },
+ "m2-bank-2": {
+  "text": "Ini cara saya brief video iklan. Satu angle yang kuat, sepuluh hook berlainan, dan saya pilih dulu dalam jadual sebelum Claude buat video."
+ },
+ "m2-bank-3": {
+  "text": "Bila video belum ngam, saya tak cuma kata tak cantik. Saya beri ukuran tepat: berapa saat, berapa besar, dan di mana. Sebab itu Claude boleh betulkan pada kali pertama."
+ },
+ "m2-bank-4": {
+  "text": "Untuk gaya, saya namakan rujukan, contohnya Iman Gadzhi, dan minta Claude terangkan jenis video itu. Jangan suruh salin sebiji, supaya templat boleh guna untuk banyak iklan."
+ },
+ "m2-bank-5": {
+  "text": "Untuk suara, minta sampel pendek dulu supaya senang pilih. Dan sebelum buat suara baru, simpan suara lama dalam backup."
+ },
+ "m2-bank-6": {
+  "text": "Untuk caption, saya minta ayat santai, bukan bahasa surat rasmi. Minta banyak versi supaya boleh diuji, dan guna fakta dari halaman jualan sahaja."
+ },
+ "m2-bank-7": {
+  "text": "Sebelum Claude kata siap, tanya: dah uji? Ada error tak? Minta Claude tunjuk hasil ujian untuk setiap video, bukan sekadar semua okay."
+ },
+ "m2-bank-8": {
+  "text": "Bila sesuatu dah menjadi, simpan caranya dengan nama yang senang diingat. Lain kali, awak cuma panggil nama itu, dan Claude ikut cara yang sama."
+ },
+ "m2-formula": {
+  "text": "Ini formula lima bahagian. Pertama, apa: berapa video, untuk produk apa. Kedua, bahan: folder mana Claude perlu baca. Ketiga, gaya: caption ikut suara, latar grid, gaya Iman Gadzhi. Keempat, saiz dan panjang. Kelima, larangan: apa yang tak boleh ada. Salin prompt dalam kotak gelap, dan tukar tempat kosong."
+ },
+ "m2-formula-kuiz": {
+  "text": "Cuba semak dua prompt ini. Setiap satu tertinggal satu bahagian. Semak dengan lima bahagian: {klik}apa, {klik}bahan, {klik}gaya, {klik}saiz, dan {klik}larangan. Kemudian pilih bahagian yang tertinggal."
+ },
+ "m2-pembuka": {
+  "text": "Modul dua. Claude buat apa yang awak tulis. Kalau arahan jelas, video terus jadi. Kalau kabur, Claude terpaksa meneka. Dalam modul ini, saya bagi {klik}formula lima bahagian, {klik}prompt sebenar saya, {klik}ayat siap untuk minta ubah, dan akhir sekali, {klik}cara jadikan skill sendiri bila dah ngam."
+ },
+ "m2-rumusan": {
+  "text": "Tahniah. Awak dah tahu cara arah Claude. {klik}Tulis prompt dengan lima bahagian. {klik}Minta lima sample dulu. {klik}Ubah satu-satu, dengan sebut nombor video dan saat. Dan bila dah ngam, {klik}jadikan skill."
+ },
+ "m2-ubah": {
+  "text": "Sample pertama jarang terus sempurna. Itu biasa. {klik}Tonton sample dulu. {klik}Cari yang tak kena, dan catat nombor video dan saat. {klik}Taip ayat ubah. Salin ayat siap di sebelah, dan tukar tempat kosong. {klik}Claude ubah bahagian itu sahaja, yang lain dikekalkan. {klik}Ulang sampai ngam."
+ },
+ "m2-ubah-2": {
+  "text": "Dua ayat terakhir. {klik}Tonton sample. {klik}Cari yang tak kena, contohnya satu gambar yang tak sesuai. {klik}Taip ayat ubah: tukar gambar pada saat itu sahaja. {klik}Bila satu video dah ngam, jadikan ia templat. Minta Claude buat lagi ikut gaya yang sama, setiap satu dengan hook berlainan. {klik}Ulang sampai ngam."
+ },
+ "m3-bayar": {
+  "text": "Ini laman bayaran. Pastikan Pro bulanan dipilih, dua puluh dolar Amerika sebulan. Isi nombor kad, tarikh tamat, dan tiga nombor di belakang kad. {klik}Kemudian klik Subscribe."
+ },
+ "m3-folder-baru-mac": {
+  "text": "Dalam folder Documents, {klik}klik kanan pada ruang kosong."
+ },
+ "m3-folder-baru-win": {
+  "text": "Dalam folder Documents, {klik}klik New di sebelah atas."
+ },
+ "m3-folder-buka": {
+  "text": "Folder projek awak dah ada. {klik}Klik dua kali pada folder itu untuk membukanya."
+ },
+ "m3-folder-buka-mac": {
+  "text": "Biarkan app Claude terbuka. Sekarang buka folder Documents. {klik}Tekan Command dan Space serentak. {klik}Taip Documents. {klik}Tekan Enter."
+ },
+ "m3-folder-buka-win": {
+  "text": "Biarkan app Claude terbuka. Sekarang buka folder Documents. {klik}Tekan butang Windows. {klik}Taip Documents. {klik}Tekan Enter."
+ },
+ "m3-folder-isi": {
+  "text": "Folder ini masih kosong. Ulang langkah tadi dua kali. Buat folder bernama RAW, untuk rakaman dari telefon awak. Kemudian folder bernama Footage, untuk bahan video yang lain."
+ },
+ "m3-folder-menu-mac": {
+  "text": "Menu kecil muncul. {klik}Klik New Folder."
+ },
+ "m3-folder-menu-win": {
+  "text": "Menu kecil muncul. {klik}Klik Folder."
+ },
+ "m3-folder-nama": {
+  "text": "Folder baru muncul, dan namanya sedia untuk ditaip. Taip tarikh hari ini dulu, tahun, bulan dan hari. Kemudian nama projek, contohnya Iklan Bekam. Lepas itu, tekan Enter."
+ },
+ "m3-folder-siap": {
+  "text": "Siap! Folder projek awak dah sedia, dengan RAW dan Footage di dalamnya. Dalam modul seterusnya, kita isi kedua-dua folder ini."
+ },
+ "m3-folder-terang": {
+  "text": "Langkah terakhir, folder projek. Claude bekerja dalam satu folder untuk satu projek. Di dalamnya ada tiga perkara. {klik}Folder projek, namanya bermula dengan tarikh, kemudian nama projek. {klik}Folder RAW, untuk rakaman dari telefon awak. {klik}Folder Footage, untuk grid, muzik, overlay dan light leak."
+ },
+ "m3-l1-terang": {
+  "text": "Langkah pertama, pilih pelan Pro. {klik}Buka pelayar, contohnya Chrome, Safari atau Edge. {klik}Taip claude dot com slash pricing, dan tekan Enter. {klik}Pastikan tab Individual berwarna putih. {klik}Dalam kad Pro di tengah, klik butang hitam, Try Claude. Jangan pilih Max."
+ },
+ "m3-masuk": {
+  "text": "Lepas klik Try Claude, laman log masuk Claude terbuka. Cara paling senang, guna akaun Google awak. Cuma empat langkah. {klik}Klik Continue with Google. {klik}Pilih akaun Google awak. {klik}Isi kad bank, dan klik Subscribe. {klik}Siap, pelan Pro awak aktif. Dalam gambar, saya guna e-mel contoh, bukan akaun sebenar."
+ },
+ "m3-masuk-akaun": {
+  "text": "Google tanya, akaun mana yang awak nak guna. {klik}Klik akaun Google awak. Dalam contoh ini, Pelajar Demo."
+ },
+ "m3-masuk-google": {
+  "text": "Ini laman log masuk Claude. Kita guna akaun Google, paling senang. {klik}Klik Continue with Google."
+ },
+ "m3-pasang-akaun": {
+  "text": "Pelayar terbuka, dan tanya akaun mana. {klik}Klik akaun Google awak. Lepas itu, pelayar bawa awak kembali ke app Claude."
+ },
+ "m3-pasang-buka": {
+  "text": "Sekarang buka Claude buat kali pertama. {klik}Tekan Command dan Space serentak. {klik}Taip Claude. {klik}Tekan Enter."
+ },
+ "m3-pasang-dmg": {
+  "text": "Buka folder Downloads. {klik}Klik dua kali pada fail Claude dot dmg."
+ },
+ "m3-pasang-izin": {
+  "text": "Kali pertama dibuka, komputer Mac awak akan tanya sama ada awak pasti. Ini biasa untuk app yang dimuat turun dari internet. {klik}Klik Open."
+ },
+ "m3-pasang-masuk": {
+  "text": "Log masuk dengan akaun yang sama macam masa bayar. {klik}Klik Continue with Google."
+ },
+ "m3-pasang-mula": {
+  "text": "App Claude dah terbuka. {klik}Klik Get started."
+ },
+ "m3-pasang-seret": {
+  "text": "Tetingkap Install Claude terbuka. {klik}Tekan dan tahan ikon Claude, seret ke folder Applications, kemudian lepaskan."
+ },
+ "m3-pasang-setup": {
+  "text": "Buka folder Downloads. {klik}Klik dua kali pada Claude Setup. Claude akan dipasang, dan terbuka sendiri."
+ },
+ "m3-pro-aktif": {
+  "text": "Tahniah, pelan Pro awak dah aktif. Di bawah nama awak, tertulis Pro plan. Sekarang kita download app Claude. Klik bar alamat di atas, taip claude dot com slash download, dan tekan Enter."
+ },
+ "m4-cari": {
+  "text": "Mula dengan latar grid. {klik}Buka youtube dot com. {klik}Taip grid background animated di kotak carian. {klik}Tekan Enter."
+ },
+ "m4-dl-fail-mac": {
+  "text": "Ini fail video yang baru dimuat turun. {klik}Klik kanan pada fail itu."
+ },
+ "m4-dl-fail-win": {
+  "text": "Ini fail video yang baru dimuat turun. {klik}Klik sekali pada fail itu untuk memilihnya."
+ },
+ "m4-dl-menu-mac": {
+  "text": "Menu kecil muncul. {klik}Klik Copy."
+ },
+ "m4-dl-menu-win": {
+  "text": "Fail itu dah dipilih. {klik}Klik Copy di baris butang atas."
+ },
+ "m4-footage-mac": {
+  "text": "Folder Footage masih kosong. {klik}Klik kanan pada ruang kosong."
+ },
+ "m4-footage-menu": {
+  "text": "Menu kecil muncul. {klik}Klik Paste Item."
+ },
+ "m4-footage-siap": {
+  "text": "Satu bahan dah masuk ke Footage. Ulang langkah yang sama untuk tiga bahan lagi: muzik latar, overlay, dan light leak."
+ },
+ "m4-footage-win": {
+  "text": "Folder Footage masih kosong. {klik}Klik Paste di baris butang atas."
+ },
+ "m4-ke-downloads-mac": {
+  "text": "Sekarang buka folder Downloads. {klik}Tekan Command dan Space. {klik}Taip Downloads. {klik}Tekan Enter."
+ },
+ "m4-ke-downloads-win": {
+  "text": "Sekarang buka folder Downloads. {klik}Tekan butang Windows. {klik}Taip Downloads. {klik}Tekan Enter."
+ },
+ "m4-ke-projek": {
+  "text": "Sekarang buka folder projek awak. {klik}Buka carian, macam tadi. {klik}Taip nama folder projek awak. {klik}Tekan Enter."
+ },
+ "m4-ke-savefrom": {
+  "text": "Sekarang buka laman save from. Taip alamatnya di bar alamat, kemudian tekan Enter. Satu perkara penting. Laman ini ada iklan. {klik}Kadang-kadang tab iklan baru terbuka, termasuk iklan judi. {klik}Tutup tab itu terus. {klik}Kemudian kembali ke save from. Jangan klik apa-apa dalam tab iklan."
+ },
+ "m4-pembuka": {
+  "text": "Modul empat, kumpul bahan. Claude buat video dari bahan dalam folder projek. Dalam modul ini, kita isi dua folder. {klik}Footage, dari YouTube. {klik}Kita salin ke folder Footage. Dan {klik}RAW, rakaman dari telefon awak sendiri."
+ },
+ "m4-projek": {
+  "text": "Ini folder projek awak, dengan RAW dan Footage. {klik}Klik dua kali folder Footage."
+ },
+ "m4-raw-mac": {
+  "text": "Akhir sekali, rakaman dari telefon awak. Dari iPhone, cara paling senang ialah AirDrop. {klik}Di iPhone, buka Photos dan pilih video. {klik}Tekan Share, kemudian AirDrop. {klik}Pilih nama Mac awak. {klik}Video masuk ke Downloads. Salin ke folder RAW, sama macam tadi."
+ },
+ "m4-raw-win": {
+  "text": "Akhir sekali, rakaman dari telefon awak. Dari telefon Android, guna kabel. {klik}Sambung telefon ke komputer dengan kabel USB. {klik}Di telefon, pilih pindah fail. {klik}Di File Explorer, buka nama telefon, DCIM, kemudian Camera. {klik}Salin video ke folder RAW, sama macam tadi."
+ },
+ "m4-rumusan": {
+  "text": "Tahniah. Folder projek awak dah ada bahan. {klik}Cari di YouTube, dan salin pautan. {klik}Muat turun di save from, guna with low quality dan MP4 tiga ratus enam puluh. {klik}Salin fail ke Footage, dan rakaman telefon ke RAW."
+ },
+ "m4-senarai": {
+  "text": "Ada empat bahan Footage: latar grid, muzik latar, overlay dan light leak. Setiap satu dicari di YouTube dengan perkataan dalam jadual ini. Muka seterusnya tunjuk caranya dengan latar grid. Tiga yang lain, sama sahaja."
+ },
+ "m4-sf-ditampal": {
+  "text": "Pautan dah ada dalam kotak. {klik}Klik butang hijau, Download."
+ },
+ "m4-sf-muat": {
+  "text": "Butang hijau Download di sini hanya membuka iklan. {klik}Klik kotak MP4 tujuh ratus dua puluh di sebelahnya, untuk buka senarai."
+ },
+ "m4-sf-sedia": {
+  "text": "Video dah sedia. Jangan klik butang biru yang besar, itu untuk jual app. {klik}Klik pautan kecil di bawahnya, with low quality."
+ },
+ "m4-sf-senarai": {
+  "text": "Senarai kualiti terbuka. {klik}Klik MP4 tiga ratus enam puluh. Fail mula dimuat turun ke folder Downloads. Kalau tab iklan terbuka, tutup sahaja."
+ },
+ "m4-sf-utama": {
+  "text": "Ini laman save from. {klik}Klik kotak putih yang panjang, Paste your video link here."
+ },
+ "m4-tampal": {
+  "text": "Tampal pautan yang awak salin tadi. {klik}Di Mac, tekan Command dan V. {klik}Di Windows, tekan Control dan V."
+ },
+ "m4-yt-hasil": {
+  "text": "Di bawah tulisan Shorts, ada video yang menegak, sama saiz dengan iklan. {klik}Klik satu video grid yang awak suka."
+ },
+ "m4-yt-kongsi": {
+  "text": "Kotak Share terbuka. {klik}Klik Copy. Pautan video kini disalin."
+ },
+ "m4-yt-short": {
+  "text": "Video itu terbuka. {klik}Klik butang Share di sebelah kanan video."
+ },
+ "m5-buka": {
+  "text": "Sekarang buka app Claude. {klik}Buka carian. {klik}Taip Claude. {klik}Tekan Enter."
+ },
+ "m5-code": {
+  "text": "App Claude terbuka dalam mod Chat. {klik}Klik ikon kod di sebelah atas, untuk tukar ke mod Code."
+ },
+ "m5-eleven": {
+  "text": "Suara VO dijana oleh ElevenLabs. Claude perlukan satu API key, iaitu kata laluan khas untuk akaun suara awak. {klik}Buka elevenlabs dot io, dan log masuk dengan Google. {klik}Buka API Keys. {klik}Klik Create API Key, dan beri nama. {klik}Klik Copy. Ingat, key ini rahsia. Jangan kongsi dengan sesiapa."
+ },
+ "m5-folder": {
+  "text": "Ini mod Code. Claude perlu tahu folder mana yang dia kerjakan. {klik}Klik Select folder di bawah kotak tulisan."
+ },
+ "m5-folder-menu": {
+  "text": "Menu kecil muncul. Kali pertama, belum ada folder terkini. {klik}Klik Choose a folder."
+ },
+ "m5-folder-pilih-mac": {
+  "text": "Kotak pilih folder terbuka. Dalam Documents, pilih folder projek awak. {klik}Kemudian klik Open."
+ },
+ "m5-folder-pilih-win": {
+  "text": "Kotak pilih folder terbuka. Dalam Documents, pilih folder projek awak. {klik}Kemudian klik Select Folder."
+ },
+ "m5-hantar": {
+  "text": "Prompt dah ada dalam kotak. {klik}Klik anak panah oren untuk hantar."
+ },
+ "m5-hasil": {
+  "text": "Ini hasil sebenar dari satu prompt. Iklan POV tanpa suara, dengan kotak tulisan dan lagu. Iklan VO bersuara, dengan caption yang muncul ikut perkataan. Facebook akan menguji kedua-duanya."
+ },
+ "m5-izin": {
+  "text": "Claude minta izin sebelum menyemak folder. Ini biasa. {klik}Klik Allow once."
+ },
+ "m5-kerja": {
+  "text": "Sekarang Claude bekerja. Ia baca bahan, tulis skrip, jana suara, dan render video. Ini boleh ambil masa dua puluh hingga empat puluh minit. Biarkan app terbuka. Kalau Claude minta izin lagi, baca dulu, kemudian klik Allow once."
+ },
+ "m5-kotak": {
+  "text": "Nama folder projek kini ada di bawah kotak. {klik}Klik kotak tulisan, Describe a task or ask a question."
+ },
+ "m5-pembuka": {
+  "text": "Modul lima, arah Claude. Folder projek dah ada bahan. Sekarang kita suruh Claude buat iklan POV dan VO sekaligus, dengan prompt biasa. {klik}Ambil key ElevenLabs untuk suara. {klik}Buka Code, dan pilih folder projek. {klik}Tampal satu prompt penuh. {klik}Benarkan Claude bekerja. {klik}Tonton lima sample, dan minta ubah. {klik}Bila dah ngam, minta dua puluh video. {klik}Akhir sekali, jadikan semua itu skill awak sendiri."
+ },
+ "m5-prompt": {
+  "text": "Ini prompt penuh untuk POV dan VO sekaligus, dari kosong: format, gaya, saiz, larangan, dan cara render. Klik Salin, tukar setiap tempat kosong, kemudian tampal dalam kotak. Tengok tab Contoh diisi, untuk prompt sebenar iklan umrah."
+ },
+ "m5-rumusan": {
+  "text": "Tahniah. Awak dah arah Claude buat iklan, dari kosong. {klik}Buka Code, dan pilih folder projek dulu. {klik}Hantar satu prompt penuh, untuk POV dan VO, lima sample. {klik}Ubah satu-satu, minta dua puluh video, dan bila dah ngam, jadikan skill sendiri."
+ },
+ "m5-sample": {
+  "text": "Bila siap, Claude beritahu sample ada dalam folder out. Tonton setiap video sampai habis. Semak hook, fakta, caption, dan arahan di hujung video."
+ },
+ "m5-sepuluh": {
+  "text": "Bila sample dah ngam, minta Claude buat kumpulan penuh ikut gaya yang sama. Ini cara saya dapat dua puluh iklan umrah dalam satu kumpulan."
+ },
+ "m5-siap": {
+  "text": "Inilah hasil sebenar. Sepuluh POV dan sepuluh VO untuk umrah, dalam satu folder. Dalam modul enam, kita semak, namakan, dan lancarkan iklan ini."
+ },
+ "m5-ubah": {
+  "text": "Kalau ada yang tak kena, taip dalam kotak yang sama. Sebut nombor video, saat, dan apa yang salah. Claude akan ubah bahagian itu sahaja."
+ },
+ "n1": {
+  "text": "Assalamualaikum. Dalam bab ini, kita sediakan komputer awak. Ada empat langkah sahaja: {klik}langgan Claude Pro, {klik}download Claude, {klik}pasang dan log masuk, dan {klik}buat folder projek. Ambil masa lebih kurang dua puluh minit. Jangan risau, saya tunjuk satu per satu."
+ },
+ "n2": {
+  "text": "Kenapa kena ambil pelan Pro? Sebab pelan percuma tiada Claude Code. Claude Code inilah yang buat video untuk awak, terus dalam komputer awak sendiri. Pro cuma dua puluh dolar Amerika sebulan. Bagi saya, ini pelaburan paling murah untuk ada pembantu edit video setiap hari."
+ },
+ "n3": {
+  "text": "Langkah pertama. Buka laman claude dot com slash pricing. Pastikan tab Individual dipilih. Kemudian, cari kad di tengah yang bertulis Pro. {klik}Klik butang hitam, Try Claude, di bawah kad Pro."
+ },
+ "n6mac": {
+  "text": "Langkah ketiga. Buka claude dot com slash download. Kalau awak guna Mac, {klik}klik butang hitam, Download for macOS. Fail akan masuk ke folder Downloads."
+ },
+ "n6win": {
+  "text": "Langkah ketiga. Buka claude dot com slash download. Kalau awak guna Windows, turun ke kotak Desktop. Pada baris Windows, {klik}klik Download. Fail akan masuk ke folder Downloads."
+ },
+ "n7": {
+  "text": "Tahniah! Komputer awak dah sedia. Ingat empat perkara: {klik}ambil pelan Pro, {klik}download ikut jenis komputer, {klik}pasang dan log masuk dengan akaun Google yang sama, dan {klik}buat folder projek bertarikh, dengan RAW dan Footage di dalamnya."
+ },
+ "m6-pembuka": {
+  "text": "Modul enam. Video awak dah siap dalam folder out. Sekarang kita kemaskan. {klik}Semak setiap video. {klik}Pilih enam yang terbaik. {klik}Minta Claude namakan fail. {klik}Dan minta Claude tulis caption."
+ },
+ "m6-semak": {
+  "text": "Tonton setiap video dengan bunyi, sampai habis. Semak enam perkara. {klik}Hook, saat pertama buat orang berhenti. {klik}Fakta, harga mesti ikut poster. {klik}Sebutan nama syarikat dan tempat. {klik}Caption tak tutup muka. {klik}Hujung ada, klik butang di bawah. {klik}Dan saiz menegak, sembilan nisbah enam belas. Ada yang tak kena, minta Claude ubah, macam Modul lima."
+ },
+ "m6-pilih": {
+  "text": "Dari dua puluh video, pilih yang paling kuat. {klik}Dua puluh video dalam folder out. {klik}Pilih enam: tiga POV, tiga VO, setiap satu hook berlainan. {klik}Minta Claude namakan. {klik}Minta Claude tulis caption. {klik}Dan enam video terbaik siap untuk dipost. Yang lain disimpan untuk set kedua."
+ },
+ "m6-nama": {
+  "text": "Dalam app Claude, kotak yang sama dari Modul lima, tampal arahan ini. Claude salin enam video ke folder baru, dan namakan ikut hook. Nama fail ini nanti jadi nama iklan, jadi awak tahu hook mana yang menang. Video asal tak berubah."
+ },
+ "m6-cw": {
+  "text": "Caption ialah tulisan di atas video dalam Facebook. Salin prompt ini, isi tempat kosong, dan minta Claude tulis satu caption untuk setiap video. Beri ulasan pelanggan yang sebenar. Jangan biar Claude reka testimoni."
+ },
+ "m6-cw-hasil": {
+  "text": "Ini caption sebenar untuk satu video POV. Mula dengan satu ayat masalah. Kemudian ciri dengan tick hijau. Lepas tu tawaran, dan bukti angka jualan. Hujungnya, klik butang di bawah. Headline dan description pun Claude beri sekali."
+ },
+ "m6-rumusan": {
+  "text": "Tiga perkara paling penting dalam modul ini. {klik}Semak dan pilih enam video. {klik}Minta Claude namakan fail. {klik}Dan minta Claude tulis caption, dari fakta dan ulasan sebenar."
+ },
+ "m6-tamat": {
+  "text": "Tahniah. Awak dah habiskan kursus ini. {klik}Awak tengok hasil dulu. {klik}Kenal bahan sebuah video. {klik}Belajar cakap dengan Claude. {klik}Sediakan komputer. {klik}Kumpul bahan. {klik}Arah Claude buat iklan. {klik}Dan video awak siap untuk dipost. Untuk produk lain, ulang je, atau guna skill awak sendiri."
+ },
+ "m5-skill": {
+  "text": "Bonus: skill iklan-video saya. Pasang sekali sahaja, dan ia duduk bersama skill awak sendiri. Klik Salin, dan jangan ubah apa-apa. Tampal dalam kotak. Empat skrin seterusnya tunjuk setiap klik."
+ },
+ "m5-skill-hantar": {
+  "text": "Prompt skill dah ada dalam kotak. {klik}Klik anak panah oren untuk hantar."
+ },
+ "m5-skill-izin": {
+  "text": "Claude minta izin menulis fail skill, SKILL.md. Ini biasa. {klik}Klik Allow once."
+ },
+ "m5-skill-siap": {
+  "text": "Siap. Claude beritahu skill iklan-video dah dipasang, untuk semua projek. Untuk iklan, kita buka sesi baru. {klik}Klik New, di atas kiri."
+ },
+ "m5-sesi-baru": {
+  "text": "Ini sesi baru. Folder projek masih sama, dan pasang skill ada dalam Recents. {klik}Klik kotak tulisan."
+ },
+ "m4-muzik": {
+  "text": "Muzik latar masuk folder Footage sebagai fail MP3. Ada dua cara, dan kedua-duanya percuma. Cara satu, Pixabay atau Mixkit. Butang MP3 terus, dan boleh dipakai dalam iklan berbayar. Cara dua, YouTube ke MP3. Lagunya paling banyak, tetapi lagu berhak cipta boleh dibisukan atau ditolak oleh Meta. Untuk iklan berbayar, pilih cara satu."
+ },
+ "m4-muzik-pixabay": {
+  "text": "Cara satu. Buka pixabay dot com, slash music. Taip instrumental, dan tekan Enter. Klik lagu untuk dengar, pilih yang tenang tanpa orang menyanyi. Klik ikon muat turun di hujung kanan. Kemudian salin MP3 itu ke folder Footage, sama macam latar grid. Mixkit pun sama sahaja."
+ },
+ "m4-muzik-ytmp3": {
+  "text": "Cara dua. Di YouTube, cari NCS atau instrumental no copyright. Klik Share, kemudian Copy. Buka ytmp3 dot g l. Tampal pautan dalam kotak, dan klik Convert. Kemudian klik Download, dan salin MP3 ke Footage. Awas, lagu artis dan lagu cover ada hak cipta. Dalam iklan berbayar, Meta boleh bisukan bunyi. Tab iklan yang terbuka sendiri, terus tutup."
+ },
+ "m0-digital": {
+  "text": "Kajian kes pertama, jualan saya sendiri. Ini rakaman telefon biasa, dalam kereta. Claude yang edit: hook besar, caption ikut suara, dan latar grid. Video ini saya jadikan iklan produk digital. Lima puluh tiga ribu tontonan, lebih dua ribu klik, dan empat puluh pembelian. Iklan ini masih berjalan selepas tujuh belas hari."
+ },
+ "m0-hook-kos": {
+  "text": "Tiga video ini diedit dengan cara yang sama. Yang berbeza cuma hook di saat pertama. {klik}Bina kerjaya saat tiada apa-apa: empat puluh pembelian, dengan kos paling rendah. {klik}Ramai fikir kena pandai coding: sepuluh pembelian, kosnya lebih dua kali ganda. {klik}Game edu siap dengan tiga step: cuma empat pembelian. Hook yang betul memotong kos lebih separuh."
+ },
+ "m5-pro-muat": {
+  "text": "Bonus pakej Pro: skill ubai-videoads saya. Klik butang kuning untuk muat turun fail zip. Fail itu masuk ke Downloads, jangan buka. Kemudian klik Salin pada prompt, dan tampal dalam kotak. Empat skrin seterusnya tunjuk setiap klik."
+ },
+ "m5-pro-hantar": {
+  "text": "Prompt pasang dah ada dalam kotak. {klik}Klik anak panah oren untuk hantar."
+ },
+ "m5-pro-izin": {
+  "text": "Claude minta izin membuka zip ke folder skills. Ini biasa. {klik}Klik Allow once."
+ },
+ "m5-pro-siap": {
+  "text": "Siap. Skill ubai-videoads dah dipasang, untuk semua projek. Untuk iklan, kita buka sesi baru. {klik}Klik New, di atas kiri."
+ },
+ "m5-pro-sesi-baru": {
+  "text": "Ini sesi baru. Folder projek masih sama, dan pasang skill ada dalam Recents. {klik}Klik kotak tulisan."
+ },
+ "m7-pembuka": {
+  "text": "Modul tujuh, bonus. Skill awak sendiri dah ada dari Modul lima. Bonus ini skill saya: pilihan, bukan wajib. {klik}Pasang sekali. {klik}Guna dalam projek yang dah ada. Dan {klik}gabungkan peraturannya ke dalam skill awak."
+ },
+ "m7-otak": {
+  "text": "Ini tujuh langkah skill Pro. {klik}Profil produk, dari bahan awak sendiri. {klik}Peta niche: siapa beli, kenapa sekarang, dan apa bantahan mereka. {klik}Riset iklan pesaing yang paling lama aktif. {klik}Pendekatan yang sesuai. {klik}Sepuluh hook, setiap satu ada fakta. {klik}Render, dengan lint dahulu. {klik}Semak, dan simpan pelajaran."
+ },
+ "m7-jenis": {
+  "text": "Enam jenis jualan ini cuma titik mula. {klik}Produk fizikal. {klik}Servis setempat. {klik}Digital dan kelas. {klik}Pakej dan acara. {klik}Nilai tinggi atau ansuran. {klik}Dan B2B. Niche awak lain? Claude campurkan, atau reka cara sendiri, dan terangkan kenapa."
+ },
+ "m7-prompt": {
+  "text": "Ini prompt pertama dengan skill Pro. Buka sesi baru dalam folder projek, kemudian tampal. Claude akan tunjuk profil produk dan peta niche dulu. Semak, betulkan apa yang salah, kemudian luluskan. Baru Claude tulis sepuluh hook."
+ },
+ "m7-cw": {
+  "text": "Skill Pro juga tulis caption iklan, ikut format saya: satu ayat masalah, ciri dengan tanda betul, dan ajakan di hujung. Semua fakta dari bahan awak sendiri, tiada nombor telefon."
+ },
+ "m7-rumusan": {
+  "text": "Semak faham. Jawab tiga soalan ini, sebelum iklan Pro pertama awak."
+ },
+ "m7-hasil": {
+  "text": "Skill Pro diuji dengan enam niche, pada Claude yang kosong. Kelas AI, kedai kek, bengkel kereta, aircond ansuran, pakej Langkawi, dan sistem POS. Untuk setiap satu, Claude pilih jenis jualan sendiri, tulis hook dari fakta bahan, dan semuanya lulus lint."
+ },
+ "m2-skill-isi": {
+  "text": "Ini contoh skill iklan-video saya, hasil cara kerja yang dah ngam. Ada enam bahagian. {klik}Nama. {klik}Bila guna: bila Claude patut buka skill ini. {klik}Peraturan: apa yang wajib dan dilarang. {klik}Cara buat. {klik}Semak sebelum serah. {klik}Dan pelajaran, dari teguran. Baca sebagai contoh. Skill ini bonus dalam Modul tujuh."
+ },
+ "m2-skill-isi-pro": {
+  "text": "Ini contoh skill ubai-videoads saya: satu folder. Ada enam bahagian. {klik}Nama. {klik}Bila guna: iklan untuk apa-apa produk. {klik}Peraturan: fakta, polisi Meta dan kategori. {klik}Cara: profil, peta niche, hook, dan render. {klik}Semak: lint dan frame. {klik}Dan pelajaran, disimpan dalam profil. Dalam Modul lima, awak buat skill sendiri dulu. Skill saya bonus dalam Modul tujuh."
+ },
+ "m2-skill-tulis": {
+  "text": "Bila cara kerja awak sendiri dah ngam, jadikan skill. Templat ini ada enam baris: nama, bila guna, peraturan, cara buat, semak, dan simpan. Tengok tab contoh diisi: skill caption iklan. Dalam Modul lima, awak buat ini dengan iklan awak sendiri."
+ },
+ "m2-skill-ngam": {
+  "text": "Begini cara skill iklan-video dibina. {klik}Prompt, {klik}lima sample, {klik}minta ubah, berulang kali. {klik}Bila hasil dah ngam, {klik}barulah semua peraturan itu disimpan jadi SKILL.md. Jangan tulis skill terlalu awal, nanti ia simpan cara yang salah."
+ },
+ "m2-skill-ngam-pro": {
+  "text": "Begini cara skill ubai-videoads dibina. {klik}Prompt, {klik}lima sample, {klik}minta ubah, berulang kali. {klik}Bila hasil dah ngam, {klik}barulah semua peraturan itu disimpan jadi SKILL.md. Jangan tulis skill terlalu awal, nanti ia simpan cara yang salah."
+ },
+ "m5-jadikan-kotak": {
+  "text": "Iklan dah ngam. Dalam sesi yang sama, Claude masih ingat semua teguran awak. {klik}Klik kotak tulisan."
+ },
+ "m5-jadikan": {
+  "text": "Sekarang jadikan semua ini skill awak sendiri. Klik Salin, dan tukar nama skill dengan nama pendek, contohnya iklan kedai saya. Tampal dalam kotak, kemudian ikut tiga skrin seterusnya. Ini cara saya sendiri: ngam dulu, kemudian simpan."
+ },
+ "m5-jadikan-hantar": {
+  "text": "Prompt dah ada dalam kotak. {klik}Klik anak panah oren untuk hantar."
+ },
+ "m5-jadikan-izin": {
+  "text": "Claude minta izin menulis fail skill awak. Ini biasa. {klik}Klik Allow once."
+ },
+ "m5-jadikan-siap": {
+  "text": "Siap. Skill awak dah disimpan, dengan ayat untuk guna. Untuk projek seterusnya, {klik}klik New, di atas kiri."
+ },
+ "m5-projek-baru": {
+  "text": "Projek baru, folder baru, sesi baru. Mula dengan skill awak sendiri, kemudian sebut apa yang baru sahaja: produk dan fakta. Ada teguran baru yang menjadi? Simpan ke dalam skill, dengan prompt dari bank Modul dua."
+ },
+ "m7-buka": {
+  "text": "Buka app Claude, tab Code, dan klik New. {klik}Kemudian klik kotak tulisan."
+ },
+ "m7-guna-projek": {
+  "text": "Ada projek yang dah siap? Buka sesi baru dalam folder projek itu. Prompt ini suruh Claude semak video lama ikut skill iklan-video, senaraikan yang lari, dan buat semula yang paling lemah dalam folder baru. Video lama tidak disentuh."
+ },
+ "m7-guna-gabung": {
+  "text": "Mahu satu skill sahaja? Prompt ini suruh Claude baca skill iklan-video dan skill awak, kemudian tambah peraturan saya yang belum ada ke dalam skill awak. Claude tunjuk dulu apa yang ditambah, dan tunggu awak setuju. Peraturan awak tidak dibuang."
+ },
+ "m7-guna-projek-pro": {
+  "text": "Ada projek yang dah siap? Buka sesi baru dalam folder projek itu. Prompt ini suruh Claude semak video lama ikut skill ubai-videoads, senaraikan yang lari, dan buat semula yang paling lemah dalam folder baru. Video lama tidak disentuh."
+ },
+ "m7-guna-gabung-pro": {
+  "text": "Mahu satu skill sahaja? Prompt ini suruh Claude baca skill ubai-videoads dan skill awak, kemudian tambah peraturan saya yang belum ada ke dalam skill awak. Claude tunjuk dulu apa yang ditambah, dan tunggu awak setuju. Peraturan awak tidak dibuang."
+ }
+}

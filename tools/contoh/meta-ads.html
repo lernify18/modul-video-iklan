@@ -1,0 +1,149 @@
+<!doctype html>
+<!-- Meta Ads Manager, rebuilt for the book (no action is ever taken in a real ad account). Labels follow the English
+     Ads Manager of Oct 2026; the account is an example one.
+     ?state= home | objektif | objektif-on | kempen | adset | ad | ad-menu | ad-media | ad-teks | review. ?obj= the objective chosen.
+     The click target is marked data-target. -->
+<html lang="en"><head><meta charset="utf-8">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+<style>
+  * { box-sizing: border-box; }
+  html, body { margin: 0; width: 1440px; height: 900px; overflow: hidden; }
+  body { font-family: Inter, -apple-system, "Segoe UI", system-ui, sans-serif; background: #f0f2f5; color: #1c2b33; font-size: 14px; }
+  .rail { position: absolute; left: 0; top: 0; bottom: 0; width: 60px; background: #fff; border-right: 1px solid #dadde1; display: grid; align-content: start; justify-items: center; gap: 18px; padding-top: 14px; }
+  .rail i { width: 26px; height: 26px; border-radius: 7px; background: #e4e6eb; display: block; }
+  .rail i.meta { background: linear-gradient(135deg, #0668e1, #0081fb); border-radius: 50%; }
+  .rail i.on { background: #dbe7f8; outline: 2px solid #0a78be; }
+  header { position: absolute; left: 60px; right: 0; top: 0; height: 56px; background: #fff; border-bottom: 1px solid #dadde1; display: flex; align-items: center; gap: 14px; padding: 0 22px; }
+  header b { font-size: 17px; }
+  .acct { margin-left: 8px; display: flex; align-items: center; gap: 8px; border: 1px solid #ccd0d5; border-radius: 6px; padding: 6px 10px; font-size: 13.5px; }
+  .acct .av { width: 22px; height: 22px; border-radius: 50%; background: #6e4cf0; color: #fff; display: grid; place-items: center; font-size: 11px; font-weight: 600; }
+  main { position: absolute; left: 60px; right: 0; top: 56px; bottom: 0; padding: 18px 22px; }
+  .bar { display: flex; align-items: center; gap: 10px; margin-bottom: 14px; }
+  .tabs { display: flex; background: #fff; border: 1px solid #dadde1; border-radius: 8px 8px 0 0; }
+  .tabs span { padding: 12px 22px; font-weight: 600; color: #606770; border-right: 1px solid #dadde1; }
+  .tabs span.on { color: #0a78be; box-shadow: inset 0 -3px #0a78be; }
+  .tool { background: #fff; border: 1px solid #dadde1; border-top: 0; padding: 12px 14px; display: flex; gap: 8px; align-items: center; }
+  .b { display: inline-flex; align-items: center; gap: 8px; height: 36px; padding: 0 14px; border-radius: 6px; font-weight: 600; font-size: 14px; border: 1px solid #ccd0d5; background: #fff; color: #1c2b33; }
+  .b.green { background: #1a8754; border-color: #1a8754; color: #fff; }
+  .b.blue { background: #0a78be; border-color: #0a78be; color: #fff; }
+  .b.off { opacity: .45; }
+  .grid { background: #fff; border: 1px solid #dadde1; border-top: 0; }
+  .row { display: grid; grid-template-columns: 50px 2.4fr 1fr 1fr 1fr 1fr; padding: 12px 14px; border-top: 1px solid #ebedf0; color: #606770; }
+  .row.h { font-weight: 600; color: #1c2b33; background: #f5f6f7; }
+  .empty { padding: 70px 0; text-align: center; color: #606770; display: grid; gap: 8px; }
+  .empty b { color: #1c2b33; font-size: 18px; }
+  .shade { position: absolute; inset: 0; background: rgba(0,0,0,.42); display: grid; place-items: center; }
+  .dlg { width: 860px; background: #fff; border-radius: 10px; box-shadow: 0 12px 40px rgba(0,0,0,.25); }
+  .dlg h2 { margin: 0; padding: 20px 24px; font-size: 20px; border-bottom: 1px solid #dadde1; }
+  .dlg .in { display: grid; grid-template-columns: 330px 1fr; gap: 24px; padding: 20px 24px; }
+  .opt { display: flex; align-items: center; gap: 12px; padding: 11px 12px; border-radius: 8px; font-size: 15px; font-weight: 500; }
+  .opt .r { width: 18px; height: 18px; border-radius: 50%; border: 2px solid #8d949e; }
+  .opt.on { background: #e7f3ff; } .opt.on .r { border: 6px solid #0a78be; }
+  .opt .ic { width: 30px; height: 30px; border-radius: 8px; background: #e4e6eb; }
+  .desc { background: #f5f6f7; border-radius: 10px; padding: 22px; color: #444950; line-height: 1.55; }
+  .desc b { display: block; font-size: 17px; color: #1c2b33; margin-bottom: 10px; }
+  .foot { display: flex; justify-content: flex-end; gap: 10px; padding: 16px 24px; border-top: 1px solid #dadde1; }
+  .ed { position: absolute; inset: 0; display: grid; grid-template-columns: 300px 1fr 400px; }
+  .tree { background: #fff; border-right: 1px solid #dadde1; padding: 16px 12px; display: grid; align-content: start; gap: 6px; }
+  .tree span { padding: 9px 10px; border-radius: 6px; font-weight: 500; display: flex; gap: 8px; align-items: center; }
+  .tree span.on { background: #e7f3ff; color: #0a78be; }
+  .tree span.l2 { margin-left: 18px; } .tree span.l3 { margin-left: 36px; }
+  .tree span::before { content: ""; width: 14px; height: 14px; border-radius: 4px; background: #ccd0d5; }
+  .form { padding: 18px 22px 80px; display: grid; align-content: start; gap: 14px; overflow: hidden; }
+  .card { background: #fff; border: 1px solid #dadde1; border-radius: 8px; padding: 16px 18px; display: grid; gap: 10px; }
+  .card h3 { margin: 0; font-size: 16px; }
+  .lbl { font-weight: 600; font-size: 13.5px; }
+  .fld { border: 1px solid #ccd0d5; border-radius: 6px; padding: 9px 12px; color: #1c2b33; background: #fff; min-height: 38px; line-height: 1.45; }
+  .fld.ph { color: #8d949e; }
+  .fld.multi { white-space: pre-line; font-size: 13px; max-height: 128px; overflow: hidden; }
+  .two { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+  .media { display: flex; gap: 12px; align-items: center; }
+  .thumb { width: 64px; height: 112px; border-radius: 6px; background: #ccd0d5 center/cover; }
+  .prev { background: #fff; border-left: 1px solid #dadde1; padding: 16px; display: grid; align-content: start; gap: 10px; }
+  .phone { width: 250px; height: 444px; margin: 0 auto; border-radius: 26px; background: #111 center/cover; border: 6px solid #1c1c1c; position: relative; overflow: hidden; }
+  .phone .cap { position: absolute; left: 0; right: 0; bottom: 0; padding: 10px; background: linear-gradient(transparent, rgba(0,0,0,.8)); color: #fff; font-size: 11.5px; line-height: 1.4; }
+  .phone .cta { margin-top: 8px; background: #fff; color: #1c2b33; border-radius: 6px; padding: 6px; text-align: center; font-weight: 600; }
+  .bottom { position: absolute; left: 300px; right: 400px; bottom: 0; height: 64px; background: #fff; border-top: 1px solid #dadde1; display: flex; align-items: center; justify-content: flex-end; gap: 10px; padding: 0 22px; }
+  .menu { position: absolute; background: #fff; border-radius: 8px; box-shadow: 0 6px 24px rgba(0,0,0,.2); padding: 6px; display: grid; width: 200px; }
+  .menu span { padding: 10px 12px; border-radius: 6px; font-weight: 500; }
+  .badge { display: inline-flex; align-items: center; gap: 6px; font-size: 13px; font-weight: 600; color: #8a5a00; }
+  .badge::before { content: ""; width: 9px; height: 9px; border-radius: 50%; background: #f5a623; }
+  [data-target].hi:not(.blue):not(.green) { box-shadow: 0 0 0 2px #0a78be inset; }
+</style></head>
+<body>
+  <div class="rail"><i class="meta"></i><i class="on"></i><i></i><i></i><i></i><i></i></div>
+  <header><b>Ads Manager</b><span class="acct"><span class="av">P</span>Pelajar Demo (MYR)</span></header>
+  <main id="main"></main>
+<script>
+  const q = new URLSearchParams(location.search)
+  const st = q.get('state') || 'home'
+  const obj = q.get('obj') || 'Sales'
+  const img = q.get('img') || ''
+  const main = document.getElementById('main')
+  const mark = (el) => { el.setAttribute('data-target', ''); el.classList.add('hi') }
+  const OBJ = ['Awareness', 'Traffic', 'Engagement', 'Leads', 'App promotion', 'Sales']
+  const DESC = {
+    Traffic: 'Send people to a destination, like your website, app or Instagram profile. Good for: link clicks, landing page views.',
+    Sales: 'Find people likely to purchase your product or service. Good for: conversions, catalogue sales.',
+    Engagement: 'Get more messages, video views, post engagement or Page likes. Good for: messages, video views.',
+  }
+  const table = (rows) => '<div class="tabs"><span class="on">Campaigns</span><span>Ad sets</span><span>Ads</span></div>'
+    + '<div class="tool"><span class="b green" id="create">+ Create</span><span class="b">Duplicate</span><span class="b">Edit</span><span style="margin-left:auto" class="b">Last 30 days</span></div>'
+    + '<div class="grid"><div class="row h"><span>Off/On</span><span>Campaign</span><span>Delivery</span><span>Budget</span><span>Results</span><span>Amount spent</span></div>' + rows + '</div>'
+
+  if (st === 'home' || st === 'review') {
+    const rows = st === 'review'
+      ? '<div class="row"><span>●</span><span style="color:#1c2b33;font-weight:600">Iklan Umrah · 29 Okt</span><span class="badge" id="rv">In review</span><span>RM20.00 Daily</span><span>—</span><span>RM0.00</span></div>'
+      : '<div class="empty"><b>No campaigns yet</b>Create a campaign to start advertising.</div>'
+    main.innerHTML = table(rows)
+    mark(document.getElementById(st === 'review' ? 'rv' : 'create'))
+  }
+
+  if (st === 'objektif' || st === 'objektif-on') {
+    main.innerHTML = table('<div class="empty"><b>No campaigns yet</b>Create a campaign to start advertising.</div>')
+    const on = st === 'objektif-on'
+    const opts = OBJ.map((o) => '<div class="opt' + (on && o === obj ? ' on' : '') + '" data-o="' + o + '"><span class="r"></span><span class="ic"></span>' + o + '</div>').join('')
+    const d = on ? '<b>' + obj + '</b>' + (DESC[obj] || '') : '<b>Choose a campaign objective</b>Your objective is the result you want from your ads. Select one to see what it is good for.'
+    document.body.insertAdjacentHTML('beforeend', '<div class="shade"><div class="dlg"><h2>Choose a campaign objective</h2><div class="in"><div>' + opts + '</div><div class="desc">' + d + '</div></div>'
+      + '<div class="foot"><span class="b">Cancel</span><span class="b blue' + (on ? '' : ' off') + '" id="cont">Continue</span></div></div></div>')
+    mark(on ? document.getElementById('cont') : document.querySelector('[data-o="' + obj + '"]'))
+  }
+
+  if (['kempen', 'adset', 'ad', 'ad-menu', 'ad-media', 'ad-teks'].includes(st)) {
+    const lvl = st === 'kempen' ? 1 : st === 'adset' ? 2 : 3
+    const tree = '<div class="tree"><span' + (lvl === 1 ? ' class="on"' : '') + '>New ' + obj + ' Campaign</span><span class="l2' + (lvl === 2 ? ' on' : '') + '">New ' + obj + ' Ad Set</span><span class="l3' + (lvl === 3 ? ' on' : '') + '">New ' + obj + ' Ad</span></div>'
+    let form = ''
+    if (st === 'kempen') {
+      form = '<div class="card"><h3>Campaign name</h3><div class="fld">New ' + obj + ' Campaign</div></div>'
+        + '<div class="card"><h3>Campaign details</h3><div class="two"><div><div class="lbl">Buying type</div><div class="fld">Auction</div></div><div><div class="lbl">Campaign objective</div><div class="fld">' + obj + '</div></div></div></div>'
+        + '<div class="card"><h3>Special ad categories</h3><div class="fld">None</div></div>'
+    } else if (st === 'adset') {
+      form = '<div class="card"><h3>Conversion</h3><div class="two"><div><div class="lbl">Conversion location</div><div class="fld">Website</div></div><div><div class="lbl">Conversion event</div><div class="fld">Purchase</div></div></div><div class="lbl">Pixel</div><div class="fld">Pelajar Demo Pixel</div></div>'
+        + '<div class="card"><h3>Budget &amp; schedule</h3><div class="two"><div><div class="lbl">Budget</div><div class="fld">Daily budget</div></div><div><div class="lbl">&nbsp;</div><div class="fld">RM20.00</div></div></div></div>'
+        + '<div class="card"><h3>Audience</h3><div class="two"><div><div class="lbl">Location</div><div class="fld">Malaysia</div></div><div><div class="lbl">Age</div><div class="fld">35 – 65+</div></div></div></div>'
+    } else {
+      const has = st === 'ad-media' || st === 'ad-teks'
+      const teks = st === 'ad-teks'
+      form = '<div class="card"><h3>Ad name</h3><div class="fld">' + (has ? (q.get('file') || 'POV-01').replace(/\.mp4$/, '') : 'New ' + obj + ' Ad') + '</div></div>'
+        + '<div class="card"><h3>Ad creative</h3><div class="media">' + (has ? '<span class="thumb" style="background-image:url(' + img + ')"></span><span><b>' + (q.get('file') || 'POV-01.mp4') + '</b><br><span style="color:#606770">0:19 · 9:16</span></span>' : '<span style="color:#606770">Add the video for this ad.</span>') + '<span class="b" id="media" style="margin-left:auto">Add media ▾</span></div>'
+        + '<div class="lbl">Primary text</div><div class="fld multi' + (teks ? '' : ' ph') + '" id="primary">' + (teks ? (q.get('text') || '') : 'Tell people what your ad is about') + '</div>'
+        + '<div class="two"><div><div class="lbl">Headline</div><div class="fld' + (teks ? '' : ' ph') + '">' + (teks ? (q.get('head') || '') : 'Write a short headline') + '</div></div><div><div class="lbl">Call to action</div><div class="fld">' + (teks ? 'Book now' : 'Learn more') + '</div></div></div>'
+        + '<div class="lbl">Website URL</div><div class="fld' + (teks ? '' : ' ph') + '">' + (teks ? (q.get('url') || '') : 'http://www.example.com/page') + '</div></div>'
+    }
+    const cap = st === 'ad-teks' ? (q.get('text') || '').split('\n')[0].slice(0, 110) : ''
+    const shown = st === 'ad-media' || st === 'ad-teks'
+    const prev = '<div class="prev"><div class="lbl">Ad preview · Reels</div><div class="phone" style="background-image:url(' + (shown ? img : '') + ')">' + (cap ? '<div class="cap">' + cap + '…<div class="cta">Book now</div></div>' : '') + '</div></div>'
+    const go = lvl === 3 ? '<span class="b green' + (st === 'ad-teks' ? '' : ' off') + '" id="go">Publish</span>' : '<span class="b blue" id="go">Next</span>'
+    main.style.padding = '0'
+    main.innerHTML = '<div class="ed">' + tree + '<div class="form">' + form + '</div>' + prev + '</div><div class="bottom"><span class="b">' + (lvl === 1 ? 'Close' : 'Back') + '</span>' + go + '</div>'
+    const $ = (id) => document.getElementById(id)
+    if (st === 'ad') mark($('media'))
+    else if (st === 'ad-menu') {
+      const r = $('media').getBoundingClientRect()
+      document.body.insertAdjacentHTML('beforeend', '<div class="menu" style="left:' + (r.right - 200) + 'px;top:' + (r.bottom + 6) + 'px"><span>Add image</span><span id="vid">Add video</span><span>Create carousel</span></div>')
+      mark($('vid'))
+    } else if (st === 'ad-media') mark($('primary'))
+    else mark($('go'))
+  }
+  document.fonts.ready.then(() => { document.body.dataset.ready = '1' })
+</script></body></html>

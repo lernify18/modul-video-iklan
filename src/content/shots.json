@@ -1,0 +1,2284 @@
+{
+ "contoh/m3-bayar": {
+  "img": "/shots/contoh/m3-bayar.png",
+  "w": 2880,
+  "h": 1800,
+  "target": [
+   52.22,
+   57.56,
+   33.89,
+   5.33
+  ],
+  "focus": [
+   42.05,
+   47.23,
+   54.22,
+   26
+  ],
+  "kind": "web",
+  "targetFrom": "dom",
+  "dummy": true,
+  "source": "Rebuilt example screen (tools/contoh/claude-bayar.html), based on Claude Pro plan and price from claude.com/pricing (public/shots/pricing.png); payment form rebuilt",
+  "capturedAt": "2026-10-29"
+ },
+ "contoh/m3-google-akaun": {
+  "img": "/shots/contoh/m3-google-akaun.png",
+  "w": 2880,
+  "h": 1800,
+  "target": [
+   51.67,
+   37.56,
+   31.94,
+   6.33
+  ],
+  "focus": [
+   42.09,
+   27.73,
+   51.1,
+   26
+  ],
+  "kind": "web",
+  "targetFrom": "dom",
+  "dummy": true,
+  "source": "Rebuilt example screen (tools/contoh/google-pilih.html), based on Google \"Choose an account\" page (capture in Ebook AI Sept 26, m42-l02-google-pilih.png)",
+  "capturedAt": "2026-10-29"
+ },
+ "contoh/m3-login": {
+  "img": "/shots/contoh/m3-login.png",
+  "w": 2880,
+  "h": 1800,
+  "target": [
+   37.15,
+   39.56,
+   25.69,
+   5.33
+  ],
+  "focus": [
+   29.44,
+   29.23,
+   41.1,
+   26
+  ],
+  "kind": "web",
+  "targetFrom": "dom",
+  "dummy": true,
+  "source": "Rebuilt example screen (tools/contoh/claude-login.html), based on claude.ai log-in page (capture in Ebook AI Sept 26, m26-l04-log-masuk-claude.png)",
+  "capturedAt": "2026-10-29"
+ },
+ "contoh/m3-mac-buka": {
+  "img": "/shots/contoh/m3-mac-buka.png",
+  "w": 1440,
+  "h": 1000,
+  "target": [
+   50.69,
+   72.11,
+   22.22,
+   7
+  ],
+  "focus": [
+   44.02,
+   62.61,
+   35.55,
+   26
+  ],
+  "kind": "web",
+  "targetFrom": "dom",
+  "dummy": true,
+  "source": "Rebuilt example screen (tools/contoh/mac-buka.html), based on the macOS \"downloaded from the internet\" dialog, words read from the real dialog on 29 Okt 2026",
+  "capturedAt": "2026-10-29"
+ },
+ "contoh/m3-pro-aktif": {
+  "img": "/shots/contoh/m3-pro-aktif.png",
+  "w": 2880,
+  "h": 1800,
+  "target": [
+   35.07,
+   51.28,
+   47.22,
+   13.11
+  ],
+  "focus": [
+   20.9,
+   44.84,
+   75.55,
+   26
+  ],
+  "kind": "web",
+  "targetFrom": "dom",
+  "dummy": true,
+  "source": "Rebuilt example screen (tools/contoh/claude-pro.html), based on claude.ai home after subscribing, rebuilt",
+  "capturedAt": "2026-10-29"
+ },
+ "contoh/m5-allow": {
+  "img": "/shots/contoh/m5-allow.png",
+  "w": 2400,
+  "h": 1600,
+  "target": [
+   81.47,
+   31.48,
+   8.64,
+   4.13
+  ],
+  "focus": [
+   66,
+   20.55,
+   34,
+   26
+  ],
+  "kind": "web",
+  "targetFrom": "dom",
+  "dummy": true,
+  "source": "Rebuilt example screen (tools/contoh/claude-desk.html), based on a reference capture of Claude Desktop in Code mode (29 Okt 2026), labels from the app's own interface strings",
+  "capturedAt": "2026-10-30"
+ },
+ "contoh/m5-chat": {
+  "img": "/shots/contoh/m5-chat.png",
+  "w": 2400,
+  "h": 1600,
+  "target": [
+   25.17,
+   1.75,
+   2.83,
+   3.25
+  ],
+  "focus": [
+   9.59,
+   0,
+   34,
+   26
+  ],
+  "kind": "web",
+  "targetFrom": "dom",
+  "dummy": true,
+  "source": "Rebuilt example screen (tools/contoh/claude-desk.html), based on a reference capture of Claude Desktop in Code mode (29 Okt 2026), labels from the app's own interface strings",
+  "capturedAt": "2026-10-29"
+ },
+ "contoh/m5-code": {
+  "img": "/shots/contoh/m5-code.png",
+  "w": 2400,
+  "h": 1600,
+  "target": [
+   44.05,
+   95.25,
+   9.56,
+   3
+  ],
+  "focus": [
+   31.83,
+   74,
+   34,
+   26
+  ],
+  "kind": "web",
+  "targetFrom": "dom",
+  "dummy": true,
+  "source": "Rebuilt example screen (tools/contoh/claude-desk.html), based on a reference capture of Claude Desktop in Code mode (29 Okt 2026), labels from the app's own interface strings",
+  "capturedAt": "2026-10-29"
+ },
+ "contoh/m5-done": {
+  "img": "/shots/contoh/m5-done.png",
+  "w": 2400,
+  "h": 1600,
+  "target": [
+   32,
+   87,
+   65.17,
+   7
+  ],
+  "focus": [
+   0,
+   74,
+   100,
+   26
+  ],
+  "kind": "web",
+  "targetFrom": "dom",
+  "dummy": true,
+  "source": "Rebuilt example screen (tools/contoh/claude-desk.html), based on a reference capture of Claude Desktop in Code mode (29 Okt 2026), labels from the app's own interface strings",
+  "capturedAt": "2026-10-29"
+ },
+ "contoh/m5-folders": {
+  "img": "/shots/contoh/m5-folders.png",
+  "w": 2400,
+  "h": 1600,
+  "target": [
+   42.25,
+   88,
+   23.83,
+   4.88
+  ],
+  "focus": [
+   35.1,
+   74,
+   38.13,
+   26
+  ],
+  "kind": "web",
+  "targetFrom": "dom",
+  "dummy": true,
+  "source": "Rebuilt example screen (tools/contoh/claude-desk.html), based on a reference capture of Claude Desktop in Code mode (29 Okt 2026), labels from the app's own interface strings",
+  "capturedAt": "2026-10-29"
+ },
+ "contoh/m5-mac-folder": {
+  "img": "/shots/contoh/m5-mac-folder.png",
+  "w": 2000,
+  "h": 1240,
+  "target": [
+   82.88,
+   83.79,
+   6.52,
+   4.19
+  ],
+  "focus": [
+   66,
+   72.89,
+   34,
+   26
+  ],
+  "kind": "web",
+  "targetFrom": "dom",
+  "dummy": true,
+  "source": "Rebuilt example screen (tools/contoh/mac-pilih-folder.html), based on the macOS folder dialog, titled with the app's own words",
+  "capturedAt": "2026-10-29"
+ },
+ "contoh/m5-pro-allow": {
+  "img": "/shots/contoh/m5-pro-allow.png",
+  "w": 2400,
+  "h": 1600,
+  "target": [
+   81.47,
+   29.04,
+   8.64,
+   4.13
+  ],
+  "focus": [
+   66,
+   18.11,
+   34,
+   26
+  ],
+  "kind": "web",
+  "targetFrom": "dom",
+  "dummy": true,
+  "source": "Rebuilt example screen (tools/contoh/claude-desk.html), skill install, based on a reference capture of Claude Desktop in Code mode (29 Okt 2026)",
+  "capturedAt": "2026-10-30"
+ },
+ "contoh/m5-pro-baru": {
+  "img": "/shots/contoh/m5-pro-baru.png",
+  "w": 2400,
+  "h": 1600,
+  "target": [
+   32,
+   87,
+   65.17,
+   7
+  ],
+  "focus": [
+   0,
+   74,
+   100,
+   26
+  ],
+  "kind": "web",
+  "targetFrom": "dom",
+  "dummy": true,
+  "source": "Rebuilt example screen (tools/contoh/claude-desk.html), skill install, based on a reference capture of Claude Desktop in Code mode (29 Okt 2026)",
+  "capturedAt": "2026-10-30"
+ },
+ "contoh/m5-pro-done": {
+  "img": "/shots/contoh/m5-pro-done.png",
+  "w": 2400,
+  "h": 1600,
+  "target": [
+   0.83,
+   7,
+   27.42,
+   4.5
+  ],
+  "focus": [
+   0,
+   0,
+   43.87,
+   26
+  ],
+  "kind": "web",
+  "targetFrom": "dom",
+  "dummy": true,
+  "source": "Rebuilt example screen (tools/contoh/claude-desk.html), skill install, based on a reference capture of Claude Desktop in Code mode (29 Okt 2026)",
+  "capturedAt": "2026-10-30"
+ },
+ "contoh/m5-pro-prompt": {
+  "img": "/shots/contoh/m5-pro-prompt.png",
+  "w": 2400,
+  "h": 1600,
+  "target": [
+   93.42,
+   88.63,
+   2.5,
+   3.75
+  ],
+  "focus": [
+   66,
+   74,
+   34,
+   26
+  ],
+  "kind": "web",
+  "targetFrom": "dom",
+  "dummy": true,
+  "source": "Rebuilt example screen (tools/contoh/claude-desk.html), skill install, based on a reference capture of Claude Desktop in Code mode (29 Okt 2026)",
+  "capturedAt": "2026-10-30"
+ },
+ "contoh/m5-prompt": {
+  "img": "/shots/contoh/m5-prompt.png",
+  "w": 2400,
+  "h": 1600,
+  "target": [
+   93.42,
+   88.63,
+   2.5,
+   3.75
+  ],
+  "focus": [
+   66,
+   74,
+   34,
+   26
+  ],
+  "kind": "web",
+  "targetFrom": "dom",
+  "dummy": true,
+  "source": "Rebuilt example screen (tools/contoh/claude-desk.html), based on a reference capture of Claude Desktop in Code mode (29 Okt 2026), labels from the app's own interface strings",
+  "capturedAt": "2026-10-30"
+ },
+ "contoh/m5-ready": {
+  "img": "/shots/contoh/m5-ready.png",
+  "w": 2400,
+  "h": 1600,
+  "target": [
+   32,
+   87,
+   65.17,
+   7
+  ],
+  "focus": [
+   0,
+   74,
+   100,
+   26
+  ],
+  "kind": "web",
+  "targetFrom": "dom",
+  "dummy": true,
+  "source": "Rebuilt example screen (tools/contoh/claude-desk.html), based on a reference capture of Claude Desktop in Code mode (29 Okt 2026), labels from the app's own interface strings",
+  "capturedAt": "2026-10-29"
+ },
+ "contoh/m5-sendiri-allow": {
+  "img": "/shots/contoh/m5-sendiri-allow.png",
+  "w": 2400,
+  "h": 1600,
+  "target": [
+   81.47,
+   31.48,
+   8.64,
+   4.13
+  ],
+  "focus": [
+   66,
+   20.55,
+   34,
+   26
+  ],
+  "kind": "web",
+  "targetFrom": "dom",
+  "dummy": true,
+  "source": "Rebuilt example screen (tools/contoh/claude-desk.html), the reader's own skill made in the ad session",
+  "capturedAt": "2026-10-30"
+ },
+ "contoh/m5-sendiri-done": {
+  "img": "/shots/contoh/m5-sendiri-done.png",
+  "w": 2400,
+  "h": 1600,
+  "target": [
+   0.83,
+   7,
+   27.42,
+   4.5
+  ],
+  "focus": [
+   0,
+   0,
+   43.87,
+   26
+  ],
+  "kind": "web",
+  "targetFrom": "dom",
+  "dummy": true,
+  "source": "Rebuilt example screen (tools/contoh/claude-desk.html), the reader's own skill made in the ad session",
+  "capturedAt": "2026-10-30"
+ },
+ "contoh/m5-sendiri-kotak": {
+  "img": "/shots/contoh/m5-sendiri-kotak.png",
+  "w": 2400,
+  "h": 1600,
+  "target": [
+   32,
+   87,
+   65.17,
+   7
+  ],
+  "focus": [
+   0,
+   74,
+   100,
+   26
+  ],
+  "kind": "web",
+  "targetFrom": "dom",
+  "dummy": true,
+  "source": "Rebuilt example screen (tools/contoh/claude-desk.html), the reader's own skill made in the ad session",
+  "capturedAt": "2026-10-30"
+ },
+ "contoh/m5-sendiri-prompt": {
+  "img": "/shots/contoh/m5-sendiri-prompt.png",
+  "w": 2400,
+  "h": 1600,
+  "target": [
+   93.42,
+   88.63,
+   2.5,
+   3.75
+  ],
+  "focus": [
+   66,
+   74,
+   34,
+   26
+  ],
+  "kind": "web",
+  "targetFrom": "dom",
+  "dummy": true,
+  "source": "Rebuilt example screen (tools/contoh/claude-desk.html), the reader's own skill made in the ad session",
+  "capturedAt": "2026-10-30"
+ },
+ "contoh/m5-skill-allow": {
+  "img": "/shots/contoh/m5-skill-allow.png",
+  "w": 2400,
+  "h": 1600,
+  "target": [
+   81.47,
+   31.48,
+   8.64,
+   4.13
+  ],
+  "focus": [
+   66,
+   20.55,
+   34,
+   26
+  ],
+  "kind": "web",
+  "targetFrom": "dom",
+  "dummy": true,
+  "source": "Rebuilt example screen (tools/contoh/claude-desk.html), skill install, based on a reference capture of Claude Desktop in Code mode (29 Okt 2026)",
+  "capturedAt": "2026-10-30"
+ },
+ "contoh/m5-skill-baru": {
+  "img": "/shots/contoh/m5-skill-baru.png",
+  "w": 2400,
+  "h": 1600,
+  "target": [
+   32,
+   87,
+   65.17,
+   7
+  ],
+  "focus": [
+   0,
+   74,
+   100,
+   26
+  ],
+  "kind": "web",
+  "targetFrom": "dom",
+  "dummy": true,
+  "source": "Rebuilt example screen (tools/contoh/claude-desk.html), skill install, based on a reference capture of Claude Desktop in Code mode (29 Okt 2026)",
+  "capturedAt": "2026-10-30"
+ },
+ "contoh/m5-skill-done": {
+  "img": "/shots/contoh/m5-skill-done.png",
+  "w": 2400,
+  "h": 1600,
+  "target": [
+   0.83,
+   7,
+   27.42,
+   4.5
+  ],
+  "focus": [
+   0,
+   0,
+   43.87,
+   26
+  ],
+  "kind": "web",
+  "targetFrom": "dom",
+  "dummy": true,
+  "source": "Rebuilt example screen (tools/contoh/claude-desk.html), skill install, based on a reference capture of Claude Desktop in Code mode (29 Okt 2026)",
+  "capturedAt": "2026-10-30"
+ },
+ "contoh/m5-skill-prompt": {
+  "img": "/shots/contoh/m5-skill-prompt.png",
+  "w": 2400,
+  "h": 1600,
+  "target": [
+   93.42,
+   88.63,
+   2.5,
+   3.75
+  ],
+  "focus": [
+   66,
+   74,
+   34,
+   26
+  ],
+  "kind": "web",
+  "targetFrom": "dom",
+  "dummy": true,
+  "source": "Rebuilt example screen (tools/contoh/claude-desk.html), skill install, based on a reference capture of Claude Desktop in Code mode (29 Okt 2026)",
+  "capturedAt": "2026-10-30"
+ },
+ "contoh/m5-w-allow": {
+  "img": "/shots/contoh/m5-w-allow.png",
+  "w": 2400,
+  "h": 1600,
+  "target": [
+   81.47,
+   31.48,
+   8.64,
+   4.13
+  ],
+  "focus": [
+   66,
+   20.55,
+   34,
+   26
+  ],
+  "kind": "web",
+  "targetFrom": "dom",
+  "dummy": true,
+  "source": "Rebuilt example screen (tools/contoh/claude-desk.html), based on a reference capture of Claude Desktop in Code mode (29 Okt 2026), labels from the app's own interface strings",
+  "capturedAt": "2026-10-30"
+ },
+ "contoh/m5-w-chat": {
+  "img": "/shots/contoh/m5-w-chat.png",
+  "w": 2400,
+  "h": 1600,
+  "target": [
+   25.17,
+   1.75,
+   2.83,
+   3.25
+  ],
+  "focus": [
+   9.59,
+   0,
+   34,
+   26
+  ],
+  "kind": "web",
+  "targetFrom": "dom",
+  "dummy": true,
+  "source": "Rebuilt example screen (tools/contoh/claude-desk.html), based on a reference capture of Claude Desktop in Code mode (29 Okt 2026), labels from the app's own interface strings",
+  "capturedAt": "2026-10-29"
+ },
+ "contoh/m5-w-code": {
+  "img": "/shots/contoh/m5-w-code.png",
+  "w": 2400,
+  "h": 1600,
+  "target": [
+   44.05,
+   95.25,
+   9.56,
+   3
+  ],
+  "focus": [
+   31.83,
+   74,
+   34,
+   26
+  ],
+  "kind": "web",
+  "targetFrom": "dom",
+  "dummy": true,
+  "source": "Rebuilt example screen (tools/contoh/claude-desk.html), based on a reference capture of Claude Desktop in Code mode (29 Okt 2026), labels from the app's own interface strings",
+  "capturedAt": "2026-10-29"
+ },
+ "contoh/m5-w-folders": {
+  "img": "/shots/contoh/m5-w-folders.png",
+  "w": 2400,
+  "h": 1600,
+  "target": [
+   42.25,
+   88,
+   23.83,
+   4.88
+  ],
+  "focus": [
+   35.1,
+   74,
+   38.13,
+   26
+  ],
+  "kind": "web",
+  "targetFrom": "dom",
+  "dummy": true,
+  "source": "Rebuilt example screen (tools/contoh/claude-desk.html), based on a reference capture of Claude Desktop in Code mode (29 Okt 2026), labels from the app's own interface strings",
+  "capturedAt": "2026-10-29"
+ },
+ "contoh/m5-w-pro-allow": {
+  "img": "/shots/contoh/m5-w-pro-allow.png",
+  "w": 2400,
+  "h": 1600,
+  "target": [
+   81.47,
+   29.04,
+   8.64,
+   4.13
+  ],
+  "focus": [
+   66,
+   18.11,
+   34,
+   26
+  ],
+  "kind": "web",
+  "targetFrom": "dom",
+  "dummy": true,
+  "source": "Rebuilt example screen (tools/contoh/claude-desk.html), skill install, based on a reference capture of Claude Desktop in Code mode (29 Okt 2026)",
+  "capturedAt": "2026-10-30"
+ },
+ "contoh/m5-w-pro-baru": {
+  "img": "/shots/contoh/m5-w-pro-baru.png",
+  "w": 2400,
+  "h": 1600,
+  "target": [
+   32,
+   87,
+   65.17,
+   7
+  ],
+  "focus": [
+   0,
+   74,
+   100,
+   26
+  ],
+  "kind": "web",
+  "targetFrom": "dom",
+  "dummy": true,
+  "source": "Rebuilt example screen (tools/contoh/claude-desk.html), skill install, based on a reference capture of Claude Desktop in Code mode (29 Okt 2026)",
+  "capturedAt": "2026-10-30"
+ },
+ "contoh/m5-w-pro-done": {
+  "img": "/shots/contoh/m5-w-pro-done.png",
+  "w": 2400,
+  "h": 1600,
+  "target": [
+   0.83,
+   7,
+   27.42,
+   4.5
+  ],
+  "focus": [
+   0,
+   0,
+   43.87,
+   26
+  ],
+  "kind": "web",
+  "targetFrom": "dom",
+  "dummy": true,
+  "source": "Rebuilt example screen (tools/contoh/claude-desk.html), skill install, based on a reference capture of Claude Desktop in Code mode (29 Okt 2026)",
+  "capturedAt": "2026-10-30"
+ },
+ "contoh/m5-w-pro-prompt": {
+  "img": "/shots/contoh/m5-w-pro-prompt.png",
+  "w": 2400,
+  "h": 1600,
+  "target": [
+   93.42,
+   88.63,
+   2.5,
+   3.75
+  ],
+  "focus": [
+   66,
+   74,
+   34,
+   26
+  ],
+  "kind": "web",
+  "targetFrom": "dom",
+  "dummy": true,
+  "source": "Rebuilt example screen (tools/contoh/claude-desk.html), skill install, based on a reference capture of Claude Desktop in Code mode (29 Okt 2026)",
+  "capturedAt": "2026-10-30"
+ },
+ "contoh/m5-w-prompt": {
+  "img": "/shots/contoh/m5-w-prompt.png",
+  "w": 2400,
+  "h": 1600,
+  "target": [
+   93.42,
+   88.63,
+   2.5,
+   3.75
+  ],
+  "focus": [
+   66,
+   74,
+   34,
+   26
+  ],
+  "kind": "web",
+  "targetFrom": "dom",
+  "dummy": true,
+  "source": "Rebuilt example screen (tools/contoh/claude-desk.html), based on a reference capture of Claude Desktop in Code mode (29 Okt 2026), labels from the app's own interface strings",
+  "capturedAt": "2026-10-30"
+ },
+ "contoh/m5-w-ready": {
+  "img": "/shots/contoh/m5-w-ready.png",
+  "w": 2400,
+  "h": 1600,
+  "target": [
+   32,
+   87,
+   65.17,
+   7
+  ],
+  "focus": [
+   0,
+   74,
+   100,
+   26
+  ],
+  "kind": "web",
+  "targetFrom": "dom",
+  "dummy": true,
+  "source": "Rebuilt example screen (tools/contoh/claude-desk.html), based on a reference capture of Claude Desktop in Code mode (29 Okt 2026), labels from the app's own interface strings",
+  "capturedAt": "2026-10-29"
+ },
+ "contoh/m5-w-sendiri-allow": {
+  "img": "/shots/contoh/m5-w-sendiri-allow.png",
+  "w": 2400,
+  "h": 1600,
+  "target": [
+   81.47,
+   31.48,
+   8.64,
+   4.13
+  ],
+  "focus": [
+   66,
+   20.55,
+   34,
+   26
+  ],
+  "kind": "web",
+  "targetFrom": "dom",
+  "dummy": true,
+  "source": "Rebuilt example screen (tools/contoh/claude-desk.html), the reader's own skill made in the ad session",
+  "capturedAt": "2026-10-30"
+ },
+ "contoh/m5-w-sendiri-done": {
+  "img": "/shots/contoh/m5-w-sendiri-done.png",
+  "w": 2400,
+  "h": 1600,
+  "target": [
+   0.83,
+   7,
+   27.42,
+   4.5
+  ],
+  "focus": [
+   0,
+   0,
+   43.87,
+   26
+  ],
+  "kind": "web",
+  "targetFrom": "dom",
+  "dummy": true,
+  "source": "Rebuilt example screen (tools/contoh/claude-desk.html), the reader's own skill made in the ad session",
+  "capturedAt": "2026-10-30"
+ },
+ "contoh/m5-w-sendiri-kotak": {
+  "img": "/shots/contoh/m5-w-sendiri-kotak.png",
+  "w": 2400,
+  "h": 1600,
+  "target": [
+   32,
+   87,
+   65.17,
+   7
+  ],
+  "focus": [
+   0,
+   74,
+   100,
+   26
+  ],
+  "kind": "web",
+  "targetFrom": "dom",
+  "dummy": true,
+  "source": "Rebuilt example screen (tools/contoh/claude-desk.html), the reader's own skill made in the ad session",
+  "capturedAt": "2026-10-30"
+ },
+ "contoh/m5-w-sendiri-prompt": {
+  "img": "/shots/contoh/m5-w-sendiri-prompt.png",
+  "w": 2400,
+  "h": 1600,
+  "target": [
+   93.42,
+   88.63,
+   2.5,
+   3.75
+  ],
+  "focus": [
+   66,
+   74,
+   34,
+   26
+  ],
+  "kind": "web",
+  "targetFrom": "dom",
+  "dummy": true,
+  "source": "Rebuilt example screen (tools/contoh/claude-desk.html), the reader's own skill made in the ad session",
+  "capturedAt": "2026-10-30"
+ },
+ "contoh/m5-w-skill-allow": {
+  "img": "/shots/contoh/m5-w-skill-allow.png",
+  "w": 2400,
+  "h": 1600,
+  "target": [
+   81.47,
+   31.48,
+   8.64,
+   4.13
+  ],
+  "focus": [
+   66,
+   20.55,
+   34,
+   26
+  ],
+  "kind": "web",
+  "targetFrom": "dom",
+  "dummy": true,
+  "source": "Rebuilt example screen (tools/contoh/claude-desk.html), skill install, based on a reference capture of Claude Desktop in Code mode (29 Okt 2026)",
+  "capturedAt": "2026-10-30"
+ },
+ "contoh/m5-w-skill-baru": {
+  "img": "/shots/contoh/m5-w-skill-baru.png",
+  "w": 2400,
+  "h": 1600,
+  "target": [
+   32,
+   87,
+   65.17,
+   7
+  ],
+  "focus": [
+   0,
+   74,
+   100,
+   26
+  ],
+  "kind": "web",
+  "targetFrom": "dom",
+  "dummy": true,
+  "source": "Rebuilt example screen (tools/contoh/claude-desk.html), skill install, based on a reference capture of Claude Desktop in Code mode (29 Okt 2026)",
+  "capturedAt": "2026-10-30"
+ },
+ "contoh/m5-w-skill-done": {
+  "img": "/shots/contoh/m5-w-skill-done.png",
+  "w": 2400,
+  "h": 1600,
+  "target": [
+   0.83,
+   7,
+   27.42,
+   4.5
+  ],
+  "focus": [
+   0,
+   0,
+   43.87,
+   26
+  ],
+  "kind": "web",
+  "targetFrom": "dom",
+  "dummy": true,
+  "source": "Rebuilt example screen (tools/contoh/claude-desk.html), skill install, based on a reference capture of Claude Desktop in Code mode (29 Okt 2026)",
+  "capturedAt": "2026-10-30"
+ },
+ "contoh/m5-w-skill-prompt": {
+  "img": "/shots/contoh/m5-w-skill-prompt.png",
+  "w": 2400,
+  "h": 1600,
+  "target": [
+   93.42,
+   88.63,
+   2.5,
+   3.75
+  ],
+  "focus": [
+   66,
+   74,
+   34,
+   26
+  ],
+  "kind": "web",
+  "targetFrom": "dom",
+  "dummy": true,
+  "source": "Rebuilt example screen (tools/contoh/claude-desk.html), skill install, based on a reference capture of Claude Desktop in Code mode (29 Okt 2026)",
+  "capturedAt": "2026-10-30"
+ },
+ "contoh/m5-working": {
+  "img": "/shots/contoh/m5-working.png",
+  "w": 2400,
+  "h": 1600,
+  "target": [
+   32,
+   87,
+   65.17,
+   7
+  ],
+  "focus": [
+   0,
+   74,
+   100,
+   26
+  ],
+  "kind": "web",
+  "targetFrom": "dom",
+  "dummy": true,
+  "source": "Rebuilt example screen (tools/contoh/claude-desk.html), based on a reference capture of Claude Desktop in Code mode (29 Okt 2026), labels from the app's own interface strings",
+  "capturedAt": "2026-10-30"
+ },
+ "desk/m3-dalam": {
+  "img": "/shots/desk/m3-dalam.png",
+  "w": 1600,
+  "h": 960,
+  "target": [
+   22,
+   30,
+   56,
+   50
+  ],
+  "focus": [
+   5.2,
+   15,
+   89.6,
+   80
+  ],
+  "kind": "desk",
+  "targetFrom": "manual",
+  "source": "Finder window \"2026-10-29 Iklan Bekam\"",
+  "capturedAt": "2026-10-29"
+ },
+ "desk/m3-dmg": {
+  "img": "/shots/desk/m3-dmg.png",
+  "w": 800,
+  "h": 480,
+  "target": [
+   3.5,
+   13.5,
+   9.5,
+   19
+  ],
+  "focus": [
+   0,
+   7.8,
+   34,
+   30.4
+  ],
+  "kind": "desk",
+  "targetFrom": "manual",
+  "source": "Finder window \"Downloads\"",
+  "capturedAt": "2026-10-29"
+ },
+ "desk/m3-docs": {
+  "img": "/shots/desk/m3-docs.png",
+  "w": 1600,
+  "h": 960,
+  "target": [
+   22,
+   30,
+   56,
+   50
+  ],
+  "focus": [
+   5.2,
+   15,
+   89.6,
+   80
+  ],
+  "kind": "desk",
+  "targetFrom": "manual",
+  "source": "Finder window \"Documents\"",
+  "capturedAt": "2026-10-29"
+ },
+ "desk/m3-lengkap": {
+  "img": "/shots/desk/m3-lengkap.png",
+  "w": 1600,
+  "h": 960,
+  "target": [
+   1,
+   12,
+   30,
+   32
+  ],
+  "focus": [
+   0,
+   2.4,
+   48,
+   51.2
+  ],
+  "kind": "desk",
+  "targetFrom": "manual",
+  "source": "Finder window \"2026-10-29 Iklan Bekam\"",
+  "capturedAt": "2026-10-29"
+ },
+ "desk/m3-menu": {
+  "img": "/shots/desk/m3-menu.png",
+  "w": 1600,
+  "h": 960,
+  "target": [
+   27.88,
+   22.92,
+   21.5,
+   7.08
+  ],
+  "focus": [
+   21.43,
+   13.46,
+   34.4,
+   26
+  ],
+  "kind": "desk",
+  "targetFrom": "ocr",
+  "source": "Finder window \"Documents\"",
+  "capturedAt": "2026-10-29"
+ },
+ "desk/m3-mula": {
+  "img": "/shots/desk/m3-mula.png",
+  "w": 600,
+  "h": 600,
+  "target": [
+   13.33,
+   85.33,
+   73.33,
+   6.67
+  ],
+  "focus": [
+   0,
+   74,
+   100,
+   26
+  ],
+  "kind": "desk",
+  "targetFrom": "ocr",
+  "source": "Claude Desktop (demo profile), window \"Claude\"",
+  "capturedAt": "2026-10-29"
+ },
+ "desk/m3-nama": {
+  "img": "/shots/desk/m3-nama.png",
+  "w": 1600,
+  "h": 960,
+  "target": [
+   1,
+   12,
+   16,
+   30
+  ],
+  "focus": [
+   0,
+   3,
+   34,
+   48
+  ],
+  "kind": "desk",
+  "targetFrom": "manual",
+  "source": "Finder window \"Documents\"",
+  "capturedAt": "2026-10-29"
+ },
+ "desk/m3-seret": {
+  "img": "/shots/desk/m3-seret.png",
+  "w": 654,
+  "h": 444,
+  "target": [
+   21.4,
+   38.3,
+   17.6,
+   35
+  ],
+  "focus": [
+   13.2,
+   27.8,
+   34,
+   56
+  ],
+  "kind": "desk",
+  "targetFrom": "manual",
+  "source": "Finder window \"Claude\"",
+  "capturedAt": "2026-10-29"
+ },
+ "desk/m3-siap": {
+  "img": "/shots/desk/m3-siap.png",
+  "w": 1600,
+  "h": 960,
+  "target": [
+   17,
+   15,
+   13,
+   24
+  ],
+  "focus": [
+   6.5,
+   7.8,
+   34,
+   38.4
+  ],
+  "kind": "desk",
+  "targetFrom": "manual",
+  "source": "Finder window \"Documents\"",
+  "capturedAt": "2026-10-29"
+ },
+ "desk/m3-signin": {
+  "img": "/shots/desk/m3-signin.png",
+  "w": 600,
+  "h": 600,
+  "target": [
+   37.75,
+   37.67,
+   27.92,
+   6
+  ],
+  "focus": [
+   29.37,
+   27.67,
+   44.67,
+   26
+  ],
+  "kind": "desk",
+  "targetFrom": "ocr",
+  "source": "Claude Desktop (demo profile), window \"Claude\"",
+  "capturedAt": "2026-10-29"
+ },
+ "desk/m4-dl-fail": {
+  "img": "/shots/desk/m4-dl-fail.png",
+  "w": 1600,
+  "h": 1200,
+  "target": [
+   1,
+   10,
+   17,
+   30
+  ],
+  "focus": [
+   0,
+   1,
+   34,
+   48
+  ],
+  "kind": "desk",
+  "targetFrom": "manual",
+  "source": "Finder window \"Downloads\"",
+  "capturedAt": "2026-10-29"
+ },
+ "desk/m4-dl-menu": {
+  "img": "/shots/desk/m4-dl-menu.png",
+  "w": 1600,
+  "h": 1200,
+  "target": [
+   10,
+   59.5,
+   78,
+   4
+  ],
+  "focus": [
+   0,
+   50.34,
+   100,
+   26
+  ],
+  "kind": "desk",
+  "targetFrom": "manual",
+  "source": "Finder window \"Downloads\"",
+  "capturedAt": "2026-10-29"
+ },
+ "desk/m4-footage": {
+  "img": "/shots/desk/m4-footage.png",
+  "w": 1600,
+  "h": 1200,
+  "target": [
+   22,
+   30,
+   56,
+   50
+  ],
+  "focus": [
+   5.2,
+   15,
+   89.6,
+   80
+  ],
+  "kind": "desk",
+  "targetFrom": "manual",
+  "source": "Finder window \"Footage\"",
+  "capturedAt": "2026-10-29"
+ },
+ "desk/m4-footage-ada": {
+  "img": "/shots/desk/m4-footage-ada.png",
+  "w": 1600,
+  "h": 1200,
+  "target": [
+   1,
+   10,
+   17,
+   30
+  ],
+  "focus": [
+   0,
+   1,
+   34,
+   48
+  ],
+  "kind": "desk",
+  "targetFrom": "manual",
+  "source": "Finder window \"Footage\"",
+  "capturedAt": "2026-10-29"
+ },
+ "desk/m4-footage-menu": {
+  "img": "/shots/desk/m4-footage-menu.png",
+  "w": 1600,
+  "h": 1200,
+  "target": [
+   25,
+   25.6,
+   31,
+   4.4
+  ],
+  "focus": [
+   19.65,
+   12.92,
+   43.5,
+   26
+  ],
+  "kind": "desk",
+  "targetFrom": "manual",
+  "source": "Finder window \"Footage\"",
+  "capturedAt": "2026-10-29"
+ },
+ "desk/m4-projek": {
+  "img": "/shots/desk/m4-projek.png",
+  "w": 1600,
+  "h": 1200,
+  "target": [
+   1,
+   10,
+   15,
+   25
+  ],
+  "focus": [
+   0,
+   2.5,
+   34,
+   40
+  ],
+  "kind": "desk",
+  "targetFrom": "manual",
+  "source": "Finder window \"2026-10-29 Iklan Bekam\"",
+  "capturedAt": "2026-10-29"
+ },
+ "desk/m5-out-20": {
+  "img": "/shots/desk/m5-out-20.png",
+  "w": 1600,
+  "h": 1040,
+  "target": [
+   1,
+   10,
+   20,
+   30
+  ],
+  "focus": [
+   0,
+   1,
+   34,
+   48
+  ],
+  "kind": "desk",
+  "targetFrom": "manual",
+  "source": "Finder window \"out\"",
+  "capturedAt": "2026-10-29"
+ },
+ "desk/m5-out-5": {
+  "img": "/shots/desk/m5-out-5.png",
+  "w": 1600,
+  "h": 1040,
+  "target": [
+   1,
+   10,
+   20,
+   30
+  ],
+  "focus": [
+   0,
+   1,
+   34,
+   48
+  ],
+  "kind": "desk",
+  "targetFrom": "manual",
+  "source": "Finder window \"out\"",
+  "capturedAt": "2026-10-29"
+ },
+ "web/m4-pixabay": {
+  "img": "/shots/web/m4-pixabay.png",
+  "w": 2880,
+  "h": 1800,
+  "target": [
+   94.44,
+   70,
+   2.78,
+   4.44
+  ],
+  "focus": [
+   66,
+   59.22,
+   34,
+   26
+  ],
+  "kind": "web",
+  "targetFrom": "dom",
+  "source": "pixabay.com/music/search/instrumental/, Chrome",
+  "capturedAt": "2026-10-30"
+ },
+ "web/m4-sf-ditampal": {
+  "img": "/shots/web/m4-sf-ditampal.png",
+  "w": 2880,
+  "h": 1800,
+  "target": [
+   64.22,
+   30.89,
+   8.35,
+   5.56
+  ],
+  "focus": [
+   51.4,
+   20.67,
+   34,
+   26
+  ],
+  "kind": "web",
+  "targetFrom": "dom",
+  "source": "en1.savefrom.net/21-youtube-to-mp4-40LR.html, Chrome",
+  "capturedAt": "2026-10-29"
+ },
+ "web/m4-sf-muat": {
+  "img": "/shots/web/m4-sf-muat.png",
+  "w": 2880,
+  "h": 1800,
+  "target": [
+   51.6,
+   33.72,
+   8.34,
+   4.22
+  ],
+  "focus": [
+   38.77,
+   22.83,
+   34,
+   26
+  ],
+  "kind": "web",
+  "targetFrom": "dom",
+  "source": "en1.savefrom.net/21-youtube-to-mp4-40LR.html, Chrome",
+  "capturedAt": "2026-10-29"
+ },
+ "web/m4-sf-sedia": {
+  "img": "/shots/web/m4-sf-sedia.png",
+  "w": 2880,
+  "h": 1800,
+  "target": [
+   46.78,
+   76.61,
+   6.44,
+   1.5
+  ],
+  "focus": [
+   33,
+   64.36,
+   34,
+   26
+  ],
+  "kind": "web",
+  "targetFrom": "dom",
+  "source": "en1.savefrom.net/21-youtube-to-mp4-40LR.html, Chrome",
+  "capturedAt": "2026-10-29"
+ },
+ "web/m4-sf-senarai": {
+  "img": "/shots/web/m4-sf-senarai.png",
+  "w": 2880,
+  "h": 1800,
+  "target": [
+   51.74,
+   41.06,
+   14.17,
+   3.56
+  ],
+  "focus": [
+   41.83,
+   29.84,
+   34,
+   26
+  ],
+  "kind": "web",
+  "targetFrom": "dom",
+  "source": "en1.savefrom.net/21-youtube-to-mp4-40LR.html, Chrome",
+  "capturedAt": "2026-10-29"
+ },
+ "web/m4-sf-utama": {
+  "img": "/shots/web/m4-sf-utama.png",
+  "w": 2880,
+  "h": 1800,
+  "target": [
+   27.43,
+   30.89,
+   36.79,
+   5.56
+  ],
+  "focus": [
+   16.39,
+   20.67,
+   58.86,
+   26
+  ],
+  "kind": "web",
+  "targetFrom": "dom",
+  "source": "en1.savefrom.net/21-youtube-to-mp4-40LR.html, Chrome",
+  "capturedAt": "2026-10-29"
+ },
+ "web/m4-yt-hasil": {
+  "img": "/shots/web/m4-yt-hasil.png",
+  "w": 2880,
+  "h": 1800,
+  "target": [
+   18.33,
+   17.78,
+   15.11,
+   36.27
+  ],
+  "focus": [
+   8.88,
+   6.9,
+   34,
+   58.03
+  ],
+  "kind": "web",
+  "targetFrom": "dom",
+  "source": "www.youtube.com/results, Chrome",
+  "capturedAt": "2026-10-29"
+ },
+ "web/m4-yt-kongsi": {
+  "img": "/shots/web/m4-yt-kongsi.png",
+  "w": 2880,
+  "h": 1800,
+  "target": [
+   59.6,
+   55.31,
+   4.43,
+   4.44
+  ],
+  "focus": [
+   44.82,
+   44.53,
+   34,
+   26
+  ],
+  "kind": "web",
+  "targetFrom": "dom",
+  "source": "www.youtube.com/shorts/qmU3yRfF44U, Chrome",
+  "capturedAt": "2026-10-29"
+ },
+ "web/m4-yt-short": {
+  "img": "/shots/web/m4-yt-short.png",
+  "w": 2880,
+  "h": 1800,
+  "target": [
+   71.54,
+   73.78,
+   3.33,
+   5.33
+  ],
+  "focus": [
+   56.21,
+   63.45,
+   34,
+   26
+  ],
+  "kind": "web",
+  "targetFrom": "dom",
+  "source": "www.youtube.com/shorts/qmU3yRfF44U, Chrome",
+  "capturedAt": "2026-10-29"
+ },
+ "web/m4-ytmp3": {
+  "img": "/shots/web/m4-ytmp3.png",
+  "w": 2880,
+  "h": 1800,
+  "target": [
+   31.39,
+   18.72,
+   30,
+   4.89
+  ],
+  "focus": [
+   22.39,
+   8.16,
+   48,
+   26
+  ],
+  "kind": "web",
+  "targetFrom": "dom",
+  "source": "ytmp3.gl/, Chrome",
+  "capturedAt": "2026-10-30"
+ },
+ "win/m3-win-dalam": {
+  "img": "/shots/win/m3-win-dalam.png",
+  "w": 2880,
+  "h": 1800,
+  "target": [
+   9.31,
+   11.06,
+   4.93,
+   3.33
+  ],
+  "focus": [
+   0,
+   0,
+   34,
+   26
+  ],
+  "kind": "win",
+  "targetFrom": "dom",
+  "dummy": true,
+  "source": "Rebuilt Windows 11 screen (tools/win/explorer.html)",
+  "capturedAt": "2026-10-29"
+ },
+ "win/m3-win-docs": {
+  "img": "/shots/win/m3-win-docs.png",
+  "w": 2880,
+  "h": 1800,
+  "target": [
+   9.31,
+   11.06,
+   4.93,
+   3.33
+  ],
+  "focus": [
+   0,
+   0,
+   34,
+   26
+  ],
+  "kind": "win",
+  "targetFrom": "dom",
+  "dummy": true,
+  "source": "Rebuilt Windows 11 screen (tools/win/explorer.html)",
+  "capturedAt": "2026-10-29"
+ },
+ "win/m3-win-lengkap": {
+  "img": "/shots/win/m3-win-lengkap.png",
+  "w": 2880,
+  "h": 1800,
+  "target": [
+   22.92,
+   27,
+   68.75,
+   3.56
+  ],
+  "focus": [
+   0,
+   15.78,
+   100,
+   26
+  ],
+  "kind": "win",
+  "targetFrom": "dom",
+  "dummy": true,
+  "source": "Rebuilt Windows 11 screen (tools/win/explorer.html)",
+  "capturedAt": "2026-10-29"
+ },
+ "win/m3-win-menu": {
+  "img": "/shots/win/m3-win-menu.png",
+  "w": 2880,
+  "h": 1800,
+  "target": [
+   9.65,
+   16.06,
+   15.28,
+   3.78
+  ],
+  "focus": [
+   0.29,
+   4.95,
+   34,
+   26
+  ],
+  "kind": "win",
+  "targetFrom": "dom",
+  "dummy": true,
+  "source": "Rebuilt Windows 11 screen (tools/win/explorer.html)",
+  "capturedAt": "2026-10-29"
+ },
+ "win/m3-win-mula": {
+  "img": "/shots/win/m3-win-mula.png",
+  "w": 2880,
+  "h": 1800,
+  "target": [
+   29.24,
+   76.16,
+   41.5,
+   6.04
+  ],
+  "focus": [
+   16.79,
+   66.18,
+   66.4,
+   26
+  ],
+  "kind": "win",
+  "targetFrom": "dom",
+  "dummy": true,
+  "source": "Rebuilt Windows 11 screen (tools/win/app.html)",
+  "capturedAt": "2026-10-29"
+ },
+ "win/m3-win-nama": {
+  "img": "/shots/win/m3-win-nama.png",
+  "w": 2880,
+  "h": 1800,
+  "target": [
+   22.92,
+   23.39,
+   68.75,
+   3.83
+  ],
+  "focus": [
+   0,
+   12.31,
+   100,
+   26
+  ],
+  "kind": "win",
+  "targetFrom": "dom",
+  "dummy": true,
+  "source": "Rebuilt Windows 11 screen (tools/win/explorer.html)",
+  "capturedAt": "2026-10-29"
+ },
+ "win/m3-win-setup": {
+  "img": "/shots/win/m3-win-setup.png",
+  "w": 2880,
+  "h": 1800,
+  "target": [
+   22.92,
+   23.39,
+   68.75,
+   3.61
+  ],
+  "focus": [
+   0,
+   12.2,
+   100,
+   26
+  ],
+  "kind": "win",
+  "targetFrom": "dom",
+  "dummy": true,
+  "source": "Rebuilt Windows 11 screen (tools/win/explorer.html)",
+  "capturedAt": "2026-10-29"
+ },
+ "win/m3-win-siap": {
+  "img": "/shots/win/m3-win-siap.png",
+  "w": 2880,
+  "h": 1800,
+  "target": [
+   22.92,
+   23.39,
+   68.75,
+   3.61
+  ],
+  "focus": [
+   0,
+   12.2,
+   100,
+   26
+  ],
+  "kind": "win",
+  "targetFrom": "dom",
+  "dummy": true,
+  "source": "Rebuilt Windows 11 screen (tools/win/explorer.html)",
+  "capturedAt": "2026-10-29"
+ },
+ "win/m3-win-signin": {
+  "img": "/shots/win/m3-win-signin.png",
+  "w": 2880,
+  "h": 1800,
+  "target": [
+   43.07,
+   32.99,
+   15.8,
+   5.43
+  ],
+  "focus": [
+   33.97,
+   22.71,
+   34,
+   26
+  ],
+  "kind": "win",
+  "targetFrom": "dom",
+  "dummy": true,
+  "source": "Rebuilt Windows 11 screen (tools/win/app.html)",
+  "capturedAt": "2026-10-29"
+ },
+ "win/m4-win-copy": {
+  "img": "/shots/win/m4-win-copy.png",
+  "w": 2880,
+  "h": 1800,
+  "target": [
+   18.22,
+   11.17,
+   3.57,
+   3.11
+  ],
+  "focus": [
+   3,
+   0,
+   34,
+   26
+  ],
+  "kind": "win",
+  "targetFrom": "dom",
+  "dummy": true,
+  "source": "Rebuilt Windows 11 screen (tools/win/explorer.html)",
+  "capturedAt": "2026-10-29"
+ },
+ "win/m4-win-dl": {
+  "img": "/shots/win/m4-win-dl.png",
+  "w": 2880,
+  "h": 1800,
+  "target": [
+   22.92,
+   23.39,
+   68.75,
+   3.61
+  ],
+  "focus": [
+   0,
+   12.2,
+   100,
+   26
+  ],
+  "kind": "win",
+  "targetFrom": "dom",
+  "dummy": true,
+  "source": "Rebuilt Windows 11 screen (tools/win/explorer.html)",
+  "capturedAt": "2026-10-29"
+ },
+ "win/m4-win-footage": {
+  "img": "/shots/win/m4-win-footage.png",
+  "w": 2880,
+  "h": 1800,
+  "target": [
+   21.65,
+   11.17,
+   3.72,
+   3.11
+  ],
+  "focus": [
+   6.51,
+   0,
+   34,
+   26
+  ],
+  "kind": "win",
+  "targetFrom": "dom",
+  "dummy": true,
+  "source": "Rebuilt Windows 11 screen (tools/win/explorer.html)",
+  "capturedAt": "2026-10-29"
+ },
+ "win/m4-win-footage-ada": {
+  "img": "/shots/win/m4-win-footage-ada.png",
+  "w": 2880,
+  "h": 1800,
+  "target": [
+   22.92,
+   23.39,
+   68.75,
+   3.61
+  ],
+  "focus": [
+   0,
+   12.2,
+   100,
+   26
+  ],
+  "kind": "win",
+  "targetFrom": "dom",
+  "dummy": true,
+  "source": "Rebuilt Windows 11 screen (tools/win/explorer.html)",
+  "capturedAt": "2026-10-29"
+ },
+ "win/m4-win-projek": {
+  "img": "/shots/win/m4-win-projek.png",
+  "w": 2880,
+  "h": 1800,
+  "target": [
+   22.92,
+   23.39,
+   68.75,
+   3.61
+  ],
+  "focus": [
+   0,
+   12.2,
+   100,
+   26
+  ],
+  "kind": "win",
+  "targetFrom": "dom",
+  "dummy": true,
+  "source": "Rebuilt Windows 11 screen (tools/win/explorer.html)",
+  "capturedAt": "2026-10-29"
+ },
+ "win/m5-win-allow": {
+  "img": "/shots/win/m5-win-allow.png",
+  "w": 2880,
+  "h": 1800,
+  "target": [
+   74.04,
+   32.69,
+   6.6,
+   3.36
+  ],
+  "focus": [
+   60.34,
+   21.37,
+   34,
+   26
+  ],
+  "kind": "win",
+  "targetFrom": "dom",
+  "dummy": true,
+  "source": "Rebuilt Windows 11 screen (tools/win/app.html)",
+  "capturedAt": "2026-10-30"
+ },
+ "win/m5-win-chat": {
+  "img": "/shots/win/m5-win-chat.png",
+  "w": 2880,
+  "h": 1800,
+  "target": [
+   31.03,
+   8.48,
+   2.16,
+   2.65
+  ],
+  "focus": [
+   15.11,
+   0,
+   34,
+   26
+  ],
+  "kind": "win",
+  "targetFrom": "dom",
+  "dummy": true,
+  "source": "Rebuilt Windows 11 screen (tools/win/app.html)",
+  "capturedAt": "2026-10-29"
+ },
+ "win/m5-win-code": {
+  "img": "/shots/win/m5-win-code.png",
+  "w": 2880,
+  "h": 1800,
+  "target": [
+   45.45,
+   84.63,
+   7.3,
+   2.44
+  ],
+  "focus": [
+   32.1,
+   72.85,
+   34,
+   26
+  ],
+  "kind": "win",
+  "targetFrom": "dom",
+  "dummy": true,
+  "source": "Rebuilt Windows 11 screen (tools/win/app.html)",
+  "capturedAt": "2026-10-29"
+ },
+ "win/m5-win-folder": {
+  "img": "/shots/win/m5-win-folder.png",
+  "w": 2880,
+  "h": 1800,
+  "target": [
+   76.83,
+   82,
+   7.92,
+   3.33
+  ],
+  "focus": [
+   63.79,
+   70.67,
+   34,
+   26
+  ],
+  "kind": "win",
+  "targetFrom": "dom",
+  "dummy": true,
+  "source": "Rebuilt Windows 11 screen (tools/win/explorer.html)",
+  "capturedAt": "2026-10-29"
+ },
+ "win/m5-win-folders": {
+  "img": "/shots/win/m5-win-folders.png",
+  "w": 2880,
+  "h": 1800,
+  "target": [
+   44.08,
+   78.73,
+   18.2,
+   3.97
+  ],
+  "focus": [
+   36.18,
+   67.72,
+   34,
+   26
+  ],
+  "kind": "win",
+  "targetFrom": "dom",
+  "dummy": true,
+  "source": "Rebuilt Windows 11 screen (tools/win/app.html)",
+  "capturedAt": "2026-10-29"
+ },
+ "win/m5-win-pro-allow": {
+  "img": "/shots/win/m5-win-pro-allow.png",
+  "w": 2880,
+  "h": 1800,
+  "target": [
+   74.04,
+   30.71,
+   6.6,
+   3.36
+  ],
+  "focus": [
+   60.34,
+   19.39,
+   34,
+   26
+  ],
+  "kind": "win",
+  "targetFrom": "dom",
+  "dummy": true,
+  "source": "Rebuilt Windows 11 screen (tools/win/app.html)",
+  "capturedAt": "2026-10-30"
+ },
+ "win/m5-win-pro-baru": {
+  "img": "/shots/win/m5-win-pro-baru.png",
+  "w": 2880,
+  "h": 1800,
+  "target": [
+   36.25,
+   77.91,
+   49.78,
+   5.7
+  ],
+  "focus": [
+   20.35,
+   67.76,
+   79.65,
+   26
+  ],
+  "kind": "win",
+  "targetFrom": "dom",
+  "dummy": true,
+  "source": "Rebuilt Windows 11 screen (tools/win/app.html)",
+  "capturedAt": "2026-10-30"
+ },
+ "win/m5-win-pro-done": {
+  "img": "/shots/win/m5-win-pro-done.png",
+  "w": 2880,
+  "h": 1800,
+  "target": [
+   12.44,
+   12.76,
+   20.95,
+   3.66
+  ],
+  "focus": [
+   5.91,
+   1.59,
+   34,
+   26
+  ],
+  "kind": "win",
+  "targetFrom": "dom",
+  "dummy": true,
+  "source": "Rebuilt Windows 11 screen (tools/win/app.html)",
+  "capturedAt": "2026-10-30"
+ },
+ "win/m5-win-pro-prompt": {
+  "img": "/shots/win/m5-win-pro-prompt.png",
+  "w": 2880,
+  "h": 1800,
+  "target": [
+   83.17,
+   79.24,
+   1.91,
+   3.05
+  ],
+  "focus": [
+   66,
+   67.77,
+   34,
+   26
+  ],
+  "kind": "win",
+  "targetFrom": "dom",
+  "dummy": true,
+  "source": "Rebuilt Windows 11 screen (tools/win/app.html)",
+  "capturedAt": "2026-10-30"
+ },
+ "win/m5-win-prompt": {
+  "img": "/shots/win/m5-win-prompt.png",
+  "w": 2880,
+  "h": 1800,
+  "target": [
+   83.17,
+   79.24,
+   1.91,
+   3.05
+  ],
+  "focus": [
+   66,
+   67.77,
+   34,
+   26
+  ],
+  "kind": "win",
+  "targetFrom": "dom",
+  "dummy": true,
+  "source": "Rebuilt Windows 11 screen (tools/win/app.html)",
+  "capturedAt": "2026-10-30"
+ },
+ "win/m5-win-ready": {
+  "img": "/shots/win/m5-win-ready.png",
+  "w": 2880,
+  "h": 1800,
+  "target": [
+   36.25,
+   77.91,
+   49.78,
+   5.7
+  ],
+  "focus": [
+   20.35,
+   67.76,
+   79.65,
+   26
+  ],
+  "kind": "win",
+  "targetFrom": "dom",
+  "dummy": true,
+  "source": "Rebuilt Windows 11 screen (tools/win/app.html)",
+  "capturedAt": "2026-10-29"
+ },
+ "win/m5-win-sendiri-allow": {
+  "img": "/shots/win/m5-win-sendiri-allow.png",
+  "w": 2880,
+  "h": 1800,
+  "target": [
+   74.04,
+   32.69,
+   6.6,
+   3.36
+  ],
+  "focus": [
+   60.34,
+   21.37,
+   34,
+   26
+  ],
+  "kind": "win",
+  "targetFrom": "dom",
+  "dummy": true,
+  "source": "Rebuilt Windows 11 screen (tools/win/app.html)",
+  "capturedAt": "2026-10-30"
+ },
+ "win/m5-win-sendiri-done": {
+  "img": "/shots/win/m5-win-sendiri-done.png",
+  "w": 2880,
+  "h": 1800,
+  "target": [
+   12.44,
+   12.76,
+   20.95,
+   3.66
+  ],
+  "focus": [
+   5.91,
+   1.59,
+   34,
+   26
+  ],
+  "kind": "win",
+  "targetFrom": "dom",
+  "dummy": true,
+  "source": "Rebuilt Windows 11 screen (tools/win/app.html)",
+  "capturedAt": "2026-10-30"
+ },
+ "win/m5-win-sendiri-kotak": {
+  "img": "/shots/win/m5-win-sendiri-kotak.png",
+  "w": 2880,
+  "h": 1800,
+  "target": [
+   36.25,
+   77.91,
+   49.78,
+   5.7
+  ],
+  "focus": [
+   20.35,
+   67.76,
+   79.65,
+   26
+  ],
+  "kind": "win",
+  "targetFrom": "dom",
+  "dummy": true,
+  "source": "Rebuilt Windows 11 screen (tools/win/app.html)",
+  "capturedAt": "2026-10-30"
+ },
+ "win/m5-win-sendiri-prompt": {
+  "img": "/shots/win/m5-win-sendiri-prompt.png",
+  "w": 2880,
+  "h": 1800,
+  "target": [
+   83.17,
+   79.24,
+   1.91,
+   3.05
+  ],
+  "focus": [
+   66,
+   67.77,
+   34,
+   26
+  ],
+  "kind": "win",
+  "targetFrom": "dom",
+  "dummy": true,
+  "source": "Rebuilt Windows 11 screen (tools/win/app.html)",
+  "capturedAt": "2026-10-30"
+ },
+ "win/m5-win-skill-allow": {
+  "img": "/shots/win/m5-win-skill-allow.png",
+  "w": 2880,
+  "h": 1800,
+  "target": [
+   74.04,
+   32.69,
+   6.6,
+   3.36
+  ],
+  "focus": [
+   60.34,
+   21.37,
+   34,
+   26
+  ],
+  "kind": "win",
+  "targetFrom": "dom",
+  "dummy": true,
+  "source": "Rebuilt Windows 11 screen (tools/win/app.html)",
+  "capturedAt": "2026-10-30"
+ },
+ "win/m5-win-skill-baru": {
+  "img": "/shots/win/m5-win-skill-baru.png",
+  "w": 2880,
+  "h": 1800,
+  "target": [
+   36.25,
+   77.91,
+   49.78,
+   5.7
+  ],
+  "focus": [
+   20.35,
+   67.76,
+   79.65,
+   26
+  ],
+  "kind": "win",
+  "targetFrom": "dom",
+  "dummy": true,
+  "source": "Rebuilt Windows 11 screen (tools/win/app.html)",
+  "capturedAt": "2026-10-30"
+ },
+ "win/m5-win-skill-done": {
+  "img": "/shots/win/m5-win-skill-done.png",
+  "w": 2880,
+  "h": 1800,
+  "target": [
+   12.44,
+   12.76,
+   20.95,
+   3.66
+  ],
+  "focus": [
+   5.91,
+   1.59,
+   34,
+   26
+  ],
+  "kind": "win",
+  "targetFrom": "dom",
+  "dummy": true,
+  "source": "Rebuilt Windows 11 screen (tools/win/app.html)",
+  "capturedAt": "2026-10-30"
+ },
+ "win/m5-win-skill-prompt": {
+  "img": "/shots/win/m5-win-skill-prompt.png",
+  "w": 2880,
+  "h": 1800,
+  "target": [
+   83.17,
+   79.24,
+   1.91,
+   3.05
+  ],
+  "focus": [
+   66,
+   67.77,
+   34,
+   26
+  ],
+  "kind": "win",
+  "targetFrom": "dom",
+  "dummy": true,
+  "source": "Rebuilt Windows 11 screen (tools/win/app.html)",
+  "capturedAt": "2026-10-30"
+ }
+}

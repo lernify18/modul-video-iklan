@@ -1,0 +1,25 @@
+<!doctype html>
+<!-- The macOS dialog the first time Claude is opened, rebuilt with the real dialog's own words (read from the dialog
+     on 29 Okt 2026). The click target is "Open". -->
+<html lang="en"><head><meta charset="utf-8">
+<style>
+  * { box-sizing: border-box; }
+  html, body { margin: 0; width: 100vw; height: 100vh; overflow: hidden; }
+  body { font-family: -apple-system, "SF Pro Text", system-ui, sans-serif; background: linear-gradient(160deg, #c9d6e8 0%, #a9b9d6 45%, #8f9fc4 100%); display: grid; place-items: center; }
+  .dlg { zoom: 1.25; width: 300px; background: rgba(246, 246, 246, .96); border-radius: 22px; box-shadow: 0 0 0 .5px rgba(0,0,0,.18), 0 24px 60px rgba(0,0,0,.35); padding: 22px 18px 16px; display: grid; justify-items: center; text-align: center; gap: 10px; }
+  .dlg img { width: 64px; height: 64px; }
+  .dlg b { font-size: 13px; font-weight: 700; line-height: 1.35; color: #1d1d1f; }
+  .dlg p { margin: 0; font-size: 11px; line-height: 1.4; color: #3a3a3c; }
+  .btns { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; width: 100%; margin-top: 6px; }
+  .btns span { height: 28px; border-radius: 999px; display: grid; place-items: center; font-size: 13px; }
+  .btns .c { background: rgba(0,0,0,.08); color: #1d1d1f; }
+  .btns .o { background: #0a84ff; color: #fff; font-weight: 500; }
+</style></head>
+<body>
+  <div class="dlg">
+    <img src="claude-icon.png" alt="">
+    <b>“Claude” is an app downloaded from the internet. Are you sure you want to open it?</b>
+    <p>Chrome downloaded this file on 27 October 2026. Apple checked it for malicious software and none was detected.</p>
+    <div class="btns"><span class="c">Cancel</span><span class="o" data-target>Open</span></div>
+  </div>
+<script>const i = document.querySelector('img'); (i.complete ? Promise.resolve() : new Promise((r) => { i.onload = r })).then(() => { document.body.dataset.ready = '1' })</script></body></html>

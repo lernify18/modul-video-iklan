@@ -1,0 +1,1131 @@
+{
+ "m0-bekam": {
+  "dur": 21.36,
+  "cues": [],
+  "hash": "6f7fab538dd2"
+ },
+ "m0-bukti": {
+  "dur": 24.16,
+  "cues": [],
+  "hash": "e5d5ebc934bd"
+ },
+ "m0-digital": {
+  "dur": 22.24,
+  "cues": [],
+  "hash": "bb1822277426"
+ },
+ "m0-hook-kos": {
+  "dur": 25.12,
+  "cues": [
+   6.16,
+   12.4,
+   18.08
+  ],
+  "hash": "ab33b0705fae"
+ },
+ "m0-pembuka": {
+  "dur": 21.76,
+  "cues": [
+   9.56,
+   14,
+   17.89,
+   19.12
+  ],
+  "hash": "426dc60e9f8f"
+ },
+ "m0-teka": {
+  "dur": 16.4,
+  "cues": [
+   5.2,
+   6.44,
+   8.72
+  ],
+  "hash": "db9643d5c7d7"
+ },
+ "m0-umrah": {
+  "dur": 23.04,
+  "cues": [],
+  "hash": "d8db7aa5c927"
+ },
+ "m1-broll-svg": {
+  "dur": 18.56,
+  "cues": [],
+  "hash": "91f89bbc24fb"
+ },
+ "m1-cta": {
+  "dur": 11.92,
+  "cues": [],
+  "hash": "53b6cde22cf1"
+ },
+ "m1-glosari": {
+  "dur": 22.8,
+  "cues": [
+   5.92,
+   6.76,
+   7.44,
+   8.4,
+   10.2,
+   11.28,
+   12.28,
+   13.24,
+   14,
+   14.96,
+   16,
+   16.96
+  ],
+  "hash": "8d7c5b739c1a"
+ },
+ "m1-iman": {
+  "dur": 19.84,
+  "cues": [],
+  "hash": "7c4d36d8ea13"
+ },
+ "m1-komponen-a": {
+  "dur": 16.64,
+  "cues": [
+   5.04,
+   9.36,
+   13.2
+  ],
+  "hash": "0750930208dc"
+ },
+ "m1-komponen-b": {
+  "dur": 14.24,
+  "cues": [
+   2.8,
+   7.36
+  ],
+  "hash": "8219cc8f2a23"
+ },
+ "m1-pembuka": {
+  "dur": 17.36,
+  "cues": [
+   5.36,
+   6.2,
+   6.88,
+   7.76,
+   8.68,
+   9.84
+  ],
+  "hash": "8121fa8ba517"
+ },
+ "m1-rumusan": {
+  "dur": 11.52,
+  "cues": [
+   3.52,
+   5.84,
+   8
+  ],
+  "hash": "10a0fcd2168d"
+ },
+ "m1-sumber": {
+  "dur": 16.96,
+  "cues": [],
+  "hash": "071eaaf608e0"
+ },
+ "m1-vo-pov": {
+  "dur": 16,
+  "cues": [],
+  "hash": "9a3760b6493d"
+ },
+ "m1-vo-pov-kuiz": {
+  "dur": 15.92,
+  "cues": [
+   4.72,
+   7.92,
+   11.84
+  ],
+  "hash": "2aadde5960bb"
+ },
+ "m2-bank-1": {
+  "dur": 13.28,
+  "cues": [],
+  "hash": "e99780e5e34b"
+ },
+ "m2-bank-2": {
+  "dur": 8.96,
+  "cues": [],
+  "hash": "7f9b58521dca"
+ },
+ "m2-bank-3": {
+  "dur": 11.44,
+  "cues": [],
+  "hash": "2167b8fc0b19"
+ },
+ "m2-bank-4": {
+  "dur": 11.92,
+  "cues": [],
+  "hash": "8a5659d4a441"
+ },
+ "m2-bank-5": {
+  "dur": 8.16,
+  "cues": [],
+  "hash": "e6b306118f91"
+ },
+ "m2-bank-6": {
+  "dur": 10.16,
+  "cues": [],
+  "hash": "fdaf3ad01d06"
+ },
+ "m2-bank-7": {
+  "dur": 10.08,
+  "cues": [],
+  "hash": "0d11932e13e7"
+ },
+ "m2-bank-8": {
+  "dur": 9.92,
+  "cues": [],
+  "hash": "8194c2555ae7"
+ },
+ "m2-formula": {
+  "dur": 22.8,
+  "cues": [],
+  "hash": "8ec05f53aaef"
+ },
+ "m2-formula-kuiz": {
+  "dur": 12.96,
+  "cues": [
+   6.8,
+   7.4,
+   8.2,
+   9.04,
+   9.76
+  ],
+  "hash": "bda0f0ef287f"
+ },
+ "m2-pembuka": {
+  "dur": 19.6,
+  "cues": [
+   10.96,
+   12.68,
+   14,
+   16.92
+  ],
+  "hash": "69e6a2a1b3a5"
+ },
+ "m2-rumusan": {
+  "dur": 13.28,
+  "cues": [
+   3.04,
+   5.36,
+   7.28,
+   12.24
+  ],
+  "hash": "a2ade76ee84b"
+ },
+ "m2-skill-isi": {
+  "dur": 20.4,
+  "cues": [
+   5.68,
+   6.56,
+   9.84,
+   12.96,
+   13.92,
+   15.44
+  ],
+  "hash": "3ac538a2eb3a"
+ },
+ "m2-skill-isi-pro": {
+  "dur": 26.4,
+  "cues": [
+   6.96,
+   7.84,
+   10.8,
+   14.88,
+   19.2,
+   21.28
+  ],
+  "hash": "8b29ec7dc765"
+ },
+ "m2-skill-ngam": {
+  "dur": 16.24,
+  "cues": [
+   2.8,
+   3.6,
+   4.72,
+   6.96,
+   8.28
+  ],
+  "hash": "4015d5f6b1d2"
+ },
+ "m2-skill-ngam-pro": {
+  "dur": 16.64,
+  "cues": [
+   2.96,
+   3.76,
+   4.96,
+   7.28,
+   8.6
+  ],
+  "hash": "8782c12e0429"
+ },
+ "m2-skill-tulis": {
+  "dur": 18.24,
+  "cues": [],
+  "hash": "6fb387a77205"
+ },
+ "m2-ubah": {
+  "dur": 19.68,
+  "cues": [
+   4.16,
+   5.36,
+   9.2,
+   14.16,
+   18
+  ],
+  "hash": "f9eafd40f3d7"
+ },
+ "m2-ubah-2": {
+  "dur": 20.64,
+  "cues": [
+   1.52,
+   2.8,
+   6.72,
+   10.88,
+   19.12
+  ],
+  "hash": "e56835464794"
+ },
+ "m3-bayar": {
+  "dur": 11.52,
+  "cues": [
+   9.84
+  ],
+  "hash": "d8b6e653f144"
+ },
+ "m3-folder-baru-mac": {
+  "dur": 3.68,
+  "cues": [
+   1.76
+  ],
+  "hash": "445a864cfab8"
+ },
+ "m3-folder-baru-win": {
+  "dur": 3.76,
+  "cues": [
+   1.72
+  ],
+  "hash": "68118c8799dd"
+ },
+ "m3-folder-buka": {
+  "dur": 5.12,
+  "cues": [
+   2
+  ],
+  "hash": "2e40a52adc59"
+ },
+ "m3-folder-buka-mac": {
+  "dur": 9.68,
+  "cues": [
+   4.72,
+   7.12,
+   8.72
+  ],
+  "hash": "b3f4721e04f0"
+ },
+ "m3-folder-buka-win": {
+  "dur": 8.88,
+  "cues": [
+   4.72,
+   6.4,
+   7.92
+  ],
+  "hash": "bf67d6dce5ab"
+ },
+ "m3-folder-isi": {
+  "dur": 11.6,
+  "cues": [],
+  "hash": "123718db2e39"
+ },
+ "m3-folder-menu-mac": {
+  "dur": 3.2,
+  "cues": [
+   1.68
+  ],
+  "hash": "c07a0bfd3378"
+ },
+ "m3-folder-menu-win": {
+  "dur": 2.72,
+  "cues": [
+   1.6
+  ],
+  "hash": "2a440f4bb7fb"
+ },
+ "m3-folder-nama": {
+  "dur": 12.8,
+  "cues": [],
+  "hash": "e3877e22f6d3"
+ },
+ "m3-folder-siap": {
+  "dur": 8.48,
+  "cues": [],
+  "hash": "151d51321826"
+ },
+ "m3-folder-terang": {
+  "dur": 20.8,
+  "cues": [
+   8.4,
+   13.12,
+   16.24
+  ],
+  "hash": "aa0b2dbc2404"
+ },
+ "m3-l1-terang": {
+  "dur": 19.6,
+  "cues": [
+   2.96,
+   7.12,
+   11.36,
+   14.4
+  ],
+  "hash": "0b2ee3ba0922"
+ },
+ "m3-masuk": {
+  "dur": 20.64,
+  "cues": [
+   8,
+   9.92,
+   11.52,
+   14.32
+  ],
+  "hash": "78de2d1e38d0"
+ },
+ "m3-masuk-akaun": {
+  "dur": 6.64,
+  "cues": [
+   3.04
+  ],
+  "hash": "c36959a001ec"
+ },
+ "m3-masuk-google": {
+  "dur": 6.24,
+  "cues": [
+   4.4
+  ],
+  "hash": "e97a4d8026f3"
+ },
+ "m3-pasang-akaun": {
+  "dur": 8.24,
+  "cues": [
+   3.12
+  ],
+  "hash": "412f1af418ba"
+ },
+ "m3-pasang-buka": {
+  "dur": 7.44,
+  "cues": [
+   2.88,
+   5.2,
+   6.48
+  ],
+  "hash": "33e7819c4e7d"
+ },
+ "m3-pasang-dmg": {
+  "dur": 5.2,
+  "cues": [
+   1.92
+  ],
+  "hash": "3c79608c3b51"
+ },
+ "m3-pasang-izin": {
+  "dur": 8.96,
+  "cues": [
+   8.08
+  ],
+  "hash": "5b46ef9e1dc8"
+ },
+ "m3-pasang-masuk": {
+  "dur": 5.28,
+  "cues": [
+   3.44
+  ],
+  "hash": "827f638ef42c"
+ },
+ "m3-pasang-mula": {
+  "dur": 3.28,
+  "cues": [
+   1.76
+  ],
+  "hash": "24ee982afaa3"
+ },
+ "m3-pasang-seret": {
+  "dur": 7.84,
+  "cues": [
+   2.48
+  ],
+  "hash": "7b39795dc373"
+ },
+ "m3-pasang-setup": {
+  "dur": 6.88,
+  "cues": [
+   1.76
+  ],
+  "hash": "3d46cb5d82ad"
+ },
+ "m3-pro-aktif": {
+  "dur": 13.36,
+  "cues": [],
+  "hash": "21d9d39151b9"
+ },
+ "m4-cari": {
+  "dur": 8,
+  "cues": [
+   1.76,
+   3.52,
+   6.96
+  ],
+  "hash": "0b645fa1c69a"
+ },
+ "m4-dl-fail-mac": {
+  "dur": 4.24,
+  "cues": [
+   2.64
+  ],
+  "hash": "28e4988c8eb7"
+ },
+ "m4-dl-fail-win": {
+  "dur": 5.2,
+  "cues": [
+   2.56
+  ],
+  "hash": "00d26473f246"
+ },
+ "m4-dl-menu-mac": {
+  "dur": 2.64,
+  "cues": [
+   1.6
+  ],
+  "hash": "b242bcf7825f"
+ },
+ "m4-dl-menu-win": {
+  "dur": 4.16,
+  "cues": [
+   1.84
+  ],
+  "hash": "df4d2628ba79"
+ },
+ "m4-footage-mac": {
+  "dur": 4.08,
+  "cues": [
+   2.24
+  ],
+  "hash": "8bc4cde0313d"
+ },
+ "m4-footage-menu": {
+  "dur": 3.28,
+  "cues": [
+   1.6
+  ],
+  "hash": "bd012a743a04"
+ },
+ "m4-footage-siap": {
+  "dur": 8.32,
+  "cues": [],
+  "hash": "035bad777468"
+ },
+ "m4-footage-win": {
+  "dur": 4.4,
+  "cues": [
+   2.16
+  ],
+  "hash": "d825b1d6ae83"
+ },
+ "m4-ke-downloads-mac": {
+  "dur": 6.72,
+  "cues": [
+   2.4,
+   4.4,
+   5.76
+  ],
+  "hash": "11d68f2666a4"
+ },
+ "m4-ke-downloads-win": {
+  "dur": 6.48,
+  "cues": [
+   2.4,
+   3.92,
+   5.44
+  ],
+  "hash": "d358327f74d2"
+ },
+ "m4-ke-projek": {
+  "dur": 7.36,
+  "cues": [
+   2.4,
+   4.48,
+   6.4
+  ],
+  "hash": "c6c25f0e48cb"
+ },
+ "m4-ke-savefrom": {
+  "dur": 20,
+  "cues": [
+   9.52,
+   13.76,
+   15.36
+  ],
+  "hash": "3804140981b9"
+ },
+ "m4-muzik": {
+  "dur": 26.32,
+  "cues": [],
+  "hash": "6fc0ad831119"
+ },
+ "m4-muzik-pixabay": {
+  "dur": 20.56,
+  "cues": [],
+  "hash": "6c8f47ab0a67"
+ },
+ "m4-muzik-ytmp3": {
+  "dur": 27.52,
+  "cues": [],
+  "hash": "083ded29da72"
+ },
+ "m4-pembuka": {
+  "dur": 15.84,
+  "cues": [
+   8.72,
+   10.56,
+   13.12
+  ],
+  "hash": "1fbaf35f8234"
+ },
+ "m4-projek": {
+  "dur": 5.28,
+  "cues": [
+   3.44
+  ],
+  "hash": "9e1a13d74f74"
+ },
+ "m4-raw-mac": {
+  "dur": 17.68,
+  "cues": [
+   6.24,
+   9.44,
+   11.92,
+   13.44
+  ],
+  "hash": "26a00358cdae"
+ },
+ "m4-raw-win": {
+  "dur": 20.88,
+  "cues": [
+   5.6,
+   9.28,
+   12.08,
+   17.92
+  ],
+  "hash": "4022adb25726"
+ },
+ "m4-rumusan": {
+  "dur": 15.76,
+  "cues": [
+   3.04,
+   5.76,
+   12.24
+  ],
+  "hash": "bbe9f4ca8b49"
+ },
+ "m4-senarai": {
+  "dur": 15.84,
+  "cues": [],
+  "hash": "92b5429bde3b"
+ },
+ "m4-sf-ditampal": {
+  "dur": 4,
+  "cues": [
+   1.92
+  ],
+  "hash": "61b4d517dc3e"
+ },
+ "m4-sf-muat": {
+  "dur": 8.8,
+  "cues": [
+   3.6
+  ],
+  "hash": "449e1010d4e9"
+ },
+ "m4-sf-sedia": {
+  "dur": 8.32,
+  "cues": [
+   5.12
+  ],
+  "hash": "079605518824"
+ },
+ "m4-sf-senarai": {
+  "dur": 10.96,
+  "cues": [
+   2
+  ],
+  "hash": "3f2df926d2e7"
+ },
+ "m4-sf-utama": {
+  "dur": 5.6,
+  "cues": [
+   1.84
+  ],
+  "hash": "72b45f93c8db"
+ },
+ "m4-tampal": {
+  "dur": 7.76,
+  "cues": [
+   2.32,
+   5.08
+  ],
+  "hash": "6c3534aff8c0"
+ },
+ "m4-yt-hasil": {
+  "dur": 6.96,
+  "cues": [
+   4.72
+  ],
+  "hash": "112b111fcca0"
+ },
+ "m4-yt-kongsi": {
+  "dur": 4.96,
+  "cues": [
+   1.68
+  ],
+  "hash": "a0be2f67054e"
+ },
+ "m4-yt-short": {
+  "dur": 4.32,
+  "cues": [
+   1.68
+  ],
+  "hash": "f1de2e0890ad"
+ },
+ "m5-buka": {
+  "dur": 5.68,
+  "cues": [
+   2.08,
+   3.36,
+   4.72
+  ],
+  "hash": "e5c5659aa4bd"
+ },
+ "m5-code": {
+  "dur": 6.56,
+  "cues": [
+   2.56
+  ],
+  "hash": "feb23cfcaa96"
+ },
+ "m5-eleven": {
+  "dur": 22.88,
+  "cues": [
+   8.72,
+   12.72,
+   14.56,
+   17.84
+  ],
+  "hash": "fb1827bc1a1b"
+ },
+ "m5-folder": {
+  "dur": 7.2,
+  "cues": [
+   4.48
+  ],
+  "hash": "ff57139f7882"
+ },
+ "m5-folder-menu": {
+  "dur": 6.24,
+  "cues": [
+   4.56
+  ],
+  "hash": "10004b831e05"
+ },
+ "m5-folder-pilih-mac": {
+  "dur": 6.88,
+  "cues": [
+   5.2
+  ],
+  "hash": "2491fddb3d0e"
+ },
+ "m5-folder-pilih-win": {
+  "dur": 7.44,
+  "cues": [
+   5.12
+  ],
+  "hash": "4bfd2a70e1b4"
+ },
+ "m5-hantar": {
+  "dur": 4.24,
+  "cues": [
+   2
+  ],
+  "hash": "2c8b2aa46afc"
+ },
+ "m5-hasil": {
+  "dur": 13.92,
+  "cues": [],
+  "hash": "be775d8aec43"
+ },
+ "m5-izin": {
+  "dur": 5.2,
+  "cues": [
+   3.68
+  ],
+  "hash": "392be8f33fb4"
+ },
+ "m5-jadikan": {
+  "dur": 16.56,
+  "cues": [],
+  "hash": "927ac2545f52"
+ },
+ "m5-jadikan-hantar": {
+  "dur": 4.16,
+  "cues": [
+   2
+  ],
+  "hash": "2c8b2aa46afc"
+ },
+ "m5-jadikan-izin": {
+  "dur": 5.44,
+  "cues": [
+   3.84
+  ],
+  "hash": "20b72fc2c983"
+ },
+ "m5-jadikan-kotak": {
+  "dur": 6.96,
+  "cues": [
+   5.6
+  ],
+  "hash": "e3d727e57b53"
+ },
+ "m5-jadikan-siap": {
+  "dur": 7.84,
+  "cues": [
+   5.92
+  ],
+  "hash": "d26f30b6c484"
+ },
+ "m5-kerja": {
+  "dur": 16.4,
+  "cues": [],
+  "hash": "1ba1b4e88997"
+ },
+ "m5-kotak": {
+  "dur": 7.44,
+  "cues": [
+   3.04
+  ],
+  "hash": "3b31dcb75bad"
+ },
+ "m5-pembuka": {
+  "dur": 27.44,
+  "cues": [
+   9.84,
+   12.32,
+   15.2,
+   17.04,
+   18.8,
+   21.6,
+   24.32
+  ],
+  "hash": "926917c07f4e"
+ },
+ "m5-pro-hantar": {
+  "dur": 4.4,
+  "cues": [
+   2.32
+  ],
+  "hash": "dcc0adc70370"
+ },
+ "m5-pro-izin": {
+  "dur": 5.84,
+  "cues": [
+   4.24
+  ],
+  "hash": "892d0058cfaf"
+ },
+ "m5-pro-muat": {
+  "dur": 16,
+  "cues": [],
+  "hash": "fd9038976722"
+ },
+ "m5-pro-sesi-baru": {
+  "dur": 7.12,
+  "cues": [
+   5.84
+  ],
+  "hash": "e13deac358c0"
+ },
+ "m5-pro-siap": {
+  "dur": 8.8,
+  "cues": [
+   6.96
+  ],
+  "hash": "c71b82533ec1"
+ },
+ "m5-projek-baru": {
+  "dur": 14.56,
+  "cues": [],
+  "hash": "647f3dcee83f"
+ },
+ "m5-prompt": {
+  "dur": 18,
+  "cues": [],
+  "hash": "a8819a1e8804"
+ },
+ "m5-rumusan": {
+  "dur": 16.72,
+  "cues": [
+   4,
+   6.8,
+   11.52
+  ],
+  "hash": "41166d8f1602"
+ },
+ "m5-sample": {
+  "dur": 10.88,
+  "cues": [],
+  "hash": "3ae615494005"
+ },
+ "m5-sepuluh": {
+  "dur": 9.12,
+  "cues": [],
+  "hash": "ab64b368d961"
+ },
+ "m5-sesi-baru": {
+  "dur": 7.12,
+  "cues": [
+   5.84
+  ],
+  "hash": "e13deac358c0"
+ },
+ "m5-siap": {
+  "dur": 11.36,
+  "cues": [],
+  "hash": "4d6ed721b1c3"
+ },
+ "m5-skill": {
+  "dur": 13.84,
+  "cues": [],
+  "hash": "40cac559ff61"
+ },
+ "m5-skill-hantar": {
+  "dur": 4.48,
+  "cues": [
+   2.24
+  ],
+  "hash": "44802a685d2a"
+ },
+ "m5-skill-izin": {
+  "dur": 7.36,
+  "cues": [
+   5.76
+  ],
+  "hash": "7dc8e01e741f"
+ },
+ "m5-skill-siap": {
+  "dur": 9.68,
+  "cues": [
+   7.84
+  ],
+  "hash": "d9bba5c88834"
+ },
+ "m5-ubah": {
+  "dur": 9.36,
+  "cues": [],
+  "hash": "5655ef92d04d"
+ },
+ "m6-cw": {
+  "dur": 14.32,
+  "cues": [],
+  "hash": "6d5e88e75b81"
+ },
+ "m6-cw-hasil": {
+  "dur": 15.84,
+  "cues": [],
+  "hash": "46e804f515a3"
+ },
+ "m6-nama": {
+  "dur": 16.16,
+  "cues": [],
+  "hash": "ef1685551786"
+ },
+ "m6-pembuka": {
+  "dur": 12.96,
+  "cues": [
+   5.36,
+   6.96,
+   8.8,
+   10.8
+  ],
+  "hash": "8eb0c9b69637"
+ },
+ "m6-pilih": {
+  "dur": 19.2,
+  "cues": [
+   3.04,
+   5.2,
+   10.48,
+   12,
+   13.84
+  ],
+  "hash": "3c1fad040828"
+ },
+ "m6-rumusan": {
+  "dur": 12,
+  "cues": [
+   2.96,
+   5.28,
+   7.36
+  ],
+  "hash": "38778285c995"
+ },
+ "m6-semak": {
+  "dur": 24.48,
+  "cues": [
+   5.28,
+   8.32,
+   11.28,
+   13.44,
+   15.28,
+   17.6
+  ],
+  "hash": "cd670bb128e5"
+ },
+ "m6-tamat": {
+  "dur": 19.52,
+  "cues": [
+   2.8,
+   4.48,
+   6.4,
+   8.32,
+   9.84,
+   11.12,
+   12.88
+  ],
+  "hash": "0e27a4bdb50d"
+ },
+ "m7-buka": {
+  "dur": 5.84,
+  "cues": [
+   3.84
+  ],
+  "hash": "40a7394aa3e4"
+ },
+ "m7-cw": {
+  "dur": 12.16,
+  "cues": [],
+  "hash": "ceed9d2f4bc0"
+ },
+ "m7-guna-gabung": {
+  "dur": 15.92,
+  "cues": [],
+  "hash": "73ff28f6d518"
+ },
+ "m7-guna-gabung-pro": {
+  "dur": 16.48,
+  "cues": [],
+  "hash": "b3f29fde1f56"
+ },
+ "m7-guna-projek": {
+  "dur": 15.36,
+  "cues": [],
+  "hash": "c30c0157157f"
+ },
+ "m7-guna-projek-pro": {
+  "dur": 15.52,
+  "cues": [],
+  "hash": "7b51e61834c4"
+ },
+ "m7-hasil": {
+  "dur": 18.4,
+  "cues": [],
+  "hash": "dd06f513c11b"
+ },
+ "m7-jenis": {
+  "dur": 18.08,
+  "cues": [
+   2.8,
+   4.08,
+   5.36,
+   7.12,
+   8.72,
+   10.8
+  ],
+  "hash": "ea920ed18790"
+ },
+ "m7-otak": {
+  "dur": 22.16,
+  "cues": [
+   2.4,
+   5.2,
+   10.16,
+   13.12,
+   14.72,
+   17.76,
+   20
+  ],
+  "hash": "402fab9f72b3"
+ },
+ "m7-pembuka": {
+  "dur": 14.8,
+  "cues": [
+   8.8,
+   9.92,
+   12.24
+  ],
+  "hash": "adfb5c3b92b0"
+ },
+ "m7-prompt": {
+  "dur": 15.68,
+  "cues": [],
+  "hash": "a466b22237b7"
+ },
+ "m7-rumusan": {
+  "dur": 5.12,
+  "cues": [],
+  "hash": "40ac50d55b62"
+ },
+ "n1": {
+  "dur": 17.52,
+  "cues": [
+   6.32,
+   7.68,
+   8.96,
+   10.8
+  ],
+  "hash": "68d5cdf7ee70"
+ },
+ "n2": {
+  "dur": 17.76,
+  "cues": [],
+  "hash": "caff5fbfe1a3"
+ },
+ "n3": {
+  "dur": 14.64,
+  "cues": [
+   11.12
+  ],
+  "hash": "bc6ed9f70acf"
+ },
+ "n6mac": {
+  "dur": 11.04,
+  "cues": [
+   5.56
+  ],
+  "hash": "fa7a334e3e44"
+ },
+ "n6win": {
+  "dur": 12.64,
+  "cues": [
+   8.84
+  ],
+  "hash": "8ae8f1388ac6"
+ },
+ "n7": {
+  "dur": 14.72,
+  "cues": [
+   3.92,
+   5.28,
+   7.28,
+   10.88
+  ],
+  "hash": "8d037ea88a26"
+ }
+}

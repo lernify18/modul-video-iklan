@@ -1,0 +1,57 @@
+<!doctype html>
+<!-- An app window on Windows 11 whose content is a real capture (?img=), e.g. Claude Desktop taken on the Mac.
+     ?title= window title, ?t=x,y,w,h click target inside the content picture, in percent.
+     ?crop= percent cut from the top of the picture (the Mac traffic-light strip).
+     ?patch=x,y,w,h|text[|px] (repeatable, separated by ;;) covers Mac-only words, e.g. "Claude for Mac". -->
+<html lang="en"><head><meta charset="utf-8"><link rel="stylesheet" href="win11.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,500;1,8..60,500&display=swap">
+<style>
+  .win { left: 50%; top: 46%; transform: translate(-50%, -50%); }
+  .content { position: relative; flex: 1; overflow: hidden; }
+  .content img { position: absolute; left: 0; width: 100%; display: block; }
+  .patch { position: absolute; background: #fff; display: grid; place-items: center; font-family: "Source Serif 4", Georgia, serif; font-weight: 500; color: #1a1a1a; white-space: nowrap; }
+  [data-target] { position: absolute; }
+</style></head>
+<body>
+  <div class="win" id="win">
+    <div class="titlebar">
+      <svg viewBox="0 0 16 16" style="width:16px;height:16px;stroke:none"><rect width="16" height="16" rx="4" fill="#d97757"/><path d="M8 3v10M3 8h10M4.5 4.5l7 7M11.5 4.5l-7 7" stroke="#fff" stroke-width="1.6" stroke-linecap="round"/></svg>
+      <span class="t" id="title"></span>
+      <span class="ctl"><span><svg viewBox="0 0 10 10"><path d="M0 5h10"/></svg></span><span><svg viewBox="0 0 10 10"><rect x=".5" y=".5" width="9" height="9"/></svg></span><span><svg viewBox="0 0 10 10"><path d="M0 0l10 10M10 0L0 10"/></svg></span></span>
+    </div>
+    <div class="content"><img id="img" alt=""><div data-target id="target"></div></div>
+  </div>
+  <div class="taskbar"><i class="on"><svg viewBox="0 0 20 20" width="20"><path fill="#0067c0" d="M1 1h8.5v8.5H1zM10.5 1H19v8.5h-8.5zM1 10.5h8.5V19H1zM10.5 10.5H19V19h-8.5z"/></svg></i>
+    <i class="on"><svg viewBox="0 0 16 16" width="22"><rect width="16" height="16" rx="4" fill="#d97757"/></svg></i>
+    <span class="clock">11:52 AM<br>29/10/2026</span></div>
+<script>
+  const q = new URLSearchParams(location.search)
+  document.getElementById('title').textContent = q.get('title') || 'Claude'
+  const img = document.getElementById('img')
+  img.src = q.get('img')
+  img.onload = () => {
+    const crop = Number(q.get('crop') || 0)
+    const keep = 1 - crop / 100
+    const maxW = 1100, maxH = 900 - 48 - 70 - 32
+    const s = Math.min(maxW / img.naturalWidth, maxH / (img.naturalHeight * keep))
+    const win = document.getElementById('win')
+    win.style.width = Math.round(img.naturalWidth * s) + 'px'
+    win.style.height = Math.round(img.naturalHeight * keep * s) + 32 + 'px'
+    img.style.top = -Math.round(img.naturalHeight * s * crop / 100) + 'px'
+    // Picture percentages to content-box percentages, once the top strip is cut away.
+    const box = (r) => ({ left: r[0] + '%', top: (r[1] - crop) / keep + '%', width: r[2] + '%', height: r[3] / keep + '%' })
+    const t = (q.get('t') || '0,0,0,0').split(',').map(Number)
+    Object.assign(document.getElementById('target').style, box(t))
+    const content = document.querySelector('.content')
+    for (const spec of (q.get('patch') || '').split(';;').filter(Boolean)) {
+      const [r, text, px] = spec.split('|')
+      const el = document.createElement('div')
+      el.className = 'patch'
+      Object.assign(el.style, box(r.split(',').map(Number)), { fontSize: (Number(px) || 28) * s * 2 + 'px' })
+      el.textContent = text
+      content.appendChild(el)
+    }
+    document.body.dataset.ready = '1'
+  }
+</script>
+</body></html>
